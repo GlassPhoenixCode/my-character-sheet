@@ -73,8 +73,12 @@ body.hp-danger:after{animation:vignettePulse 3s ease-in-out infinite}
   overflow-y:auto;overflow-x:hidden;
   -webkit-overflow-scrolling:touch;
   padding:16px;
+  touch-action:pan-y;
 }
 .pnl.on{display:block}
+.pnl.swipe-out,.pnl.swipe-in{display:block;overflow:hidden;transition:transform .25s ease-out}
+.pnl.swipe-out{z-index:2}
+.pnl.swipe-in{z-index:3}
 .pnl-inner{display:flex;flex-direction:column;gap:12px;min-height:100%}
 .rune-flash{position:fixed;inset:0;pointer-events:none;z-index:15000}
 .rune-flash:before{content:"";position:absolute;inset:12px;border-radius:10px;border:1px solid rgba(201,168,76,.82);box-shadow:0 0 22px rgba(201,168,76,.35),inset 0 0 18px rgba(201,168,76,.1);animation:runeTrace .72s ease-out forwards}
@@ -590,13 +594,18 @@ select.fi2 option{background:var(--panel)}
   <button class="nb" id="nb-sheet" onclick="go('sheet')">
     <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg>Sheet
   </button>
-  <button class="nb" id="nb-inventory" onclick="go('inventory')">
-    <svg viewBox="0 0 24 24"><path d="M20 7h-3V5c0-1.1-.9-2-2-2H9C7.9 3 7 3.9 7 5v2H4c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM9 5h6v2H9V5zm11 13H4v-5h5v2h6v-2h5v5zm-7-5h-2v-2h2v2z"/></svg>Inventory
-  </button>
-
   <button class="nb" id="nb-spells" onclick="go('spells')">
     <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>Spells
   </button>
+  <button class="nb" id="nb-inventory" onclick="go('inventory')">
+    <svg viewBox="0 0 24 24"><path d="M20 7h-3V5c0-1.1-.9-2-2-2H9C7.9 3 7 3.9 7 5v2H4c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM9 5h6v2H9V5zm11 13H4v-5h5v2h6v-2h5v5zm-7-5h-2v-2h2v2z"/></svg>Inventory
+  </button>
+  <button class="nb" id="nb-notes" onclick="go('notes')">
+    <svg viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>Notes
+  </button>
+	  <button class="nb" id="nb-classes" onclick="go('classes')">
+	    <svg viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5.55 3.84 9.74 9 10 5.16-.26 9-4.45 9-10V6l-9-4zm0 2.2 7 3.11V12c0 4.35-2.9 7.45-7 7.98C7.9 19.45 5 16.35 5 12V7.31l7-3.11zM8 9h8v2H8V9zm0 4h8v2H8v-2z"/></svg>Classes
+	  </button>
   <button class="nb" id="nb-species" onclick="go('species')">
     <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>Species
   </button>
@@ -606,12 +615,6 @@ select.fi2 option{background:var(--panel)}
 	  <button class="nb" id="nb-backgrounds" onclick="go('backgrounds')">
 	    <svg viewBox="0 0 24 24"><path d="M12 12c2.7 0 8 1.34 8 4v2H4v-2c0-2.66 5.3-4 8-4zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>Backgrounds
 	  </button>
-	  <button class="nb" id="nb-classes" onclick="go('classes')">
-	    <svg viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5.55 3.84 9.74 9 10 5.16-.26 9-4.45 9-10V6l-9-4zm0 2.2 7 3.11V12c0 4.35-2.9 7.45-7 7.98C7.9 19.45 5 16.35 5 12V7.31l7-3.11zM8 9h8v2H8V9zm0 4h8v2H8v-2z"/></svg>Classes
-	  </button>
-	  <button class="nb" id="nb-notes" onclick="go('notes')">
-    <svg viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>Notes
-  </button>
   <div class="sbbot">
     <button class="nb" id="nb-settings" onclick="go('settings')">
       <svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94s-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.56-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>Settings
@@ -2675,6 +2678,56 @@ function confirmSpeciesChoice(){
   if(!c){showToast(name||'Species','Confirmed. Use Create or Save to add it to the sheet.');return;}
   c.sp=name;saveS();renderRoster();renderSheet();updTop();showToast(name,'Species added to sheet.');
 }
+function bgSourceLabel(b){return BG_SRCS[b&&b.src]||'Source';}
+function bgOriginFeat(b){
+  var f=String(b&&b.feature||'');
+  var m=f.match(/^(.+?)\s*\((?:Origin\s*)?Feat\)$/i);
+  if(m)return m[1].trim();
+  if(/origin feat/i.test(f))return f.replace(/\s*\((?:Origin\s*)?Feat\)\s*/ig,'').trim()||'Choose one Origin Feat';
+  if(/origin feat/i.test(String(b&&b.featureDesc||'')))return f||'Choose one Origin Feat';
+  return'Choose one Origin Feat';
+}
+function bgAbilityText(b){return b&&b.abv?b.abv:'See background description';}
+function bgFeatureRowsHTML(b){
+  var rows=[
+    ['Origin Feat',bgOriginFeat(b)],
+    ['Ability Score Improvements',bgAbilityText(b)],
+    ['Starting Equipment',b.equipment||'None listed'],
+    [b.feature||'Background Feature',b.featureDesc||'No feature details bundled yet.'],
+    ['Skill Proficiencies',(b.skills||[]).join(', ')||'None listed'],
+    ['Tool Proficiency',(b.tools||[]).join(', ')||'None listed']
+  ];
+  if(b.languages&&b.languages!=='—')rows.push(['Languages',b.languages]);
+  return rows.map(function(f){return'<div class="codex-feature"><div class="codex-feature-name">'+escapeHtml(f[0])+'</div><div>'+escapeHtml(f[1]||'')+'</div></div>';}).join('');
+}
+function backgroundInfoHTML(name){
+  if(!name)return'';
+  var b=BACKGROUNDS.find(function(x){return x.name===name;});
+  if(!b)return'<div class="codex-info-title">'+escapeHtml(name)+'</div><div style="color:var(--text3)">No background details were found.</div>';
+  var pills=[];
+  (b.skills||[]).forEach(function(sk){pills.push('Skill: '+sk);});
+  (b.tools||[]).forEach(function(t){pills.push('Tool: '+t);});
+  if(b.languages&&b.languages!=='—')pills.push('Language: '+b.languages);
+  return'<div class="codex-info-title">'+escapeHtml(b.name)+'</div>'+
+    '<div style="color:var(--text3);font-size:10px;margin:-2px 0 6px">'+escapeHtml(bgSourceLabel(b).replace(/PHB '([0-9]+)/,'PHB 20$1'))+'</div>'+
+    '<div class="codex-info-meta">'+pills.map(function(p){return'<span class="codex-pill">'+escapeHtml(p)+'</span>';}).join('')+'</div>'+
+    (b.description?'<div style="color:var(--text3);margin-bottom:7px">'+escapeHtml(b.description)+'</div>':'')+
+    '<div style="color:var(--text3);margin-top:7px">Background Features</div>'+bgFeatureRowsHTML(b);
+}
+function previewBackgroundChoice(){
+  var sel=document.getElementById('cf-bg'),old=document.getElementById('cf-bg-info');
+  if(old)old.remove();
+  if(!sel||!sel.value)return;
+  var box=document.createElement('div');box.className='codex-info';box.id='cf-bg-info';box.style.marginTop='8px';
+  box.innerHTML=backgroundInfoHTML(sel.value)+'<button type="button" class="mbtn codex-confirm" onclick="confirmBackgroundChoice()">Confirm Background</button>';
+  sel.closest('.fg3').appendChild(box);triggerPageTurn(box);
+}
+function confirmBackgroundChoice(){
+  var sel=document.getElementById('cf-bg'),name=sel?sel.value:'';
+  var c=_charFormTargetId?S.chars.find(function(x){return x.id===_charFormTargetId;}):null;
+  if(!c){showToast(name||'Background','Confirmed. Use Create or Save to add it to the sheet.');return;}
+  c.bg=name;saveS();renderRoster();renderSheet();updTop();showToast(name,'Background added to sheet.');
+}
 function renderSpeciesSheetChooserInfo(){
   var sel=document.getElementById('sheet-species-choice'),box=document.getElementById('sheet-species-info');
   if(box&&sel){box.innerHTML=speciesInfoHTML(sel.value);triggerPageTurn(box);}
@@ -2884,7 +2937,20 @@ var BACKGROUNDS=[
 // ══ HEROES OF FAERÛN ════════════════════════════════════════════════════════
 {name:"Baldur's Gate Noble",src:9,skills:["History","Persuasion"],tools:["One gaming set"],languages:"One of your choice",equipment:"Fine clothes, signet ring, letter of invitation from a patriar, 25 gp",feature:"Position of Privilege",featureDesc:"Same as Noble — PHB 2014. Additionally, in Baldur's Gate you are recognized as a patriar (noble family member) and are welcome in the Upper City, receiving deference from commoners and the Flaming Fist.",description:"[Heroes of Faerûn] You are a scion of one of Baldur's Gate's patriar families. You grew up with wealth, education, and social privilege in the Upper City, but the chaos of the city means even nobles must navigate constant intrigue and danger.",abv:""},
 {name:"Baldur's Gate Charlatan",src:9,skills:["Deception","Sleight of Hand"],tools:["Disguise kit","Forgery kit"],languages:"—",equipment:"Fine clothes, disguise kit, con tools, 15 gp",feature:"False Identity",featureDesc:"As PHB Charlatan. In Baldur's Gate specifically, your forged identity may include Guild connections or Flaming Fist documents, and you know the city's con networks well.",description:"[Heroes of Faerûn] Baldur's Gate is a city of merchants, criminals, and opportunists. You carved out a place for yourself through deception, and know every angle, every mark, and every back-alley deal in the Lower City.",abv:""},
-{name:"Baldurian Patriar",src:9,skills:["History","Intimidation"],tools:["One gaming set"],languages:"One of your choice",equipment:"Fine clothes, signet ring, 30 gp",feature:"Baldur's Gate Influence",featureDesc:"Your family name carries weight in Baldur's Gate's Upper City. You can access the Parliament of Peers with proper notice, arrange meetings with patriar families, and secure deference from the Flaming Fist.",description:"[Heroes of Faerûn] You are a member of one of Baldur's Gate's founding families — a patriar of the Parliament of Peers. Your family holds land, privilege, and enemies, and you must navigate all three.",abv:""}
+{name:"Baldurian Patriar",src:9,skills:["History","Intimidation"],tools:["One gaming set"],languages:"One of your choice",equipment:"Fine clothes, signet ring, 30 gp",feature:"Baldur's Gate Influence",featureDesc:"Your family name carries weight in Baldur's Gate's Upper City. You can access the Parliament of Peers with proper notice, arrange meetings with patriar families, and secure deference from the Flaming Fist.",description:"[Heroes of Faerûn] You are a member of one of Baldur's Gate's founding families — a patriar of the Parliament of Peers. Your family holds land, privilege, and enemies, and you must navigate all three.",abv:""},
+{"name":"Spy","src":0,"skills":["Deception","Stealth"],"tools":["One type of gaming set","Thieves' tools"],"languages":"—","equipment":"Crowbar, dark common clothes with a hood, 15 gp","feature":"Criminal Contact","featureDesc":"A variant of the Criminal background. You have a reliable and trustworthy contact who acts as your liaison to a network of other spies and criminals. You know how to get messages to and from your contact, even over great distances — through local messengers, corrupt caravan masters, and seedy sailors. Unlike common criminals, your network deals in secrets and information as much as stolen goods.","description":"[PHB 2014 — Criminal variant] You are an experienced operative with a history of covert missions. Rather than common theft, you specialize in information gathering, infiltration, and working for shadowy organizations or intelligence networks. You know how to blend into any environment, construct believable cover identities, and extract what you need without leaving a trace. Your skills are in demand among nobles, merchant guilds, and those who prefer their business conducted quietly.","abv":""},
+{"name":"Gladiator","src":0,"skills":["Acrobatics","Performance"],"tools":["Disguise kit","Unusual weapon of your choice"],"languages":"—","equipment":"Inexpensive but unusual weapon (such as a trident or net), the favor of an admirer (love letter, lock of hair, trinket), costume, 15 gp","feature":"By Popular Demand","featureDesc":"A variant of the Entertainer background. You can always find a place to perform — in an arena, gladiatorial pit, or coliseum — and receive free lodging and food of a modest standard as long as you compete or perform. Your reputation as a gladiator makes you something of a local figure wherever you have fought. When strangers recognize you, they typically take a strong interest — whether as fans, rivals, or gamblers who bet on your bouts.","description":"[PHB 2014 — Entertainer variant] You have fought in public arenas for the entertainment of the crowds. Whether you were a slave forced into the pit, a free champion seeking glory, or somewhere between, you have honed your combat skills into a performance. You know how to read a crowd, how to make every strike look purposeful and dramatic, and how to turn even a defensive scramble into a crowd-pleasing spectacle. The roar of the audience is as much a part of your life as the clash of weapons.","abv":""},
+{"name":"Knight","src":0,"skills":["History","Persuasion"],"tools":["One type of gaming set"],"languages":"One of your choice","equipment":"Fine clothes, signet ring, scroll of pedigree, purse containing 25 gp","feature":"Retainers","featureDesc":"[Noble variant] You have the service of three retainers loyal to your family. They are commoners who perform mundane tasks: one might be a stablehand, another a scribe, a third a herald who announces your arrival. These retainers will not fight for you or take actions that risk their lives, but they loyally perform non-dangerous tasks and can be sent to deliver messages, gather information, or handle logistical matters on your behalf.","description":"[PHB 2014 — Noble variant] You were raised in a household with a knightly tradition, trained in the arts of war and the expectations of courtly life. You bear the title of Knight by virtue of your birth, a deed of valor, or formal appointment by a lord. You are expected to uphold the chivalric ideals of your order or family — courage, honor, loyalty — even when it is inconvenient. Your family's honor and reputation are matters of great personal pride.","abv":""},
+{"name":"Pirate","src":0,"skills":["Athletics","Perception"],"tools":["Navigator's tools","Vehicles (water)"],"languages":"—","equipment":"Belaying pin (club), 50 feet of silk rope, lucky charm (rabbit foot, small stone with a hole, or similar), common clothes, 10 gp","feature":"Bad Reputation","featureDesc":"[PHB 2014 — Sailor variant] If you spend at least 24 hours in a settlement, you can identify which people there are on the wrong side of the law. You can make contact with criminals and, as long as you don't undermine their trust, they will provide assistance that is not too dangerous or costly to them. Commoners and merchants are often too frightened of you to report your activities to authorities.","description":"[PHB 2014 — Sailor variant] You spent your years raiding ports, plundering ships, and living outside the law on the high seas. Violence and theft were your tools of the trade, and your ship was both home and fortress. You didn't serve a nation or obey its laws; you flew your own colors and answered to no one but your captain and your crew. The sea still calls to you, and old habits — including old enemies — are hard to shake.","abv":""},
+{"name":"Archaeologist","src":4,"skills":["History","Survival"],"tools":["Cartographer's tools or Navigator's tools"],"languages":"One of your choice","equipment":"Cartographer's tools or navigator's tools, shovel, two-person tent, traveler's clothes, 25 gp","feature":"Historical Knowledge","featureDesc":"When you enter a ruin or dungeon, you can correctly ascertain its original purpose and builders — whether it was a dungeon, ruined city, tomb, temple, or palace — and roughly when it was constructed. In addition, you can determine the approximate monetary value of art objects more than a century old, and identify the culture or civilization that produced them.","description":"[ERLW — also in Tomb of Annihilation] You study the remnants of past civilizations — their monuments, artifacts, and buried cities. In Eberron, this means delving into pre-Galifar ruins, warforged scrap heaps from the Last War, and the ancient sites of the giants of Xen'drik. Part scientist, part adventurer, you crawl through collapsed towers and excavate buried chambers, piecing together history that others have forgotten or deliberately buried.","abv":""},
+{"name":"Feylost","src":6,"skills":["Deception","Survival"],"tools":["One musical instrument of your choice"],"languages":"One of the following: Elvish, Gnomish, Goblin, or Sylvan","equipment":"Musical instrument (one of your choice), traveler's clothes, three trinkets (determined by the Feywild Trinkets table), 8 gp","feature":"Feywild Connection","featureDesc":"Your prolonged stay in the Feywild left an indelible mark on your psyche. You have a invisible Fey spirit guide — a pixie, sprite, or similar being — that only you can perceive. It occasionally delivers cryptic information or aid, but does so on its own schedule. Additionally, you have advantage on Charisma (Persuasion) checks when interacting with Fey creatures, and you can communicate simple ideas to them even without a shared language.","description":"[Wild Beyond the Witchlight / Spelljammer] You grew up in the Feywild after being spirited away from the mortal world as a child — perhaps taken by a hag, lured through a fairy ring, or simply lost and unable to find your way back. You spent years there, changed by its wild magic and capricious logic, before eventually returning to the Material Plane or finding your way to Wildspace. The Feywild's strange rules — emotion over reason, beauty over practicality, bargains over laws — still shape how you see the world.","abv":""},
+{"name":"Pirate (Spelljammer)","src":6,"skills":["Athletics","Perception"],"tools":["Navigator's tools","Vehicles (space)"],"languages":"One of your choice","equipment":"Navigator's tools, silk rope (50 ft), common clothes with a distinctive captain's hat or headscarf, 10 gp","feature":"Bad Reputation (Space)","featureDesc":"Your reputation as a spacefaring pirate precedes you in Wildspace ports and on the Rock of Bral. You can find black market contacts, fences for stolen spelljammer components, and safe harbor in pirate-friendly asteroid settlements. Those who know your name give you a wide berth, and criminal elements in any Wildspace port are willing to deal with you — for a price.","description":"[Spelljammer: Adventures in Space] You sailed the void of Wildspace not as a merchant or explorer, but as a plunderer. Whether preying on trade routes between worlds, raiding remote space stations, or hunting specific quarry across the phlogiston, you lived by the code of the void: take what you can, trust nobody, and always have an escape route. The stars themselves are your hunting ground.","abv":""},
+{"name":"Strixhaven — Lorehold Student","src":9,"skills":["History","Religion"],"tools":["Calligrapher's supplies"],"languages":"One of your choice","equipment":"Calligrapher's supplies, hammer and chisel, book of Lorehold lore, student's uniform, 15 gp","feature":"Lorehold's Answers","featureDesc":"You have access to Lorehold College's extensive library of historical records and can commune with the animated spirit manifestations of historical figures that Lorehold mages conjure. Once per day, you can ask such a spirit a brief historical question; the DM provides a truthful but possibly cryptic answer drawn from that figure's knowledge and perspective.","description":"[Strixhaven: A Curriculum of Chaos — TCE] You studied at Lorehold College, the college of archaeomancy at the renowned Strixhaven University. Lorehold mages blend history with magic, animating the spirits of ancient warriors, scholars, and rulers to learn directly from the dead. Your studies shaped your understanding of time, civilization, cause and effect, and the magic that binds past to present. You believe that understanding history is the key to shaping the future.","abv":""},
+{"name":"Strixhaven — Prismari Student","src":9,"skills":["Acrobatics","Performance"],"tools":["One musical instrument of your choice"],"languages":"One of your choice","equipment":"Musical instrument (one of your choice), sketchbook of elemental art studies, student's uniform, 15 gp","feature":"Elemental Artistry","featureDesc":"Your training at Prismari has given you the ability to use elemental magic in small, performative ways. Once per long rest, you can create a harmless elemental spectacle — a burst of flame, spray of water, gust of wind, or shower of sparks — as part of an artistic performance. This display can captivate an audience for up to 1 minute and leaves onlookers with a strong impression of you.","description":"[Strixhaven: A Curriculum of Chaos — TCE] You studied at Prismari College, the college of elemental arts. Prismari students combine elemental magic with creative expression — wielding fire, water, and lightning as paint and brushstrokes. Every performance is both art and spellwork. Your performances are breathtaking, occasionally dangerous, and always memorable. You believe that the greatest magic is magic that moves the soul.","abv":""},
+{"name":"Strixhaven — Quandrix Student","src":9,"skills":["Arcana","Nature"],"tools":["Navigator's tools"],"languages":"One of your choice","equipment":"Navigator's tools, abacus, notebook filled with mathematical theorems and diagrams, student's uniform, 15 gp","feature":"Numerical Insight","featureDesc":"Your mathematical training at Quandrix gives you insight into patterns and probabilities. Once per long rest, you can make an Intelligence (Arcana) or Intelligence (Nature) check (DC 15) to determine the statistical likelihood of a future event, predict the behavior of a natural system (weather patterns, wildlife migration, structural stability), or identify a hidden mathematical pattern in a magical or natural phenomenon.","description":"[Strixhaven: A Curriculum of Chaos — TCE] You studied at Quandrix College, where mages use advanced mathematics to manipulate the fundamental structure of reality. Quandrix students study the fractal patterns that underlie both nature and magic, using theorems and proofs as spells. You believe that the universe is built on numbers, and if you can understand the equation, you can change the result.","abv":""},
+{"name":"Strixhaven — Silverquill Student","src":9,"skills":["Intimidation","Persuasion"],"tools":["Calligrapher's supplies"],"languages":"One of your choice","equipment":"Calligrapher's supplies, journal of speeches and essays, ink pen with silver nib, student's uniform, 15 gp","feature":"Words Have Power","featureDesc":"Your training in the magic of words gives you a decisive edge in social situations. Once per short rest, when you succeed on a Charisma (Persuasion) or Charisma (Intimidation) check, you can choose to have your words linger with particular potency — the target remains positively or fearfully inclined toward you for 1 hour, even if you part ways, unless you or your companions do something to actively undermine that impression.","description":"[Strixhaven: A Curriculum of Chaos — TCE] You studied at Silverquill College, the college of eloquence and shadow. Silverquill mages wield the power of words as weapons and shields — inspiring allies with radiant speeches or cutting enemies down with shadow-laced insults laced with genuine magical force. Sharp of mind and sharper of tongue, you believe that the right words at the right moment can accomplish what swords cannot.","abv":""},
+{"name":"Strixhaven — Witherbloom Student","src":9,"skills":["Medicine","Nature"],"tools":["Herbalism kit"],"languages":"One of your choice","equipment":"Herbalism kit, distinctive black coat, collection of preserved plant and animal specimens in glass vials, student's uniform, 15 gp","feature":"Life's Balance","featureDesc":"Your training in the magic of life and death gives you insight into biological processes. Once per short rest, you can spend 1 minute carefully examining a creature to determine its general state of health, identify any diseases or poisons currently affecting it, sense approximately how close to death it is, and identify whether it has been recently subjected to necromantic or healing magic.","description":"[Strixhaven: A Curriculum of Chaos — TCE] You studied at Witherbloom College, where mages draw on the raw essence of life and death from swamps, bogs, and decaying places. Witherbloom mages are utterly pragmatic about mortality — life feeds on death, and they have learned to use both sides of that equation. Equal parts healer and necrotic threat, you don't flinch at the grim realities of existence, and you understand that decay is simply transformation by another name.","abv":""},
+{"name":"Fisher","src":9,"skills":["History","Survival"],"tools":["Vehicles (water)"],"languages":"One of your choice","equipment":"Fishing tackle, a net, a favorite fishing lure or hand-carved hook, a set of traveler's clothes, 10 gp","feature":"Harvest the Water","featureDesc":"You can always find sufficient food and fresh water for yourself and up to five other people each day, provided you have access to a body of water that contains fish. You know how to read weather signs and tidal patterns, and you can navigate reliably by stars over open water. Other fisherfolk and sailors treat you as one of their own, sharing gossip and local knowledge freely.","description":"[Icewind Dale: Rime of the Frostmaiden] You have spent much of your life working a net, rod, or fishing line — on sea, lake, or river. You've seen the water in all its moods: glassy calm at dawn, whipped to fury by winter storms, frozen solid under feet of ice. You have a patient, methodical nature that others sometimes mistake for slowness, and a deep knowledge of tides, currents, seasons, and the creatures that live beneath the surface.","abv":""}
 ];
 
 var BG_SRCS=["PHB '14","PHB '24","SCAG","GGR","ERLW","EGW","SJA","FToD","BGG","HoF"];
@@ -4692,13 +4758,21 @@ function renderHist(){
     var detail=document.createElement('div');detail.style.cssText='color:var(--text3);font-size:10px;margin-top:2px;line-height:1.5';
     if(r.meta&&r.meta.attackDamage){
       var ad=r.meta.attackDamage,atk=ad.attack,dmg=ad.damage,lines=[];
-      lines.push('Attack: d20: '+atk.kept+(atk.dropped!==null?' / '+atk.dropped:'')+' · mod '+signed(atk.mod)+' · Total: '+atk.total);
-      lines.push('Damage: '+dmg.diceLabel+': '+(dmg.rolls&&dmg.rolls.length?dmg.rolls.join(', '):dmg.kept)+' · mod '+signed(dmg.mod)+' · '+(dmg.damageType||'Damage')+' · Total: '+dmg.total);
+      var atkParts=['Attack: d20: '+atk.kept+(atk.dropped!==null?' / '+atk.dropped:''),'mod '+signed(atk.mod)];
+      if(atk.meta&&atk.meta.bless)atkParts.push('Bless: '+signed(atk.meta.bless));
+      if(atk.meta&&atk.meta.bane)atkParts.push('Bane: '+signed(atk.meta.bane));
+      if(atk.meta&&atk.meta.exhaustionPenalty)atkParts.push('Exhaustion: '+atk.meta.exhaustionPenalty);
+      atkParts.push('Total: '+atk.total);
+      var dmgParts=['Damage: '+dmg.diceLabel+': '+(dmg.rolls&&dmg.rolls.length?dmg.rolls.join(', '):dmg.kept),'mod '+signed(dmg.mod)];
+      if(dmg.meta&&dmg.meta.rageDamage)dmgParts.push('Rage: '+signed(dmg.meta.rageDamage));
+      if(dmg.meta&&dmg.meta.hex)dmgParts.push('Hex: '+signed(dmg.meta.hex));
+      if(dmg.meta&&dmg.meta.huntersMark)dmgParts.push("Hunter's Mark: "+signed(dmg.meta.huntersMark));
+      dmgParts.push((dmg.damageType||'Damage')+(dmg.meta&&dmg.meta.hex?'/Necrotic':''));
+      dmgParts.push('Total: '+dmg.total);
+      lines.push(atkParts.join(' · '));
+      lines.push(dmgParts.join(' · '));
       detail.textContent=lines.join('\n');
       detail.style.whiteSpace='pre-line';
-      var effBits=[];
-      [atk.meta,dmg.meta].forEach(function(meta){if(!meta)return;if(meta.forcedDis)effBits.push('Exhaustion applied disadvantage');if(meta.rageAdv)effBits.push('Rage: Strength advantage');if(meta.exhaustionPenalty)effBits.push('Exhaustion penalty: '+meta.exhaustionPenalty);(meta.effects||[]).forEach(function(e){effBits.push(e.label+': '+(typeof e.value==='number'?signed(e.value):'+'+e.value));});});
-      if(effBits.length){var exg=document.createElement('div');exg.style.cssText='color:#b9a37a;font-size:10px;margin-top:2px';exg.textContent=effBits.join(' — ')+' — Final: '+(atk.total+dmg.total);detail.appendChild(exg);}
     }else if(r.adv&&r.adv!=='normal'&&r.dropped!==null){
       var high=Math.max(r.kept,r.dropped),low=Math.min(r.kept,r.dropped),keptLabel=r.adv==='advantage'?'advantage kept high':'disadvantage kept low';
       detail.innerHTML=(r.adv==='advantage'?'Advantage':'Disadvantage')+': <span style="color:var(--green2);font-weight:bold">'+high+'</span> / <span style="color:var(--red2);font-weight:bold">'+low+'</span> · '+keptLabel+(r.mod!==0?' · mod '+(r.mod>0?'+'+r.mod:r.mod):'');
@@ -5283,12 +5357,17 @@ function charForm(c){
   var formSpecies=c&&c.sp?c.sp:(SPECIES[0]||'Human');
   var spOpts=SPECIES.map(function(s){return'<option'+(formSpecies===s?' selected':'')+'>'+s+'</option>';}).join('');
   var alOpts=ALIGNMENTS.map(function(a){return'<option'+(c&&c.al===a?' selected':'')+'>'+a+'</option>';}).join('');
+  var formBg=c?c.bg:'Folk Hero';
+  var bgOpts='<option value="">No background</option>'+BACKGROUNDS.map(function(b){return'<option value="'+escapeHtml(b.name)+'"'+(formBg===b.name?' selected':'')+'>['+escapeHtml(BG_SRCS[b.src]||'Source')+'] '+escapeHtml(b.name)+'</option>';}).join('');
+  var bgInfo=formBg?'<div class="codex-info" id="cf-bg-info" style="margin-top:8px">'+backgroundInfoHTML(formBg)+'<button type="button" class="mbtn codex-confirm" onclick="confirmBackgroundChoice()">Confirm Background</button></div>':'';
   var classes=c&&c.classes&&c.classes.length?c.classes:[{cls:c?c.cls:'Fighter',lv:c?c.lv:1,sub:c?c.sub:''}];
   _mcIdx=0;var mcHTML=classes.map(function(r,i){_mcIdx=i+1;return mcRowHTML(r.cls,r.lv,r.sub,i+1);}).join('');
   var tLv=classes.reduce(function(a,r){return a+(r.lv||1);},0);
   var vab=function(ab){return c?c.ab[ab]||10:10;};
   return'<div class="fg2">'+
     '<div class="fg3"><label class="fl2">Name</label><input class="fi2" id="cf-name" value="'+(c?c.name:'New Adventurer')+'"></div>'+
+    '<div class="ct" style="margin-top:6px">Ability Scores</div>'+
+    '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:7px">'+AB_KEYS.map(function(ab,i){var ex=i===2?' oninput="autoCalcHP()"':'';return'<div class="fg3"><label class="fl2">'+AB_LABELS[i]+'</label><input class="fi2" id="cf-ab-'+i+'" type="number" min="1" max="30" value="'+vab(ab)+'"'+ex+'></div>';}).join('')+'</div>'+
     '<div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px">'+
       '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div class="fl2">Classes and Levels</div><span id="mc-total" style="font-size:11px;color:var(--gold)">Total level: '+Math.min(20,tLv)+'</span></div>'+
       '<div id="mc-rows">'+mcHTML+'</div>'+
@@ -5298,9 +5377,7 @@ function charForm(c){
       '<div class="fr2"><div class="fg3"><label class="fl2">Species</label><select class="fi2" id="cf-sp" onchange="previewSpeciesChoice()">'+spOpts+'</select></div><div class="fg3"><label class="fl2">Alignment</label><select class="fi2" id="cf-al">'+alOpts+'</select></div></div>'+
       '<div class="codex-info" id="cf-sp-info" style="margin-top:8px">'+speciesInfoHTML(formSpecies)+'<button type="button" class="mbtn codex-confirm" onclick="confirmSpeciesChoice()">Confirm Species</button></div>'+
     '</div>'+
-    '<div class="fg3"><label class="fl2">Background</label><select class="fi2" id="cf-bg">'+BACKGROUNDS.map(function(b){return'<option value="'+b.name+'"'+(c&&c.bg===b.name?' selected':'')+'>['+BG_SRCS[b.src]+'] '+b.name+'</option>';}).join('')+'</select></div>'+
-    '<div class="ct" style="margin-top:6px">Ability Scores</div>'+
-    '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:7px">'+AB_KEYS.map(function(ab,i){var ex=i===2?' oninput="autoCalcHP()"':'';return'<div class="fg3"><label class="fl2">'+AB_LABELS[i]+'</label><input class="fi2" id="cf-ab-'+i+'" type="number" min="1" max="30" value="'+vab(ab)+'"'+ex+'></div>';}).join('')+'</div>'+
+    '<div class="fg3"><label class="fl2">Background</label><select class="fi2" id="cf-bg" onchange="previewBackgroundChoice()">'+bgOpts+'</select>'+bgInfo+'</div>'+
     '<div class="fr2"><div class="fg3"><label class="fl2">Max HP</label><div style="display:flex;gap:5px"><input class="fi2" id="cf-hp" type="number" min="1" value="'+(c?c.hp.max:10)+'" style="flex:1"><button class="mbtn can" style="font-size:11px;padding:4px 8px;white-space:nowrap" onclick="autoCalcHP()">Auto</button></div><div id="hp-breakdown" style="font-size:10px;color:var(--text3);margin-top:4px;line-height:1.6"></div></div><div class="fg3"><label class="fl2">AC</label><input class="fi2" id="cf-ac" type="number" min="1" value="'+(c?c.ac||10:10)+'" style="width:60px"></div><div class="fg3"><label class="fl2">Speed</label><input class="fi2" id="cf-spd" type="number" min="0" value="'+(c?c.spd||30:30)+'" style="width:60px"></div></div>'+
     '<div class="fr2"><div class="fg3"><label class="fl2">Portrait Emoji</label><input class="fi2" id="cf-em" value="'+(c?c.em||'🧙':'🧙')+'" maxlength="2" style="width:60px"></div><div class="fg3"><label class="fl2">Portrait Image</label><button class="mbtn can" style="font-size:11px;padding:5px 10px;width:100%" onclick="trigPU()">Upload Photo</button></div></div>'+
   '</div>';
