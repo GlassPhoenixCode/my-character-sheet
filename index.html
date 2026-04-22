@@ -3716,14 +3716,11 @@ function getCharClsIdx(c){
 }
 
 // ── NAV ──────────────────────────────────────────────────────────────────────
+var TAB_ORDER=['roster','sheet','spells','inventory','notes','classes','species','feats','backgrounds','settings'];
 function triggerRuneTrace(){var old=document.querySelector('.rune-flash');if(old)old.remove();var fx=document.createElement('div');fx.className='rune-flash';document.body.appendChild(fx);setTimeout(function(){if(fx)fx.remove();},800);}
-function go(name){
-  document.querySelectorAll('.pnl').forEach(function(p){p.classList.remove('on');});
-  document.querySelectorAll('.nb').forEach(function(b){b.classList.remove('on');});
-  var pnl=document.getElementById('pnl-'+name);
-  var btn=document.getElementById('nb-'+name);
-  if(pnl){pnl.classList.add('on');pnl.scrollTop=0;triggerRuneTrace();}
-  if(btn)btn.classList.add('on');
+function activeTabName(){var p=document.querySelector('.pnl.on');return p?p.id.replace(/^pnl-/,''):'roster';}
+function centerActiveTab(name){var btn=document.getElementById('nb-'+name);if(btn&&btn.scrollIntoView)btn.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});}
+function runTabHooks(name){
   if(name==='species'){renderSpeciesTab();}
   if(name==='feats'){renderFeatsTab();}
   if(name==='backgrounds'){renderBgsTab();}
@@ -3734,6 +3731,32 @@ function go(name){
   if(name==='notes'){renderNotes();}
   if(name==='settings'){renderDebugPanel();updateCompendiumSummary();updateVisualSettings();updateExhaustionSettings();}
   if(name!=='sheet')renderSheetAtmosphere(null);
+}
+function setActiveTabButton(name){document.querySelectorAll('.nb').forEach(function(b){b.classList.remove('on');});var btn=document.getElementById('nb-'+name);if(btn)btn.classList.add('on');centerActiveTab(name);}
+function go(name,opt){
+  if(opt&&opt.swipeDir){goSwipe(name,opt.swipeDir);return;}
+  document.querySelectorAll('.pnl').forEach(function(p){p.classList.remove('on','swipe-out','swipe-in');p.style.transform='';p.style.transition='';});
+  var pnl=document.getElementById('pnl-'+name);
+  if(pnl){pnl.classList.add('on');pnl.scrollTop=0;triggerRuneTrace();}
+  setActiveTabButton(name);runTabHooks(name);
+}
+function goSwipe(name,dir){
+  var oldName=activeTabName(),oldPanel=document.getElementById('pnl-'+oldName),newPanel=document.getElementById('pnl-'+name);
+  if(!oldPanel||!newPanel||oldName===name){go(name);return;}
+  var incoming=dir==='next'?100:-100,outgoing=dir==='next'?-100:100;
+  setActiveTabButton(name);
+  newPanel.classList.add('on','swipe-in');newPanel.scrollTop=0;newPanel.style.transform='translateX('+incoming+'%)';
+  oldPanel.classList.add('swipe-out');oldPanel.style.transform='translateX(0)';
+  runTabHooks(name);
+  requestAnimationFrame(function(){oldPanel.style.transform='translateX('+outgoing+'%)';newPanel.style.transform='translateX(0)';});
+  setTimeout(function(){oldPanel.classList.remove('on','swipe-out');oldPanel.style.transform='';newPanel.classList.remove('swipe-in');newPanel.style.transform='';triggerRuneTrace();},270);
+}
+function initTabSwipe(){
+  var startX=0,startY=0,lastX=0,lastY=0,startT=0,vertical=false,tracking=false;
+  document.addEventListener('touchstart',function(e){var p=e.target.closest&&e.target.closest('.pnl');if(!p||!e.touches||e.touches.length!==1)return;var t=e.touches[0];startX=lastX=t.clientX;startY=lastY=t.clientY;startT=Date.now();vertical=false;tracking=true;},{passive:true});
+  document.addEventListener('touchmove',function(e){if(!tracking||!e.touches||e.touches.length!==1)return;var t=e.touches[0],dx=t.clientX-startX,dy=t.clientY-startY;lastX=t.clientX;lastY=t.clientY;if(Math.abs(dy)>Math.abs(dx)){vertical=true;return;}if(!vertical&&Math.abs(dx)>Math.abs(dy)&&Math.abs(dx)>8)e.preventDefault();},{passive:false});
+  document.addEventListener('touchend',function(){if(!tracking){return;}var dx=lastX-startX,dy=lastY-startY,dt=Date.now()-startT;tracking=false;if(vertical)return;if(Math.abs(dx)<=window.innerWidth*.5||Math.abs(dx)<=Math.abs(dy)||dt>=800)return;var cur=activeTabName(),idx=TAB_ORDER.indexOf(cur),next=idx+(dx<0?1:-1);if(next<0||next>=TAB_ORDER.length)return;go(TAB_ORDER[next],{swipeDir:dx<0?'next':'prev'});},{passive:true});
+  document.addEventListener('touchcancel',function(){tracking=false;vertical=false;},{passive:true});
 }
 
 // ── THEME ────────────────────────────────────────────────────────────────────
@@ -5609,6 +5632,7 @@ var atmoSel=document.getElementById('atmo-intensity');if(atmoSel)atmoSel.value=S
 updateVisualSettings();
 updateExhaustionSettings();
 initTooltips();
+initTabSwipe();
 renderRoster();updTop();
 renderSheetAtmosphere(null);
 validateFunctionRefs();
