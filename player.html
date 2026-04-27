@@ -663,6 +663,9 @@ select.fi2 option{background:var(--panel)}
 
 <!-- SIDEBAR -->
 <div id="sb">
+  <button class="nb" id="nb-tavern" title="Tavern" onclick="window.location.href='index.html'">
+    <svg viewBox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5V20c0 .55-.45 1-1 1h-5v-6h-4v6H5c-.55 0-1-.45-1-1v-9.5zm2 1V19h2v-6h8v6h2v-7.5l-6-4.88-6 4.88zM9 10h6v2H9v-2z"/></svg>Tavern
+  </button>
   <button class="nb on" id="nb-roster" onclick="go('roster')">
     <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>Roster
   </button>
@@ -943,6 +946,7 @@ select.fi2 option{background:var(--panel)}
             <div class="sheet-acc-title">Weapons</div>
             <button class="head-pill" id="equip-melee-btn" onclick="rollEquippedAttack(event,'melee')">⚔ Unarmed</button>
             <button class="head-pill disabled" id="equip-ranged-btn" onclick="rollEquippedAttack(event,'ranged')">🏹 None</button>
+            <button class="head-pill disabled equip-cantrip-btn" onclick="rollEquippedCantrip(event)">Cantrip</button>
             <div class="sheet-acc-fill"></div><div class="sheet-acc-chevron">▼</div>
           </div>
           <div class="sheet-acc-body">
@@ -958,6 +962,7 @@ select.fi2 option{background:var(--panel)}
           <div class="sheet-acc-head" onclick="toggleSheetAccordion(event,'spells-acc')">
             <div class="sheet-acc-title">Spells</div>
             <button class="head-pill" onclick="rollSpellAttack();event.stopPropagation()">Spell Attack</button>
+            <button class="head-pill disabled equip-cantrip-btn" id="equip-cantrip-btn" onclick="rollEquippedCantrip(event)">Cantrip</button>
             <div class="head-pill" style="cursor:default" onclick="event.stopPropagation()">DC <span id="s-spdc">—</span></div>
             <div class="slot-mini" id="slot-mini"></div>
             <div id="conc-display" class="conc-display">
@@ -980,6 +985,7 @@ select.fi2 option{background:var(--panel)}
           </div>
         </div>
         <div class="card sheet-acc" id="features-acc"><div class="sheet-acc-head" onclick="toggleSheetAccordion(event,'features-acc')"><div class="sheet-acc-title">Features &amp; Traits</div><div class="sheet-acc-fill"></div><div class="sheet-acc-chevron">▼</div></div><div class="sheet-acc-body"><div id="flist"></div></div></div>
+        <div id="sheet-companions-acc-wrap"></div>
       </div>
     </div>
   </div>
@@ -3908,7 +3914,7 @@ function renderSheet(){
   var sw=document.getElementById('sport-wrap');applyPortraitFrame(sw,c);renderPortraitAura(c);sw.innerHTML=c.portrait?'<img src="'+c.portrait+'">':(c.em||'🧙');
   document.getElementById('f-sp').textContent=c.sp||'—';document.getElementById('f-bg').textContent=c.bg||'—';document.getElementById('f-al').textContent=c.al||'—';document.getElementById('f-xp').textContent=c.xp||0;
   syncCompanionIntegration(c);
-  renderAb(c);renderHP(c);renderCombat(c);renderSheetCompanionSummary(c);renderSaves(c);renderSkills(c);renderConds(c);renderSS(c);renderPreparedSpells(c);renderWeapons(c);renderFeats(c);renderDS(c);renderHist();
+  renderAb(c);renderHP(c);renderCombat(c);renderSheetCompanionSummary(c);renderSaves(c);renderSkills(c);renderConds(c);renderSS(c);renderPreparedSpells(c);renderWeapons(c);renderFeats(c);renderDS(c);renderSheetCompanionsAccordion(c);renderHist();
 }
 function renderAb(c){var g=document.getElementById('abgrid');g.innerHTML='';AB_KEYS.forEach(function(ab,i){var sc=c.ab[ab]||10,m=gMod(sc);var d=document.createElement('div');d.className='ab';d.innerHTML='<div class="abl">'+AB_LABELS[i]+'</div><div class="abs">'+sc+'</div><div class="abm">'+(m>=0?'+':'')+m+'</div>';d.onclick=function(){rollAb(c,ab,AB_LABELS[i]);};g.appendChild(d);});}
 function toggleSheetAccordion(e,id){
@@ -4583,8 +4589,67 @@ function rollSpellDice(spellName, diceInfo) {
 }
 
 // ── PREPARED SPELLS ON SHEET ─────────────────────────────────────────────────
+function findSpellByName(name){return SP&&SP.find(function(s){return s[0]===name;})||null;}
+function isAttackCantrip(sp){
+  if(!sp||sp[1]!==0)return false;
+  var text=String((sp[10]||'')+' '+(sp[11]||'')).toLowerCase();
+  return /(spell attack|attack roll|to hit)/.test(text)&&/\d+d\d+/i.test(text);
+}
+function equippedCantripName(c){
+  if(!c)return'';
+  if(c.equippedCantrip&&typeof c.equippedCantrip==='object')c.equippedCantrip=c.equippedCantrip.name||'';
+  var name=c.equippedCantrip||'';
+  if(name&&!findSpellByName(name))name='';
+  return name;
+}
+function renderEquippedCantripHeader(c){
+  var name=equippedCantripName(c);
+  document.querySelectorAll('#equip-cantrip-btn,.equip-cantrip-btn').forEach(function(btn){
+    btn.textContent=name||'Cantrip';
+    btn.classList.toggle('disabled',!name);
+  });
+}
+function equipSheetCantrip(name){
+  var c=gAC();if(!c)return;
+  c.equippedCantrip=name||'';
+  saveS();
+  renderEquippedCantripHeader(c);
+  renderPreparedSpells(c);
+}
+function cantripTier(c){
+  var lv=parseInt(c&&c.lv,10)||1;
+  return lv>=17?4:lv>=11?3:lv>=5?2:1;
+}
+function spellDamageType(sp){
+  var text=String((sp&&sp[10])||'');
+  var m=text.match(/\d+d\d+(?:\s*[+-]\s*\d+)?\s+([A-Za-z]+)\s+damage/i);
+  return m?m[1].charAt(0).toUpperCase()+m[1].slice(1).toLowerCase():'Damage';
+}
+function cantripDamageParts(c,sp){
+  var info=parseSpellDice(sp&&sp[10],sp&&sp[11],0,0)||{count:1,sides:6,mod:0};
+  var count=Math.max(1,parseInt(info.count,10)||1),sides=Math.max(1,parseInt(info.sides,10)||6),mod=parseInt(info.mod,10)||0;
+  if(sp&&sp[1]===0&&count===1)count=cantripTier(c);
+  var rolls=[],total=mod;
+  for(var i=0;i<count;i++){var r=rDie(sides);rolls.push(r);total+=r;}
+  var meta=activeDamageMeta(c,{penalty:0,forcedDis:false,notes:[],effects:[]},false);
+  if(meta&&meta.penalty){total+=meta.penalty;mod+=meta.penalty;}
+  return{sides:sides,kept:rolls,dropped:null,mod:mod,total:total,label:'Damage',isCrit:false,isFail:false,adv:'normal',rolls:rolls,meta:meta,diceLabel:count+'d'+sides,damageType:spellDamageType(sp)};
+}
+function rollEquippedCantrip(e){
+  if(e)e.stopPropagation();
+  var c=gAC();if(!c)return;
+  var name=equippedCantripName(c),sp=findSpellByName(name);
+  if(!sp){showToast('No cantrip equipped','Open Spells and equip an attack cantrip first.');return;}
+  var stats=getSpellStats(c),mod=parseInt(stats.attack,10)||0;
+  var attack=rollD20Parts(c,mod,'normal',name+' Attack','attack');
+  var damage=cantripDamageParts(c,sp);
+  addAttackDamageHist(name+' Attack',attack,damage);
+  showResultSheet(attack.total,attack.kept,attack.dropped,attack.mod,attack.label,attack.isCrit,attack.isFail,attack.adv,attack.meta);
+  trigAnimSheet(20);
+}
 function renderPreparedSpells(c) {
   if (!SP || !SP.length) return; // Safety check for SP array
+  renderEquippedCantripHeader(c);
   var list = document.getElementById('prep-spells-list');
   var empty = document.getElementById('prep-spells-empty');
   if (!list) return;
@@ -4704,6 +4769,15 @@ function renderPreparedSpells(c) {
       btn.onmouseout = function(){btn.style.background='rgba(201,168,76,.12)';};
       btn.onclick = function(e) { e.stopPropagation(); promptCastSpell(e, name, spLv); };
 
+      var equipBtn = null;
+      if (isAttackCantrip(sp)) {
+        var equipped = equippedCantripName(c) === name;
+        equipBtn = document.createElement('button');
+        equipBtn.style.cssText = 'padding:5px 10px;border-radius:6px;border:1px solid '+(equipped?'var(--green2)':'var(--border2)')+';background:'+(equipped?'rgba(39,174,96,.16)':'var(--bg3)')+';color:'+(equipped?'var(--green2)':'var(--text2)')+';cursor:pointer;font-size:11px;white-space:nowrap;flex-shrink:0;font-family:var(--fu);transition:all .2s';
+        equipBtn.textContent = equipped ? 'Equipped' : 'Equip';
+        equipBtn.onclick = function(e) { e.stopPropagation(); equipSheetCantrip(name); };
+      }
+
       var spellArr = document.createElement('div');
       spellArr.style.cssText = 'font-size:10px;color:var(--text3);transition:transform .2s;transform:rotate(-90deg);flex-shrink:0';
       spellArr.textContent = '▼';
@@ -4727,6 +4801,7 @@ function renderPreparedSpells(c) {
       };
 
       spellHead.appendChild(info);
+      if (equipBtn) spellHead.appendChild(equipBtn);
       spellHead.appendChild(btn);
       spellHead.appendChild(spellArr);
       row.appendChild(spellHead);
@@ -37718,6 +37793,122 @@ function rollCreatureDamage(label,expr){
   var msg=label+' '+expr+' → '+count+'d'+sides+'('+rolls.join(', ')+') '+(mod?signed(mod):'+0')+' = '+total;
   setCreatureRollResult(msg);showToast('Creature Damage',escapeHtml(msg));
 }
+function activeSheetCompanionEntries(c){
+  if(!c)return[];
+  return['familiar','animal_companion','wildshape'].map(function(cat){return companionActiveEntry(c,cat);}).filter(Boolean);
+}
+function companionCategoryLabel(cat){
+  return cat==='familiar'?'Familiar':cat==='animal_companion'?'Animal Companion':'Wild Shape';
+}
+function companionMaxHp(d){
+  var raw=d&&d.hp;
+  if(typeof raw==='number')return raw;
+  var m=String(raw||'').match(/\d+/);
+  return m?parseInt(m[0],10):0;
+}
+function ensureSheetCompanionHp(entry,d){
+  var max=companionMaxHp(d);
+  if(entry.sheetHpCur===undefined||entry.sheetHpCur===null||entry.sheetHpCur==='')entry.sheetHpCur=max;
+  entry.sheetHpCur=Math.max(0,parseInt(entry.sheetHpCur,10)||0);
+  return{cur:entry.sheetHpCur,max:max};
+}
+function actionAttackBonus(action){
+  var desc=String((action&&action.desc)||(action&&action.description)||(action&&action.rule)||'');
+  var m=desc.match(/([+-]\d+)\s*to hit/i);
+  return m?parseInt(m[1],10):0;
+}
+function actionDamageInfo(action){
+  var desc=String((action&&action.desc)||(action&&action.description)||(action&&action.rule)||'');
+  var m=desc.match(/\b(\d+)d(\d+)(?:\s*([+-])\s*(\d+))?\b/i);
+  var type=desc.match(/\d+d\d+(?:\s*[+-]\s*\d+)?\s+([A-Za-z]+)\s+damage/i);
+  return m?{count:parseInt(m[1],10),sides:parseInt(m[2],10),mod:(m[3]==='-'?-1:1)*(parseInt(m[4]||0,10)||0),type:type?type[1].charAt(0).toUpperCase()+type[1].slice(1).toLowerCase():'Damage'}:null;
+}
+function sheetCompanionDamageParts(c,action){
+  var info=actionDamageInfo(action)||{count:1,sides:4,mod:0,type:'Damage'},rolls=[],total=info.mod;
+  for(var i=0;i<info.count;i++){var r=rDie(info.sides);rolls.push(r);total+=r;}
+  var meta=activeDamageMeta(c,{penalty:0,forcedDis:false,notes:[],effects:[]},false);
+  var mod=info.mod;
+  if(meta&&meta.penalty){total+=meta.penalty;mod+=meta.penalty;}
+  return{sides:info.sides,kept:rolls,dropped:null,mod:mod,total:total,label:'Damage',isCrit:false,isFail:false,adv:'normal',rolls:rolls,meta:meta,diceLabel:info.count+'d'+info.sides,damageType:info.type};
+}
+function setSheetCompanionView(id){
+  var c=gAC();if(!c)return;
+  c.sheetCompanionViewId=id;
+  saveS();renderSheet();
+}
+function changeSheetCompanionHp(id,delta){
+  var e=findCompanionEntry(id),c=gAC();if(!e||!c)return;
+  var d=companionEntryData(e),hp=ensureSheetCompanionHp(e,d),max=hp.max||9999;
+  e.sheetHpCur=Math.max(0,Math.min(max,parseInt(e.sheetHpCur,10)+(parseInt(delta,10)||0)));
+  saveS();renderSheet();
+}
+function setSheetCompanionHp(id,val){
+  var e=findCompanionEntry(id),c=gAC();if(!e||!c)return;
+  var d=companionEntryData(e),max=companionMaxHp(d)||9999;
+  e.sheetHpCur=Math.max(0,Math.min(max,parseInt(val,10)||0));
+  saveS();renderSheet();
+}
+function rollSheetCompanionCheck(label,mod){
+  sheetRollDirect(20,parseInt(mod,10)||0,'normal',label,'ability-check');
+}
+function rollSheetCompanionAttack(id,idx){
+  var c=gAC(),e=findCompanionEntry(id);if(!c||!e)return;
+  var d=companionEntryData(e),actions=(d&&d.actions)||[],action=actions[parseInt(idx,10)];
+  if(!action)return;
+  var name=action.name||'Companion Attack',bonus=actionAttackBonus(action);
+  var attack=rollD20Parts(c,bonus,'normal',name+' Attack','attack');
+  var damage=sheetCompanionDamageParts(c,action);
+  addAttackDamageHist(name+' Attack',attack,damage);
+  showResultSheet(attack.total,attack.kept,attack.dropped,attack.mod,attack.label,attack.isCrit,attack.isFail,attack.adv,attack.meta);
+  trigAnimSheet(20);
+}
+function sheetCompanionButton(label,mod){
+  return'<button class="head-pill" style="font-size:11px;padding:4px 8px" onclick="rollSheetCompanionCheck(\''+jsArg(label)+'\','+(parseInt(mod,10)||0)+');event.stopPropagation()">'+signed(parseInt(mod,10)||0)+'</button>';
+}
+function sheetCompanionTraits(label,arr){
+  return arr&&arr.length?'<div style="margin-top:10px"><div class="ct" style="margin-bottom:6px">'+label+'</div>'+arr.map(function(x){var desc=x.desc||x.description||x.rule||'';return'<div style="border:1px solid var(--border);border-radius:7px;background:var(--bg3);padding:8px;margin-bottom:6px;font-size:11px;color:var(--text2);line-height:1.45"><b style="color:var(--text)">'+escapeHtml(x.name||label)+'.</b> '+escapeHtml(desc)+'</div>';}).join('')+'</div>':'';
+}
+function renderSheetCompanionStatBlock(entry,d){
+  if(!entry||!d)return'<div class="comp-empty">No active companion selected.</div>';
+  var hp=ensureSheetCompanionHp(entry,d),id=entry.id,saveProfs=creatureSaveProfMap(d),skills=(d&&d.skills)||{},skillKeys=Object.keys(skills);
+  var abilityNames={strength:'Strength',dexterity:'Dexterity',constitution:'Constitution',intelligence:'Intelligence',wisdom:'Wisdom',charisma:'Charisma'};
+  var abilityGrid='<div class="statstrip" style="grid-template-columns:repeat(6,1fr);gap:5px">'+AB_KEYS.map(function(k,i){var a=d.abilities&&d.abilities[k]||{score:10,mod:0},mod=parseInt(a.mod,10)||0;return'<div class="sb2"><div class="sbl2">'+AB_LABELS[i]+'</div><div class="sbv" style="font-size:15px">'+escapeHtml(a.score)+'</div>'+sheetCompanionButton(abilityNames[k]+' Check',mod)+'</div>';}).join('')+'</div>';
+  var saves='<div style="display:flex;gap:6px;flex-wrap:wrap">'+AB_KEYS.map(function(k,i){var mod=creatureSaveBonus(d,k);return'<span class="comp-chip '+(saveProfs[k]?'comp-active':'')+'">'+AB_LABELS[i]+' '+sheetCompanionButton(abilityNames[k]+' Save',mod)+'</span>';}).join('')+'</div>';
+  var skillHtml=skillKeys.length?'<div style="display:flex;gap:6px;flex-wrap:wrap">'+skillKeys.map(function(k){var mod=creatureSkillMod(d,k,skills[k]);return'<span class="comp-chip">'+escapeHtml(k)+' '+sheetCompanionButton(k+' Check',mod)+'</span>';}).join('')+'</div>':'<div class="invdesc">No notable skills.</div>';
+  var attacks=(d.actions||[]).map(function(a,i){var info=actionDamageInfo(a),desc=a.desc||a.description||a.rule||'',bonus=actionAttackBonus(a);if(!info&&!/to hit/i.test(desc))return'';return'<div style="border:1px solid var(--border);border-radius:7px;background:var(--bg3);padding:8px;margin-bottom:6px"><div style="display:flex;align-items:center;gap:8px"><div style="flex:1"><div style="font-size:12px;color:var(--text);font-weight:700">'+escapeHtml(a.name||'Attack')+'</div><div style="font-size:11px;color:var(--text3)">Attack '+signed(bonus)+(info?' · '+info.count+'d'+info.sides+(info.mod?signed(info.mod):'')+' '+info.type:'')+'</div></div><button class="mbtn" style="font-size:11px;padding:5px 10px" onclick="rollSheetCompanionAttack(\''+jsArg(id)+'\','+i+');event.stopPropagation()">Attack</button></div><div style="font-size:11px;color:var(--text2);line-height:1.45;margin-top:6px">'+escapeHtml(desc)+'</div></div>';}).filter(Boolean).join('')||'<div class="invdesc">No attack actions found.</div>';
+  return'<div>'+
+    '<div style="font-size:11px;color:var(--text2);margin-bottom:8px">'+escapeHtml(creatureTypeLine(d))+(d.languages?'<span style="color:var(--text3)"> · Languages: '+escapeHtml(d.languages)+'</span>':'')+'</div>'+
+    '<div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-bottom:10px">'+
+      '<div class="sb2"><div class="sbl2">Armor Class</div><div class="sbv">'+escapeHtml(d.ac||'—')+'</div></div>'+
+      '<div class="sb2"><div class="sbl2">Hit Points</div><div style="display:flex;align-items:center;gap:4px;justify-content:center"><button class="mbtn can" style="padding:2px 6px" onclick="changeSheetCompanionHp(\''+jsArg(id)+'\',-1);event.stopPropagation()">−</button><input class="fi2" style="width:52px;text-align:center;padding:4px" value="'+hp.cur+'" onchange="setSheetCompanionHp(\''+jsArg(id)+'\',this.value)"><button class="mbtn can" style="padding:2px 6px" onclick="changeSheetCompanionHp(\''+jsArg(id)+'\',1);event.stopPropagation()">+</button></div><div class="sbl2">Max '+escapeHtml(hp.max||d.hp||'—')+'</div></div>'+
+      '<div class="sb2"><div class="sbl2">Speed</div><div class="sbv" style="font-size:13px">'+escapeHtml(speedText(d.speed))+'</div></div>'+
+      '<div class="sb2"><div class="sbl2">Senses</div><div class="sbv" style="font-size:12px">'+escapeHtml(sensesText(d))+'</div></div>'+
+    '</div>'+
+    abilityGrid+
+    '<div style="margin-top:10px"><div class="ct" style="margin-bottom:6px">Saving Throws</div>'+saves+'</div>'+
+    '<div style="margin-top:10px"><div class="ct" style="margin-bottom:6px">Skills</div>'+skillHtml+'</div>'+
+    '<div style="margin-top:10px"><div class="ct" style="margin-bottom:6px">Attacks</div>'+attacks+'</div>'+
+    '<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:10px;font-size:11px;color:var(--text2)">'+
+      '<div class="comp-chip"><b>Damage Resistances</b> '+escapeHtml(listText(d.damageResistances))+'</div>'+
+      '<div class="comp-chip"><b>Damage Immunities</b> '+escapeHtml(listText(d.damageImmunities))+'</div>'+
+      '<div class="comp-chip"><b>Damage Vulnerabilities</b> '+escapeHtml(listText(d.damageVulnerabilities))+'</div>'+
+      '<div class="comp-chip"><b>Condition Immunities</b> '+escapeHtml(listText(d.conditionImmunities))+'</div>'+
+      '<div class="comp-chip"><b>Passive Perception</b> '+passivePerceptionValue(d)+'</div>'+
+    '</div>'+
+    sheetCompanionTraits('Traits',d.traits)+sheetCompanionTraits('Bonus Actions',d.bonusActions)+sheetCompanionTraits('Reactions',d.reactions)+
+    (d.notes?'<div style="margin-top:10px" class="invdesc">'+escapeHtml(d.notes)+'</div>':'')+
+  '</div>';
+}
+function renderSheetCompanionsAccordion(c){
+  var wrap=document.getElementById('sheet-companions-acc-wrap');if(!wrap)return;
+  var entries=activeSheetCompanionEntries(c);
+  if(!entries.length){wrap.innerHTML='';return;}
+  var selected=entries.find(function(e){return e.id===c.sheetCompanionViewId;})||entries[0];
+  var d=companionEntryData(selected),tabs=entries.length>1?'<div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px">'+entries.map(function(e){var ed=companionEntryData(e),on=e.id===selected.id;return'<button class="head-pill '+(on?'':'disabled')+'" onclick="setSheetCompanionView(\''+jsArg(e.id)+'\');event.stopPropagation()">'+escapeHtml(companionCategoryLabel(e.category))+': '+escapeHtml(e.displayName||(ed&&ed.name)||'Creature')+'</button>';}).join('')+'</div>':'';
+  wrap.innerHTML='<div class="card sheet-acc" id="sheet-companions-acc">'+
+    '<div class="sheet-acc-head" onclick="toggleSheetAccordion(event,\'sheet-companions-acc\')"><div><div class="sheet-acc-title">Companions</div><div style="font-size:10px;color:var(--text3);margin-top:2px">'+escapeHtml(companionCategoryLabel(selected.category))+': '+escapeHtml(selected.displayName||(d&&d.name)||'Creature')+'</div></div><div class="sheet-acc-fill"></div><div class="sheet-acc-chevron">▼</div></div>'+
+    '<div class="sheet-acc-body">'+tabs+renderSheetCompanionStatBlock(selected,d)+'</div></div>';
+}
 function companionCategoryInfo(cat){
   return cat==='familiar'?{title:'Familiars',sub:'Find Familiar, pact familiars, and other saved magical scouts.',none:'None active',active:'Active familiar',add:'Add Familiar',custom:'Custom Familiar'}:
     cat==='animal_companion'?{title:'Animal Companions',sub:'Ranger companion templates and saved companion creatures. Companion formulas reference your current proficiency bonus.',none:'None active',active:'Active companion',add:'Add Companion',custom:'Custom Companion'}:
@@ -37763,9 +37954,11 @@ function setActiveCompanion(cat,id,on){
 }
 function syncCompanionIntegration(c){
   if(!c)return;var fam=companionActiveEntry(c,'familiar'),comp=companionActiveEntry(c,'animal_companion'),wild=companionActiveEntry(c,'wildshape'),fd=fam?companionEntryData(fam):null,cd=comp?companionEntryData(comp):null,wd=wild?companionEntryData(wild):null;
-  c.activeFamiliar=fd?{id:fam.id,name:fam.displayName||fd.name,creatureType:fd.creatureType,image:fam.image||fd.image||''}:null;
-  c.activeAnimalCompanion=cd?{id:comp.id,name:comp.displayName||cd.name,creatureType:cd.creatureType,proficiencyBonus:characterPB(c)}:null;
-  c.wildshapeState=wd?{id:wild.id,name:wild.displayName||wd.name,creatureType:wd.creatureType,ac:wd.ac,hp:wd.hp,cr:wd.cr,image:wild.image||wd.image||'',active:true}:null;
+  function companionExport(entry,d,cat){return d?{id:entry.id,category:cat,name:entry.displayName||d.name,creatureType:d.creatureType,image:entry.image||d.image||'',statBlock:cloneData(d)}:null;}
+  c.activeFamiliar=fd?Object.assign(companionExport(fam,fd,'familiar'),{}):null;
+  c.activeAnimalCompanion=cd?Object.assign(companionExport(comp,cd,'animal_companion'),{proficiencyBonus:characterPB(c)}):null;
+  c.wildshapeState=wd?Object.assign(companionExport(wild,wd,'wildshape'),{ac:wd.ac,hp:wd.hp,cr:wd.cr,active:true}):null;
+  c.activeCompanions=[c.activeFamiliar,c.activeAnimalCompanion,c.wildshapeState].filter(Boolean);
 }
 function revertWildshape(){var c=gAC();if(!c)return;ensureCompanions(c).forEach(function(e){if(e.category==='wildshape')e.active=false;});syncCompanionIntegration(c);saveS();renderCompanionsTab();renderSheet();updTop();showToast('Wild Shape','Returned to true form.');}
 function removeCompanionEntry(id){
@@ -38028,7 +38221,7 @@ function trigPU(){document.getElementById('pu-file').click();}
 function handlePU(e){var f=e.target.files[0];if(!f)return;var r=new FileReader();r.onload=function(ev){var c=gAC();if(!c)return;c.portrait=ev.target.result;saveS();renderSheet();renderRoster();};r.readAsDataURL(f);}
 
 // ── EXPORT/IMPORT ─────────────────────────────────────────────────────────────
-function exportData(){var blob=new Blob([JSON.stringify({chars:S.chars,hist:S.hist},null,2)],{type:'application/json'});var u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='dnd_backup.json';a.click();URL.revokeObjectURL(u);}
+function exportData(){(S.chars||[]).forEach(function(c){try{syncCompanionIntegration(c);}catch(e){}});var blob=new Blob([JSON.stringify({chars:S.chars,hist:S.hist},null,2)],{type:'application/json'});var u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='dnd_backup.json';a.click();URL.revokeObjectURL(u);}
 function trigImp(){document.getElementById('imp-file').click();}
 function handleImp(e){var f=e.target.files[0];if(!f)return;var r=new FileReader();r.onload=function(ev){try{var d=JSON.parse(ev.target.result);if(d.chars)S.chars=d.chars;if(d.hist)S.hist=d.hist;normalizeAllCharacters();saveS();renderRoster();updTop();alert('Import successful!');}catch(err){alert('Import failed.');}};r.readAsText(f);}
 function clearAll(){if(!confirm('Delete ALL data permanently?'))return;S.chars=[];S.activeId=null;S.hist=[];saveS();renderRoster();updTop();go('roster');}
