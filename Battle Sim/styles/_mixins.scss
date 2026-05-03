@@ -1,0 +1,61 @@
+@mixin scrollable {
+    overflow-y: auto;
+
+    // Firefox
+    scrollbar-color: var(--border2) var(--bg2);
+
+    // Chromium
+    &::-webkit-scrollbar { width: 9px; height: 9px; }
+    &::-webkit-scrollbar-track { background: var(--bg2) }
+    &::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 5px; }
+    &::-webkit-scrollbar-thumb:hover { background: var(--gold3); }
+}
+
+@mixin fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+    @keyframes fadeIn {
+        0%   { opacity: 0 }
+        100% { opacity: 1 }
+    }
+}
+
+// Macro for buttons & other clickable elements
+@mixin clickable {
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 9px 18px;
+    margin: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    font-family: var(--ff);
+    font-size: 14px;
+
+    background-color: rgba(201,168,76,.1);
+    transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s, color 0.2s;
+    
+    &:hover:not(.disabled) {
+        background-color: rgba(201,168,76,.2);
+        box-shadow: 0 0 14px rgba(201,168,76,.22);
+    }
+
+    &:disabled {
+        background: transparent;
+        border-color: var(--border2);
+        color: var(--text3);
+        cursor: initial;
+        pointer-events: none;
+    }
+
+    svg {
+        margin: 0 1em;
+        width: 1em;
+    }
+}

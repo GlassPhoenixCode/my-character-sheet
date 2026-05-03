@@ -1,0 +1,149 @@
+@import '/styles/mixins';
+
+:root {
+    --bg: #0d0d14;
+    --bg2: #13131f;
+    --bg3: #1a1a2e;
+    --panel: #1e1e32;
+    --border: #2e2e50;
+    --border2: #3a3a60;
+    --gold: #c9a84c;
+    --gold2: #f0d080;
+    --gold3: #7a5e1a;
+    --red2: #e74c3c;
+    --green2: #2ecc71;
+    --blue2: #3498db;
+    --text: #e8e0d0;
+    --text2: #a89878;
+    --text3: #6a5f4a;
+    --shadow: rgba(0,0,0,0.6);
+    --rune: rgba(201,168,76,0.12);
+    --ff: 'Palatino Linotype', Palatino, serif;
+    --fu: 'Segoe UI', system-ui, sans-serif;
+}
+
+// General style & layout
+html { @include scrollable }
+html, body, #__next, main {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding:0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    font-family: var(--fu);
+}
+
+main, input, button { font-size: 10pt; }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div, button {
+    box-sizing: border-box;
+}
+
+h1, h2 { margin: 0 }
+h1, h2, h3 {
+    font-family: var(--ff);
+    color: var(--gold);
+}
+
+a {
+    color: var(--gold);
+}
+
+.battleSimTopbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px 0 0;
+}
+
+.dmReturnLink {
+    border: 1px solid var(--border2);
+    border-radius: 7px;
+    color: var(--text2);
+    background: transparent;
+    padding: 8px 12px;
+    font-family: var(--ff);
+    font-size: 13px;
+    text-decoration: none;
+    transition: border-color .2s, color .2s, background-color .2s;
+
+    &:hover {
+        border-color: var(--gold);
+        color: var(--gold);
+        background: var(--rune);
+    }
+}
+
+button {
+    position: relative;
+    @include clickable;
+}
+
+input, textarea {
+    padding: 9px;
+    border: 1px solid var(--border);
+    outline: none;
+    border-radius: 7px;
+    color: var(--text);
+    background: var(--bg3);
+    transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    &:hover { background: var(--panel) }
+    &:focus {
+        border-color: var(--gold);
+        box-shadow: 0 0 0 2px rgba(201,168,76,.08);
+    }
+    &::placeholder { color: var(--text3) }
+}
+
+.tooltipContainer {
+    position: relative;
+
+    &:hover {
+        .tooltip {
+            display: initial;
+            opacity: 1;
+        }
+    }    
+
+    .tooltip {
+        position: absolute;
+        bottom: calc(100% + 8px);
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 200px;
+        padding: 1em;
+        border: 1px solid var(--gold3);
+        border-radius: 7px;
+        background: linear-gradient(180deg, var(--panel), var(--bg2));
+        color: var(--text);
+        z-index: 1;
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s;
+        box-shadow: 0 10px 28px var(--shadow), 0 0 16px rgba(201,168,76,.16);
+
+        &::before {
+            content: "";
+            width: 0;
+            border-top: 8px solid var(--gold3);
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
