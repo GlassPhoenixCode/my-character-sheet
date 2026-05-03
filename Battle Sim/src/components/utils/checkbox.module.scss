@@ -1,0 +1,19 @@
+.checkbox {
+    background: none!important;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--text2);
+
+    svg {
+        border: 2px solid var(--gold3);
+        border-radius: 3px;
+        padding: 0.2em;
+        transition: color 0.1s;
+    }
+
+    &:not(.checked) svg { color: transparent }
+}

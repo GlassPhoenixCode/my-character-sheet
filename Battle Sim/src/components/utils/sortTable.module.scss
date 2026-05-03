@@ -1,0 +1,44 @@
+@import '/styles/mixins';
+
+.searchResults {
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    outline: none;
+    background: var(--bg2);
+
+    .header {
+        width: 100%;
+        background-color: var(--bg3);
+        border-bottom: 1px solid var(--border);
+        border-radius: 8px 8px 0 0;
+        padding: 0.5em 1em;
+        display: flex;
+        flex-direction: row;
+
+        >div {
+            flex: 1 1 0;
+            padding: 0.5em;
+
+            svg { width: 1em; margin-left: 1em }
+        }
+    }
+
+    .result {
+        height: 40vh;
+        min-height: 200px;
+        overflow-x: hidden;
+        @include scrollable;
+
+        .placeholder { width: 100%; padding: 2em; text-align: center; color: var(--text3); user-select: none; }
+
+        .elem {
+            width: 100%;
+            text-align: left;
+            margin: 0;
+            border-radius: 0;
+            background: transparent;
+            &:hover { background: var(--rune) }
+            &.active { background: rgba(201,168,76,.18) }
+        }
+    }
+}

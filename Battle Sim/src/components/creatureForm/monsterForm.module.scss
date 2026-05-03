@@ -1,0 +1,80 @@
+@import '/styles/mixins';
+
+.monsterForm {
+    section {
+        margin: 1em 0;
+        display: grid;
+        grid-template-columns: 200px calc(100% - 200px);
+        align-items: center;
+        gap: 8px;
+
+        @media (width < 800px) { grid-template-columns: 1fr }
+    }
+
+    h3 { user-select: none; white-space: nowrap; margin: 0.5em 0 }
+
+    .creatureTypes {
+        @include scrollable;
+        overflow: hidden;
+        border-radius: 8px;
+        display: grid;
+        
+        grid-template-columns: repeat(16, 1fr);
+        @media (width < 1400px) { grid-template-columns: repeat(8, 1fr) }
+        @media (width < calc(800px + 6em)) { grid-template-columns: repeat(4, 1fr) }
+        @media (width < calc(400px + 6em)) { grid-template-columns: 1fr 1fr; height: 100px; overflow-y: scroll }
+        @media (width < calc(200px + 6em)) { grid-template-columns: 1fr }
+
+        button {
+            padding: 8px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0;
+            background: rgba(13, 13, 20, .72);
+            border-color: var(--border2);
+            color: var(--text3);
+            box-shadow: none;
+
+            img {
+                border: 1px solid var(--border2);
+                border-radius: 8px;
+                width: 40px;
+                margin-bottom: 1em;
+            }
+
+            &.active {
+                background: linear-gradient(180deg, rgba(201,168,76,.34), rgba(122,94,26,.42));
+                border-color: var(--gold);
+                color: var(--gold2);
+                box-shadow: inset 0 0 0 1px rgba(240,208,128,.28), 0 0 12px rgba(201,168,76,.18);
+            }
+
+            &:hover {
+                background: rgba(201,168,76,.16);
+                border-color: var(--gold3);
+                color: var(--text);
+            }
+
+            &.active:hover {
+                background: linear-gradient(180deg, rgba(201,168,76,.42), rgba(122,94,26,.5));
+                color: var(--gold2);
+            }
+        }
+    }
+
+    .monster .stats {
+        float: right;
+        font-weight: lighter;
+        font-size: smaller;
+        padding-top: 4px;
+        padding-left: 1ch;
+
+        &:not(:last-child) {
+            @media (width < 600px) { display: none }
+        }
+    }
+
+}

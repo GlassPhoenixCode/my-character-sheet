@@ -1,0 +1,53 @@
+@import '/styles/mixins';
+
+.adventuringDay {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+
+    section {
+        display: grid;
+        grid-template-columns: 200px calc(100% - 200px);
+        align-items: center;
+        gap: 8px;
+
+        @media (width < 800px) { grid-template-columns: 1fr }
+    }
+
+    h3 { user-select: none; white-space: nowrap; margin: 0.5em 0 }
+
+    .save {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 50px;
+
+        .fileName {
+            font-weight: bold;
+        }
+
+        button {
+            padding: 0;
+            background: none;
+            transition: color 0.3s;
+            &:hover { color: var(--gold) }
+        }
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+
+        button, label {
+            flex: 1 1 0;
+        }
+
+        label {
+            @include clickable;
+        }
+    }
+
+    .error {
+        text-align: center;
+        color: var(--red2);
+    }
+}

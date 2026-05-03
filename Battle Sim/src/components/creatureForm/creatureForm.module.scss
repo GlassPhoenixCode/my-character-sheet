@@ -1,0 +1,49 @@
+@import '/styles/mixins';
+
+.creatureForm {
+    .modes {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        button {
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            margin: 0;
+            border-radius: 0;
+            background: rgba(13, 13, 20, .72);
+            border-color: var(--border2);
+            color: var(--text3);
+
+            &:first-child { border-radius: 8px 0 0 8px }
+            &:last-child  { border-radius: 0 8px 8px 0 }
+            &.active {
+                background: linear-gradient(180deg, rgba(201,168,76,.34), rgba(122,94,26,.42));
+                border-color: var(--gold);
+                color: var(--gold2);
+                box-shadow: inset 0 0 0 1px rgba(240,208,128,.28), 0 0 12px rgba(201,168,76,.18);
+            }
+
+            &:hover {
+                background: rgba(201,168,76,.16);
+                border-color: var(--gold3);
+                color: var(--text);
+            }
+
+            &.active:hover {
+                background: linear-gradient(180deg, rgba(201,168,76,.42), rgba(122,94,26,.5));
+                color: var(--gold2);
+            }
+        }
+    }
+
+    .buttons {
+        margin-top: 2em;
+        display: flex;
+        gap: 1em;
+        margin-top: 1em;
+
+        button { flex: 1 1 0; margin: 0 }
+        @media (width < 600px) { flex-direction: column; }
+    }
+}

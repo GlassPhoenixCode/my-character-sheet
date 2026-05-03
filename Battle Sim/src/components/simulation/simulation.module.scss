@@ -1,0 +1,28 @@
+.simulation {
+    flex-grow: 1;
+    width: 100%;
+    padding: 0;
+    counter-reset: encounters 0;
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .header {
+        display: none;
+        user-select: none;
+        color: var(--gold);
+        font-family: var(--ff);
+        font-size: 34px;
+        line-height: 1.1;
+        text-align: left;
+        margin-bottom: 8px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--border);
+        
+        &::before {
+            display: none;
+        }
+    }
+
+    .addEncounterBtn { margin: 0 }
+}

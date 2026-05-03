@@ -1,0 +1,46 @@
+@import '/styles/mixins';
+
+.select { 
+    .control {
+        background: var(--bg3); 
+        border: 1px solid var(--border);
+        border-radius: 7px;
+        box-shadow: none;
+
+        &:hover {
+            border-color: var(--gold3);
+            background: var(--panel);
+        }
+    }
+
+    .input { color: var(--text) }
+    .singleValue { color: var(--text) }
+    .indicator { color: var(--text2) }
+
+    .menu {
+        margin: 0;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        box-shadow: 0 14px 32px var(--shadow);
+
+        animation-name: slideIn;
+        animation-duration: 300ms;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+
+        @keyframes slideIn {
+            0% { transform: translateY(-50%) scaleY(0) }
+            100% { transform: translateY(0) scaleY(1) }
+        }
+    }
+
+    .menuList {
+        max-height: 10em;
+        @include scrollable;
+    }
+    
+    // Options
+    .isSelected { background: rgba(201,168,76,.18)!important }
+    .isFocused { background: var(--rune)!important }
+}

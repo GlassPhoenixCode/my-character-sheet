@@ -1,0 +1,166 @@
+.encounterForm {
+    position: relative;
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: linear-gradient(180deg, var(--panel), var(--bg2));
+    box-shadow: 0 12px 28px rgba(0,0,0,.16);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+
+    .addCreatureBtn { margin: 0 }
+
+    .clearCreaturesBtn {
+        margin: 8px 0 0;
+        border-color: var(--border2);
+        color: var(--text2);
+        background: rgba(13, 13, 20, .72);
+
+        &:hover {
+            border-color: var(--red2);
+            color: var(--red2);
+            background: rgba(231, 76, 60, .1);
+        }
+    }
+
+    .encounterActions {
+        position: absolute;
+        top: 1em;
+        right: 0.5em;
+        display: flex;
+        gap: 4px;
+
+        button {
+            border-radius: 4px;
+            padding: 4px;
+            &:not(:hover) {background: transparent }
+        }
+        svg {
+            margin: 0;
+        }
+    }
+
+    .header {
+        user-select: none;
+        cursor: default;
+        color: var(--gold);
+        font-size: 20px;
+        letter-spacing: .4px;
+
+        &.monster::after {
+            counter-increment: encounters 1;
+            content: " " counter(encounters);
+        }
+    }
+
+    .formBody {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        @media (width < 600px) { grid-template-columns: 1fr }
+    }
+
+    .creatures {
+        margin: 1em 0;
+        gap: 8px;
+        display: grid;
+
+        .creature {
+            flex: 1 1 0;
+
+            padding: 8px 1em;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            transition: background-color 0.2s, border-color 0.2s;
+            gap: 8px;
+
+            &:hover {
+                background: var(--rune);
+                border-color: var(--border2);
+            }
+
+            .name {
+                flex-grow: 1;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                min-width: 0;
+
+                span {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+
+            .portrait {
+                width: 34px;
+                height: 34px;
+                flex: 0 0 34px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 1px solid var(--gold3);
+                box-shadow: 0 0 10px rgba(201,168,76,.18);
+                background: var(--bg3);
+            }
+            
+            input[type=number] {
+                width: 50px;
+            }
+
+            button {
+                padding: 1em;
+                margin: 0;
+
+                label { display: none }
+            }
+
+            .inlineInput {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+
+            @media (width < 450px) {
+                flex-direction: column;
+                align-items: flex-start;
+                border-bottom: 1px solid var(--border);
+                border-radius: 0;
+
+                .name {
+                    width: 100%;
+                    font-weight: bold;
+                }
+
+                .inlineInput {
+                    width: 100%;
+                    justify-content: space-between;
+                }
+
+                button { width: 100% }
+                button label { display: initial }
+            }
+        }
+    }
+
+    .encounterSettings {
+        padding: 1em 0;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .luckSlider {
+        margin-top: 1em;
+        display: flex;
+        gap: 1em;
+        align-items: center;
+
+        > :last-child {
+            flex-grow: 1;
+        }
+    }
+}
