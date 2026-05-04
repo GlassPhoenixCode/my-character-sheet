@@ -1,0 +1,160 @@
+[
+  {
+    "id": "cond_blinded",
+    "name": "Blinded",
+    "description": "A blinded creature cannot see, fails sight-based checks, attacks poorly, and is easier to hit.",
+    "effects": [
+      "Blindsight, tremorsense, or other senses may change practical impact.",
+      "Use for darkness, eye injuries, magical blindness, or sensory denial."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_charmed",
+    "name": "Charmed",
+    "description": "A charmed creature cannot harm the charmer and the charmer has social leverage over it.",
+    "effects": [
+      "Charmed is not mind control unless the effect says so.",
+      "Use to limit hostility without taking full control of the creature."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_deafened",
+    "name": "Deafened",
+    "description": "A deafened creature cannot hear and fails checks that require hearing.",
+    "effects": [
+      "Being deafened does not stop verbal components by itself.",
+      "Use for thunderous effects, silence-like results, or damaged hearing."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_exhaustion",
+    "name": "Exhausted",
+    "description": "Exhaustion.",
+    "effects": [
+      "Track the exact level and apply all lower-level effects too; long rests remove only what the rule allows."
+    ],
+    "source": "SRD 5.1 CC-BY"
+  },
+  {
+    "id": "cond_frightened",
+    "name": "Frightened",
+    "description": "A frightened creature has trouble acting while the fear source is in sight and cannot willingly move closer to it.",
+    "effects": [
+      "Breaking line of sight can remove the disadvantage but not necessarily the condition.",
+      "Use to control movement and pressure attacks without paralyzing the creature."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_grappled",
+    "name": "Grappled",
+    "description": "A grappled creature has Speed 0 and cannot benefit from speed bonuses.",
+    "effects": [
+      "Grappled is not restrained unless another rule says so.",
+      "Forced movement can break the grapple if it separates reach.",
+      "Use to pin a creature in place, set up hazards, or stop movement."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_incapacitated",
+    "name": "Incapacitated",
+    "description": "An incapacitated creature cannot take actions or reactions; 2024 also calls out bonus actions and concentration more explicitly.",
+    "effects": [
+      "Many other conditions include incapacitated.",
+      "Check edition wording for concentration and speech details.",
+      "Use when a creature is stunned, paralyzed, unconscious, or otherwise unable to act."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_invisible",
+    "name": "Invisible",
+    "description": "An invisible creature cannot be seen normally, is harder to attack, and attacks with advantage unless a special sense counters it.",
+    "effects": [
+      "Invisible is not the same as undetected.",
+      "Blindsight and similar senses can reduce or remove the benefit.",
+      "Use special senses, tracks, noise, and search checks to adjudicate whether enemies know the creature's location."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_paralyzed",
+    "name": "Paralyzed",
+    "description": "A paralyzed creature is incapacitated, cannot move, fails Strength and Dexterity saves, and is vulnerable to close critical hits.",
+    "effects": [
+      "Close melee hits are automatic critical hits if they hit.",
+      "The creature still occupies space and can be targeted.",
+      "Use for hold-person style effects and high-danger lockdown."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_petrified",
+    "name": "Petrified",
+    "description": "A petrified creature becomes an inert solid substance, is incapacitated, cannot move, and is much harder but helpless.",
+    "effects": [
+      "Check the exact spell or monster effect for saving throws and reversal.",
+      "Use as a severe battlefield removal effect with rescue potential."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_poisoned",
+    "name": "Poisoned",
+    "description": "A poisoned creature has disadvantage on attack rolls and ability checks.",
+    "effects": [
+      "Poison damage and the poisoned condition are separate.",
+      "Immunity to poison damage may or may not imply immunity to the condition depending on stat block wording.",
+      "Use as a simple debuff that pressures attackers and skill users."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_prone",
+    "name": "Prone",
+    "description": "A prone creature crawls or spends movement to stand, attacks at disadvantage, and is easier to hit in melee.",
+    "effects": [
+      "Standing costs movement, not an action.",
+      "A flying creature knocked prone may fall unless it can hover or has a rule preventing the fall.",
+      "Use for trips, falls, shove effects, and low-position tactics."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_restrained",
+    "name": "Restrained",
+    "description": "A restrained creature has Speed 0, attacks poorly, is easier to hit, and has disadvantage on Dexterity saves.",
+    "effects": [
+      "Restrained is stronger than grappled.",
+      "Forced movement may not end restrained unless the effect says so.",
+      "Use for webs, nets, vines, tentacles, and binding effects."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_stunned",
+    "name": "Stunned",
+    "description": "A stunned creature is incapacitated, cannot move, has impaired speech, fails Strength and Dexterity saves, and is easier to hit.",
+    "effects": [
+      "A stunned creature usually cannot take reactions.",
+      "Many stun effects repeat saves at end of turn.",
+      "Use as a high-impact control condition; track duration carefully."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  },
+  {
+    "id": "cond_unconscious",
+    "name": "Unconscious",
+    "description": "An unconscious creature is incapacitated, prone, unaware, drops held items, and is highly vulnerable to nearby attacks.",
+    "effects": [
+      "A stable unconscious creature at 0 HP remains unconscious until healed or time passes.",
+      "Melee hits can rapidly cause death-save failures.",
+      "Use for sleep, knockout, and 0 hit point states when applicable."
+    ],
+    "source": "SRD 5.2 CC-BY"
+  }
+]

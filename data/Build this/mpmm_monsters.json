@@ -1,0 +1,5679 @@
+  {
+    "id": "mpmm_oblex_spawn",
+    "name": "Oblex Spawn",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Tiny",
+    "type": "Ooze",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "",
+    "hp": 18,
+    "hpFormula": "4d4+8",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 8,
+    "dex": 16,
+    "con": 15,
+    "int": 14,
+    "wis": 11,
+    "cha": 10,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "blinded",
+      "charmed",
+      "deafened",
+      "exhaustion",
+      "prone"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "blindsight": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Amorphous",
+        "desc": "Can move through a space as narrow as 1 inch without squeezing."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Pseudopod",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) bludgeoning damage plus 2 (1d4) psychic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Weak alone but scouts for its parent adult oblex.",
+    "actionEconomy": "Single pseudopod.",
+    "encounterNotes": "Wherever an adult oblex lurks.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_flumph",
+    "name": "Flumph",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "lawful good",
+    "cr": "1/8",
+    "xp": 25,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "",
+    "hp": 7,
+    "hpFormula": "2d6",
+    "speed": {
+      "walk": 30,
+      "fly": 30,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 6,
+    "dex": 15,
+    "con": 10,
+    "int": 14,
+    "wis": 14,
+    "cha": 11,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "arcana": 4,
+      "history": 4,
+      "religion": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 12,
+      "darkvision": 60
+    },
+    "languages": "Understands Undercommon; telepathy 60 ft.",
+    "traits": [
+      {
+        "name": "Advanced Telepathy",
+        "desc": "Can perceive telepathic communication within 60 ft.; can't be surprised by creatures with telepathy."
+      },
+      {
+        "name": "Telepathic Shroud",
+        "desc": "Immune to effects sensing emotions/thoughts and all divination spells."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Tendrils",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4+2) piercing damage plus 2 (1d4) acid damage, and the target must succeed on a DC 10 Con save or reek of musk for 1 hour."
+      },
+      {
+        "name": "Stench Spray (1/Day)",
+        "desc": "15-foot line; DC 12 Str save or coated in smelly liquid for 8 hours."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Rarely fights. Shares Underdark intelligence, especially about mind flayer colonies.",
+    "actionEconomy": "Tendrils or Stench Spray. Primarily social.",
+    "encounterNotes": "Underdark. The most unlikely ally adventurers can find.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_choker",
+    "name": "Choker",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 13,
+    "hpFormula": "3d6+3",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 30
+    },
+    "str": 16,
+    "dex": 14,
+    "con": 13,
+    "int": 4,
+    "wis": 12,
+    "cha": 7,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 60
+    },
+    "languages": "Deep Speech",
+    "traits": [
+      {
+        "name": "Aberrant Quickness (Recharge 5-6)",
+        "desc": "The choker takes an extra action on its turn."
+      },
+      {
+        "name": "Spider Climb",
+        "desc": "Can climb difficult surfaces including ceilings without checks."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Tentacle attacks."
+      },
+      {
+        "name": "Tentacle",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d4+3) bludgeoning damage, and the target is grappled (escape DC 13) and restrained. The choker has two tentacles, each grappling one target."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two tentacles restrain two targets. Aberrant Quickness for extra action. Hangs from ceilings.",
+    "actionEconomy": "Two tentacle attacks plus extra action on recharge.",
+    "encounterNotes": "Caves and dungeons. Ambushes from above.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_berbalang",
+    "name": "Berbalang",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 14,
+    "acNote": "natural armor",
+    "hp": 38,
+    "hpFormula": "7d8+7",
+    "speed": {
+      "walk": 30,
+      "fly": 40,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 12,
+    "dex": 15,
+    "con": 13,
+    "int": 16,
+    "wis": 14,
+    "cha": 12,
+    "savingThrows": {
+      "str": null,
+      "dex": 4,
+      "con": null,
+      "int": 5,
+      "wis": 4,
+      "cha": null
+    },
+    "skills": {
+      "arcana": 5,
+      "history": 5,
+      "perception": 4,
+      "religion": 5
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 60
+    },
+    "languages": "All languages known in life",
+    "traits": [
+      {
+        "name": "Spectral Duplicate (Recharges after a Long Rest)",
+        "desc": "As a bonus action, creates one spectral duplicate in an unoccupied space within 30 ft. While duplicate exists, berbalang is unconscious. Duplicate has 1 HP and berbalang's stats."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks: one Bite and one Claw."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage plus 9 (2d8) psychic damage."
+      },
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) slashing damage plus 9 (2d8) psychic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Creates spectral duplicate as decoy while it hides. Both attacks deal heavy psychic damage.",
+    "actionEconomy": "Two attacks per action. Duplicate as bonus action distraction.",
+    "encounterNotes": "Ruins. Feeds on psychic energy of the dead.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_deathlock",
+    "name": "Deathlock",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 36,
+    "hpFormula": "8d8",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 11,
+    "dex": 16,
+    "con": 10,
+    "int": 14,
+    "wis": 12,
+    "cha": 16,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": 4,
+      "wis": null,
+      "cha": 5
+    },
+    "skills": {
+      "arcana": 4,
+      "history": 4
+    },
+    "damageResistances": [
+      "necrotic",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 12,
+      "darkvision": 60
+    },
+    "languages": "The languages it knew in life",
+    "traits": [
+      {
+        "name": "Spellcasting",
+        "desc": "Cha-based (spell save DC 13). At will: detect magic, hellish rebuke (2d10). 2/day each: arms of Hadar, hold person, invisibility. 1/day: hunger of Hadar."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Deathly Claw attacks."
+      },
+      {
+        "name": "Deathly Claw",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 9 (2d8) necrotic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two claw attacks with heavy necrotic. Hunger of Hadar for AoE blindness. Hold Person to lock a PC. Warlock raised as undead.",
+    "actionEconomy": "Two claw attacks plus warlock spellcasting.",
+    "encounterNotes": "Undead lairs and warlock cults. A warlock who died serving its patron and was raised to continue.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_deathlock_wight",
+    "name": "Deathlock Wight",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "leather armor",
+    "hp": 45,
+    "hpFormula": "6d8+18",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 11,
+    "dex": 16,
+    "con": 16,
+    "int": 12,
+    "wis": 14,
+    "cha": 15,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": 4,
+      "cha": 4
+    },
+    "skills": {
+      "arcana": 3,
+      "perception": 4
+    },
+    "damageResistances": [
+      "necrotic",
+      "bludgeoning/piercing/slashing from nonmagical attacks not made with silvered weapons"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 60
+    },
+    "languages": "The languages it knew in life",
+    "traits": [
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage on attacks and Perception (sight) in sunlight."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Cha-based (spell save DC 12). At will: detect magic, disguise self. 1/day each: fear, hold person, misty step."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Deathly Claw attacks."
+      },
+      {
+        "name": "Deathly Claw",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 9 (2d8) necrotic damage."
+      },
+      {
+        "name": "Life Drain",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6+3) necrotic damage, and the target's hit point maximum is reduced by the amount until it finishes a long rest."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two necrotic claws. Life Drain reduces HP max. Misty Step for repositioning. Fear to route enemies.",
+    "actionEconomy": "Two claw attacks plus spellcasting.",
+    "encounterNotes": "Warlock patron servants. Mid-tier undead warlock.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_deathlock_mastermind",
+    "name": "Deathlock Mastermind",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "8",
+    "xp": 3900,
+    "proficiencyBonus": 3,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 110,
+    "hpFormula": "17d8+34",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 11,
+    "dex": 16,
+    "con": 14,
+    "int": 18,
+    "wis": 12,
+    "cha": 14,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": 7,
+      "wis": null,
+      "cha": 5
+    },
+    "skills": {
+      "arcana": 7,
+      "history": 7,
+      "perception": 4
+    },
+    "damageResistances": [
+      "necrotic",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 60,
+      "truesight": 30
+    },
+    "languages": "The languages it knew in life",
+    "traits": [
+      {
+        "name": "Spellcasting",
+        "desc": "Cha-based (spell save DC 13). At will: detect magic, disguise self, hellish rebuke. 3/day each: counterspell, dispel magic, hunger of Hadar. 1/day each: circle of death, dominate monster, fly."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Deathly Claw attacks."
+      },
+      {
+        "name": "Deathly Claw",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) necrotic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Circle of Death for massive AoE. Dominate Monster for control. Counterspell to shut enemy casters. Commands undead cells.",
+    "actionEconomy": "Two claw attacks plus high-level spellcasting.",
+    "encounterNotes": "The most powerful undead warlock. Commands secret cults.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_babau",
+    "name": "Babau",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 82,
+    "hpFormula": "11d8+33",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 19,
+    "dex": 16,
+    "con": 13,
+    "int": 11,
+    "wis": 12,
+    "cha": 13,
+    "savingThrows": {
+      "str": 6,
+      "dex": null,
+      "con": 5,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "perception": 5,
+      "stealth": 7
+    },
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 13,
+      "darkvision": 120
+    },
+    "languages": "Abyssal, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells and magical effects."
+      },
+      {
+        "name": "Wounding Strike",
+        "desc": "Once per turn when the babau hits with a melee attack, it can force the target to make a DC 13 Con save. On failure, the target takes 9 (2d8) necrotic damage and its speed is reduced by 10 ft."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Claw attacks. It can replace one attack with Weakening Gaze."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage."
+      },
+      {
+        "name": "Weakening Gaze",
+        "desc": "One creature within 30 ft. must succeed on a DC 13 Con save or take 9 (2d8) necrotic damage and have its Strength reduced by 1d6 until the end of its next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two claws plus Wounding Strike slows movement. Weakening Gaze reduces Strength. High stealth for ambushes. Demon assassin.",
+    "actionEconomy": "Two attacks plus optional Weakening Gaze replace.",
+    "encounterNotes": "Demonic cults. Sent by demon lords to eliminate specific targets.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_bulezau",
+    "name": "Bulezau",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 14,
+    "acNote": "natural armor",
+    "hp": 52,
+    "hpFormula": "7d8+21",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 10,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": 5,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Abyssal, telepathy 60 ft.",
+    "traits": [
+      {
+        "name": "Rotting Presence",
+        "desc": "When a creature that isn't a demon starts its turn within 30 ft. of the bulezau, it must succeed on a DC 13 Con save or take 1d6 necrotic damage."
+      },
+      {
+        "name": "Standing Leap",
+        "desc": "Long jump up to 20 ft., high jump up to 10 ft."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Barbed Tail attacks."
+      },
+      {
+        "name": "Barbed Tail",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (2d4+4) piercing damage plus 4 (1d8) necrotic damage. If the target is a creature, it must succeed on a DC 13 Con save or become infected with a disease that prevents healing and reduces max HP by 7 (2d6) every 24 hours."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Rotting Presence damages nearby non-demons passively. Two tail attacks with disease. Area denial creature.",
+    "actionEconomy": "Two barbed tail attacks per action. Rotting Presence is passive.",
+    "encounterNotes": "Demon-infested areas. The disease prevents natural healing.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_rutterkin",
+    "name": "Rutterkin",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "natural armor",
+    "hp": 37,
+    "hpFormula": "5d8+15",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 8,
+    "con": 17,
+    "int": 5,
+    "wis": 8,
+    "cha": 4,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 9,
+      "darkvision": 120
+    },
+    "languages": "understands Abyssal but can't speak",
+    "traits": [
+      {
+        "name": "Corrupt Water",
+        "desc": "At the start of each of its turns, the rutterkin causes all watery substances within 10 ft. to magically become contaminated. A creature that drinks it must succeed on a DC 13 Con save or become poisoned until the start of its next turn."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) piercing damage."
+      },
+      {
+        "name": "Blinding Mucus (Recharge 5-6)",
+        "desc": "The rutterkin spits mucus at a creature within 20 ft. The creature must succeed on a DC 13 Dex save or be blinded until the end of the rutterkin's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Strong bite. Blinding Mucus on recharge. Corrupt Water spoils water sources. Dangerous in packs.",
+    "actionEconomy": "Single bite plus Blinding Mucus on recharge.",
+    "encounterNotes": "Abyssal encounters and demonic warbands. Cannon fodder that still hits hard.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_skulk",
+    "name": "Skulk",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": null,
+    "alignment": "chaotic neutral",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "",
+    "hp": 27,
+    "hpFormula": "5d8+5",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 6,
+    "dex": 19,
+    "con": 12,
+    "int": 10,
+    "wis": 7,
+    "cha": 10,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "stealth": 8
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 8,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Fallible Invisibility",
+        "desc": "The skulk is invisible. This invisibility ends when the skulk attacks or is hit by an attack."
+      },
+      {
+        "name": "Rampage",
+        "desc": "When the skulk reduces a creature to 0 HP with a melee attack, it can take a bonus action to move up to half its speed and make a bite attack."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Claw attacks."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) slashing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Invisible until it attacks or is hit. Two claw attacks from invisibility give advantage. Rampage after kills.",
+    "actionEconomy": "Two claw attacks per action from invisibility.",
+    "encounterNotes": "Ruins. Born from the Shadowfell, haunt places of regret.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_allip",
+    "name": "Allip",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "ac": 13,
+    "acNote": "",
+    "hp": 40,
+    "hpFormula": "9d8",
+    "speed": {
+      "walk": 30,
+      "fly": 40,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 6,
+    "dex": 17,
+    "con": 10,
+    "int": 17,
+    "wis": 15,
+    "cha": 19,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": 6,
+      "wis": 5,
+      "cha": 7
+    },
+    "skills": {
+      "perception": 5,
+      "stealth": 6
+    },
+    "damageResistances": [
+      "acid",
+      "fire",
+      "lightning",
+      "thunder",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "cold",
+      "necrotic",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "poisoned",
+      "prone",
+      "restrained"
+    ],
+    "senses": {
+      "passivePerception": 15,
+      "darkvision": 60
+    },
+    "languages": "The languages it knew in life; telepathy 60 ft.",
+    "traits": [
+      {
+        "name": "Incorporeal Movement",
+        "desc": "Can move through creatures and objects as difficult terrain."
+      },
+      {
+        "name": "Maddening Whispers (Recharge 5-6)",
+        "desc": "A creature that can hear the allip within 30 ft. must succeed on a DC 14 Wis save or take 21 (6d6) psychic damage and be stunned until the end of its next turn."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Maddening Touch",
+        "desc": "Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 17 (3d8+4) psychic damage."
+      },
+      {
+        "name": "Whispers of Madness",
+        "desc": "One creature the allip can see within 60 ft. must succeed on a DC 14 Wis save or take 14 (4d6) psychic damage and be frightened until the end of the allip's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Maddening Whispers stuns all who hear it. Maddening Touch for direct psychic damage. Incorporeal for wall passage.",
+    "actionEconomy": "Maddening Touch attack plus Whispers of Madness. Whispers on recharge for AoE stun.",
+    "encounterNotes": "Places of madness and forbidden knowledge. The ghost of a mind broken by the unknowable.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_maurezhi",
+    "name": "Maurezhi",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 78,
+    "hpFormula": "12d8+24",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 19,
+    "dex": 18,
+    "con": 14,
+    "int": 11,
+    "wis": 10,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": 7,
+      "con": 5,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "deception": 2,
+      "stealth": 7
+    },
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Abyssal, Common, Gnoll, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Assume Form",
+        "desc": "When the maurezhi eats a humanoid corpse, it can assume that humanoid's appearance for 24 hours."
+      },
+      {
+        "name": "Rampage",
+        "desc": "When the maurezhi reduces a creature to 0 HP with a melee attack, it can bonus action move and make a bite attack."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one Bite and two Claw attacks."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) piercing damage."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks plus Rampage. Eats corpses to assume their form. Infiltrates gnoll packs or humanoid settlements.",
+    "actionEconomy": "Three attacks per action (bite + 2 claws) plus Rampage bonus.",
+    "encounterNotes": "Gnoll warbands. The demon that leads by disguising as pack lords.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_nabassu",
+    "name": "Nabassu",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "15",
+    "xp": 13000,
+    "proficiencyBonus": 5,
+    "ac": 18,
+    "acNote": "natural armor",
+    "hp": 190,
+    "hpFormula": "20d8+100",
+    "speed": {
+      "walk": 40,
+      "fly": 60,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 22,
+    "dex": 14,
+    "con": 20,
+    "int": 16,
+    "wis": 13,
+    "cha": 15,
+    "savingThrows": {
+      "str": 11,
+      "dex": null,
+      "con": 10,
+      "int": null,
+      "wis": 6,
+      "cha": null
+    },
+    "skills": {
+      "intimidation": 7,
+      "perception": 6
+    },
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "necrotic",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 16,
+      "darkvision": 120
+    },
+    "languages": "Abyssal, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Dead Blood",
+        "desc": "When the nabassu takes piercing or slashing damage, black blood sprays. Each creature within 5 ft. must succeed on a DC 18 Con save or take 14 (4d6) necrotic damage."
+      },
+      {
+        "name": "Demonic Restoration",
+        "desc": "Regains 15 hit points at the start of its turn if it has at least 1 HP."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells and magical effects."
+      },
+      {
+        "name": "Soul Stealing Gaze",
+        "desc": "When a creature starts its turn within 30 ft. and both can see each other, the nabassu can force a DC 16 Cha save. On failure, the creature is frightened. If already frightened, it instead takes 16 (3d10) psychic damage and the nabassu gains that many temp HP."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one Bite and two Claw attacks."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) piercing damage plus 16 (3d10) necrotic damage."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 9 (1d6+6) slashing damage plus 7 (2d6) necrotic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Regenerates 15 HP per turn. Dead Blood damages melee attackers. Soul Stealing Gaze frightens then drains psychic. Three attacks with necrotic. Nearly impossible to kill quickly.",
+    "actionEconomy": "Three attacks per action. Soul Stealing Gaze passive each enemy turn.",
+    "encounterNotes": "High-level demonic encounters. A demon lord's champion.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_armanite",
+    "name": "Armanite",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 84,
+    "hpFormula": "8d10+40",
+    "speed": {
+      "walk": 60,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 21,
+    "dex": 18,
+    "con": 20,
+    "int": 8,
+    "wis": 12,
+    "cha": 13,
+    "savingThrows": {
+      "str": 8,
+      "dex": null,
+      "con": 8,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 120
+    },
+    "languages": "Abyssal, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells and magical effects."
+      },
+      {
+        "name": "Magic Weapons",
+        "desc": "The armanite's weapon attacks are magical."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one Hooves attack and two Longsword attacks, or makes one Arcing Lightning attack."
+      },
+      {
+        "name": "Hooves",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) bludgeoning damage."
+      },
+      {
+        "name": "Longsword",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) slashing damage."
+      },
+      {
+        "name": "Arcing Lightning",
+        "desc": "Ranged Spell Attack: +7 to hit, range 60 ft., one target. Hit: 22 (4d10) lightning damage, and the lightning arcs to a second target within 10 ft. of the first for 11 (2d10) lightning damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three melee attacks or lightning that chains to a second target. Speed 60 ft. for charges. Demon cavalry.",
+    "actionEconomy": "Three attacks per action or one Arcing Lightning hitting two targets.",
+    "encounterNotes": "Demonic armies. The cavalry of the Abyss.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_canoloth",
+    "name": "Canoloth",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Fiend",
+    "subtype": "yugoloth",
+    "alignment": "neutral evil",
+    "cr": "8",
+    "xp": 3900,
+    "proficiencyBonus": 3,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 120,
+    "hpFormula": "16d8+48",
+    "speed": {
+      "walk": 50,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 10,
+    "con": 17,
+    "int": 5,
+    "wis": 17,
+    "cha": 12,
+    "savingThrows": {
+      "str": 7,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": 6,
+      "cha": null
+    },
+    "skills": {
+      "investigation": 2,
+      "perception": 9
+    },
+    "damageResistances": [],
+    "damageImmunities": [
+      "acid",
+      "fire",
+      "lightning",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "blinded",
+      "deafened",
+      "frightened"
+    ],
+    "senses": {
+      "passivePerception": 19,
+      "darkvision": 60,
+      "truesight": 60
+    },
+    "languages": "Abyssal, Infernal, telepathy 60 ft.",
+    "traits": [
+      {
+        "name": "Dimensional Lock",
+        "desc": "Other creatures within 60 ft. of the canoloth can't teleport or be moved to a different plane."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      },
+      {
+        "name": "Uncanny Senses",
+        "desc": "The canoloth can't be surprised while it isn't incapacitated."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks using its Bite, Tongue, or a combination."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 25 (6d6+4) piercing damage."
+      },
+      {
+        "name": "Tongue",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 30 ft., one target. Hit: 11 (2d6+4) piercing damage, and the target is grappled (escape DC 15) and restrained."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "30-ft. tongue range grapples and drags targets. Dimensional Lock prevents teleportation escape. Guard dog of the yugoloths.",
+    "actionEconomy": "Two attacks per action. Tongue grapples and restrains from 30 ft.",
+    "encounterNotes": "Yugoloth mercenary companies. Guards key locations \u2014 dimensional lock means no magic escape.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_mezzoloth",
+    "name": "Mezzoloth",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Fiend",
+    "subtype": "yugoloth",
+    "alignment": "neutral evil",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "ac": 18,
+    "acNote": "natural armor",
+    "hp": 75,
+    "hpFormula": "10d8+30",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 11,
+    "con": 17,
+    "int": 7,
+    "wis": 10,
+    "cha": 11,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "acid",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "Abyssal, Infernal, telepathy 60 ft.",
+    "traits": [
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      },
+      {
+        "name": "Magic Weapons",
+        "desc": "The mezzoloth's weapon attacks are magical."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Trident attacks."
+      },
+      {
+        "name": "Trident",
+        "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6+4) or 8 (1d8+4) piercing damage plus 16 (3d10) poison damage."
+      },
+      {
+        "name": "Teleport",
+        "desc": "Magically teleports up to 60 ft. to an unoccupied space it can see."
+      },
+      {
+        "name": "Power of Gehenna (1/Day)",
+        "desc": "Casts cloudkill, requiring no spell slot or components."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two trident attacks with massive poison damage. Teleport for positioning. Cloudkill once per day. Rank-and-file yugoloth.",
+    "actionEconomy": "Two trident attacks with poison per action. Teleport repositioning. Cloudkill 1/day.",
+    "encounterNotes": "Yugoloth mercenary armies. Most common yugoloth in large battles.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_oblex_adult",
+    "name": "Adult Oblex",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Ooze",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "ac": 13,
+    "acNote": "",
+    "hp": 75,
+    "hpFormula": "10d8+30",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 8,
+    "dex": 16,
+    "con": 16,
+    "int": 19,
+    "wis": 12,
+    "cha": 15,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": 7,
+      "wis": null,
+      "cha": 5
+    },
+    "skills": {
+      "deception": 5,
+      "perception": 4,
+      "persuasion": 5
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "blinded",
+      "charmed",
+      "deafened",
+      "exhaustion",
+      "prone"
+    ],
+    "senses": {
+      "passivePerception": 14,
+      "blindsight": 60
+    },
+    "languages": "Any languages it has absorbed",
+    "traits": [
+      {
+        "name": "Amorphous",
+        "desc": "Can move through a space as narrow as 1 inch."
+      },
+      {
+        "name": "Sulfurous Impersonation",
+        "desc": "As a bonus action, extrude a piece of itself that assumes the appearance of one creature whose memories it has eaten. Up to three extensions at once, each with 1 HP."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Sulfurous Tentacle attacks."
+      },
+      {
+        "name": "Sulfurous Tentacle",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage plus 18 (4d8) psychic damage, and the target must succeed on a DC 14 Int save or lose a memory (proficiency bonus halved until short or long rest)."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two tentacle attacks each potentially halving proficiency bonus. Impersonates people it has eaten. The perfect infiltrator.",
+    "actionEconomy": "Two tentacle attacks per action. Impersonation as bonus action.",
+    "encounterNotes": "Urban environments. Could have replaced someone the party knows.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_elder_oblex",
+    "name": "Elder Oblex",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Huge",
+    "type": "Ooze",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 3,
+    "ac": 16,
+    "acNote": "",
+    "hp": 115,
+    "hpFormula": "10d12+40",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 16,
+    "con": 20,
+    "int": 22,
+    "wis": 13,
+    "cha": 18,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": 10,
+      "wis": null,
+      "cha": 8
+    },
+    "skills": {
+      "deception": 8,
+      "perception": 5,
+      "persuasion": 8
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "blinded",
+      "charmed",
+      "deafened",
+      "exhaustion",
+      "prone"
+    ],
+    "senses": {
+      "passivePerception": 15,
+      "blindsight": 120
+    },
+    "languages": "Any languages it has absorbed",
+    "traits": [
+      {
+        "name": "Amorphous",
+        "desc": "Can move through a space as narrow as 1 inch."
+      },
+      {
+        "name": "Sulfurous Impersonation",
+        "desc": "Extrudes up to 5 extensions mimicking remembered creatures."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Int-based (spell save DC 18). At will: charm person, detect thoughts, disguise self. 3/day each: confusion, dimension door, dominate person. 1/day: feeblemind."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three Sulfurous Tentacle attacks."
+      },
+      {
+        "name": "Sulfurous Tentacle",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 14 (2d10+3) bludgeoning damage plus 27 (6d8) psychic damage, and DC 18 Int save or proficiency bonus halved."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three tentacle attacks with massive psychic damage. Feeblemind to permanently cripple a spellcaster. Five simultaneous impersonations. A city-wide threat.",
+    "actionEconomy": "Three tentacle attacks plus full spellcasting.",
+    "encounterNotes": "Large urban centers with time to feast on many minds.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_githyanki_gish",
+    "name": "Githyanki Gish",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "gith",
+    "alignment": "lawful evil",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 3,
+    "ac": 17,
+    "acNote": "half plate",
+    "hp": 130,
+    "hpFormula": "20d8+40",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 17,
+    "dex": 15,
+    "con": 14,
+    "int": 17,
+    "wis": 12,
+    "cha": 13,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": 6,
+      "int": 7,
+      "wis": 5,
+      "cha": null
+    },
+    "skills": {
+      "insight": 5,
+      "perception": 5,
+      "stealth": 6
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 15,
+      "darkvision": 60
+    },
+    "languages": "Gith",
+    "traits": [
+      {
+        "name": "Innate Spellcasting (Psionics)",
+        "desc": "Int-based (spell save DC 15). At will: mage hand (invisible). 3/day each: blur, nondetection. 1/day each: plane shift, telekinesis."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Int-based (spell save DC 15). 3rd level: fireball, fly. 4th level: phantasmal killer, stoneskin. 5th level: cloudkill."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes four Silver Longsword attacks."
+      },
+      {
+        "name": "Silver Longsword",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage plus 9 (2d8) psychic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Four sword attacks with psychic damage. Cloudkill for devastating AoE. Blur for defense. Telekinesis for battlefield control. Elite warrior-mage.",
+    "actionEconomy": "Four attacks per action plus full spellcasting.",
+    "encounterNotes": "Astral Sea and githyanki strongholds. Hunting mind flayers.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_githyanki_kithrak",
+    "name": "Githyanki Kith'rak",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "gith",
+    "alignment": "lawful evil",
+    "cr": "12",
+    "xp": 8400,
+    "proficiencyBonus": 3,
+    "ac": 18,
+    "acNote": "plate armor",
+    "hp": 180,
+    "hpFormula": "24d8+72",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 16,
+    "con": 17,
+    "int": 16,
+    "wis": 15,
+    "cha": 17,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": 7,
+      "int": 7,
+      "wis": 6,
+      "cha": 7
+    },
+    "skills": {
+      "intimidation": 7,
+      "perception": 6
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 16,
+      "darkvision": 60
+    },
+    "languages": "Gith",
+    "traits": [
+      {
+        "name": "Innate Spellcasting (Psionics)",
+        "desc": "Int-based (spell save DC 15). At will: mage hand (invisible). 3/day each: blur, jump, misty step, nondetection, telekinesis. 1/day each: plane shift, teleportation circle."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three Silver Longsword attacks."
+      },
+      {
+        "name": "Silver Longsword",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage plus 14 (4d6) psychic damage."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Rally the Troops",
+        "desc": "The kith'rak magically ends the frightened and charmed conditions on itself and each creature of its choice within 30 ft. that it can see."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three sword attacks with heavy psychic damage. Telekinesis and misty step. Rally the Troops removes fear/charm from allies. Squadron commander.",
+    "actionEconomy": "Three attacks plus Rally the Troops bonus action.",
+    "encounterNotes": "Githyanki war bands. Commands a squad of warriors.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_githyanki_supreme_commander",
+    "name": "Githyanki Supreme Commander",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "gith",
+    "alignment": "lawful evil",
+    "cr": "14",
+    "xp": 11500,
+    "proficiencyBonus": 5,
+    "ac": 18,
+    "acNote": "plate armor",
+    "hp": 187,
+    "hpFormula": "22d8+88",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 19,
+    "dex": 17,
+    "con": 18,
+    "int": 16,
+    "wis": 16,
+    "cha": 18,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": 9,
+      "int": 8,
+      "wis": 8,
+      "cha": 9
+    },
+    "skills": {
+      "intimidation": 9,
+      "insight": 8,
+      "perception": 8
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 18,
+      "darkvision": 60
+    },
+    "languages": "Gith",
+    "traits": [
+      {
+        "name": "Innate Spellcasting (Psionics)",
+        "desc": "Int-based (spell save DC 16). At will: mage hand (invisible). 3/day each: blur, jump, misty step, nondetection, telekinesis. 1/day each: globe of invulnerability, plane shift."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three Silver Longsword attacks."
+      },
+      {
+        "name": "Silver Longsword",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage plus 18 (4d8) psychic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Attack",
+        "desc": "Makes one Silver Longsword attack."
+      },
+      {
+        "name": "Flight (Costs 2 Actions)",
+        "desc": "Flies up to half its speed."
+      },
+      {
+        "name": "Rally the Troops (Costs 3 Actions)",
+        "desc": "Ends frightened and charmed on self and chosen creatures within 30 ft."
+      }
+    ],
+    "legendaryActionsNote": "The supreme commander can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three heavy psychic sword attacks plus legendary actions. Globe of Invulnerability vs. spells. Commands entire githyanki fleets.",
+    "actionEconomy": "Three attacks plus legendary actions and full psionic suite.",
+    "encounterNotes": "Githyanki invasions. Commands a nautiloid fleet or large military operation.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_githzerai_anarch",
+    "name": "Githzerai Anarch",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "gith",
+    "alignment": "lawful neutral",
+    "cr": "16",
+    "xp": 15000,
+    "proficiencyBonus": 5,
+    "ac": 20,
+    "acNote": "psychic defense",
+    "hp": 144,
+    "hpFormula": "17d8+68",
+    "speed": {
+      "walk": 30,
+      "fly": 40,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 16,
+    "dex": 21,
+    "con": 18,
+    "int": 18,
+    "wis": 20,
+    "cha": 14,
+    "savingThrows": {
+      "str": 8,
+      "dex": 10,
+      "con": null,
+      "int": 9,
+      "wis": 10,
+      "cha": null
+    },
+    "skills": {
+      "arcana": 9,
+      "insight": 10,
+      "perception": 10
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 20,
+      "truesight": 30
+    },
+    "languages": "Gith",
+    "traits": [
+      {
+        "name": "Psychic Defense",
+        "desc": "AC includes Wisdom modifier when wearing no armor/shield."
+      },
+      {
+        "name": "Innate Spellcasting (Psionics)",
+        "desc": "Wis-based (spell save DC 18). At will: mage hand (invisible), see invisibility. 3/day each: blur, haste, tongues. 1/day each: plane shift, teleportation circle, word of recall."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes four Unarmed Strike attacks."
+      },
+      {
+        "name": "Unarmed Strike",
+        "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) bludgeoning damage plus 18 (4d8) psychic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Strike",
+        "desc": "Makes one Unarmed Strike attack."
+      },
+      {
+        "name": "Teleport",
+        "desc": "Teleports up to 30 ft. to an unoccupied space it can see."
+      },
+      {
+        "name": "Mind Surge (Costs 2 Actions)",
+        "desc": "Each creature of the anarch's choice in a 30-foot cube must make a DC 18 Int save or take 16 (3d10) psychic damage and be stunned until the start of its next turn."
+      }
+    ],
+    "legendaryActionsNote": "The githzerai anarch can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Four unarmed attacks with massive psychic damage. AC 20 from Wisdom. Haste for extra attack. Mind Surge stuns groups. The most powerful githzerai.",
+    "actionEconomy": "Four attacks plus legendary actions and full psionic suite.",
+    "encounterNotes": "Githzerai monasteries. A near-divine figure.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_githzerai_enlightened",
+    "name": "Githzerai Enlightened",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "gith",
+    "alignment": "lawful neutral",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 3,
+    "ac": 18,
+    "acNote": "psychic defense",
+    "hp": 112,
+    "hpFormula": "15d8+45",
+    "speed": {
+      "walk": 30,
+      "fly": 40,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 14,
+    "dex": 19,
+    "con": 16,
+    "int": 17,
+    "wis": 19,
+    "cha": 13,
+    "savingThrows": {
+      "str": 5,
+      "dex": 7,
+      "con": null,
+      "int": 6,
+      "wis": 7,
+      "cha": null
+    },
+    "skills": {
+      "arcana": 6,
+      "insight": 7,
+      "perception": 7
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 17,
+      "truesight": 30
+    },
+    "languages": "Gith",
+    "traits": [
+      {
+        "name": "Psychic Defense",
+        "desc": "AC includes Wisdom modifier when unarmored."
+      },
+      {
+        "name": "Innate Spellcasting (Psionics)",
+        "desc": "Wis-based (spell save DC 15). At will: mage hand (invisible), see invisibility. 3/day each: blur, haste. 1/day: plane shift."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes four Unarmed Strike attacks."
+      },
+      {
+        "name": "Unarmed Strike",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) bludgeoning damage plus 13 (3d8) psychic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Four unarmed strikes with psychic damage. Haste for extra attack. A veteran monk-psion.",
+    "actionEconomy": "Four attacks plus psionics.",
+    "encounterNotes": "Githzerai monasteries. An elder warrior.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_cadaver_collector",
+    "name": "Cadaver Collector",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Construct",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "14",
+    "xp": 11500,
+    "proficiencyBonus": 5,
+    "ac": 17,
+    "acNote": "natural armor",
+    "hp": 171,
+    "hpFormula": "18d10+72",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 21,
+    "dex": 14,
+    "con": 19,
+    "int": 5,
+    "wis": 10,
+    "cha": 6,
+    "savingThrows": {
+      "str": 10,
+      "dex": null,
+      "con": 9,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "lightning",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60,
+      "blindsight": 60
+    },
+    "languages": "understands all languages but can't speak",
+    "traits": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If the cadaver collector fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Slam attacks, and uses Paralyzing Breath if available."
+      },
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 18 (3d8+5) bludgeoning damage plus 10 (3d6) necrotic damage."
+      },
+      {
+        "name": "Paralyzing Breath (Recharge 5-6)",
+        "desc": "Exhales a 30-foot cone of paralyzing gas. DC 17 Con save or paralyzed for 1 minute. Repeat save at end of each turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two slam attacks with necrotic. Paralyzing Breath AoE can lock down an entire party. Legendary Resistance. Massive HP.",
+    "actionEconomy": "Two slam attacks plus Paralyzing Breath on recharge.",
+    "encounterNotes": "Ancient battlefields and mass graves. Animated by necromantic power.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_corpse_flower",
+    "name": "Corpse Flower",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Plant",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "8",
+    "xp": 3900,
+    "proficiencyBonus": 3,
+    "ac": 12,
+    "acNote": "natural armor",
+    "hp": 127,
+    "hpFormula": "15d10+45",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 20
+    },
+    "str": 14,
+    "dex": 11,
+    "con": 17,
+    "int": 7,
+    "wis": 10,
+    "cha": 3,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "blinded",
+      "deafened",
+      "frightened"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "blindsight": 120
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Corpses",
+        "desc": "Contains up to 9 humanoid corpses. When it takes 35+ damage in a single turn, a corpse tumbles out as a zombie with 1 HP."
+      },
+      {
+        "name": "Horrible Stench",
+        "desc": "Each creature that starts its turn within 10 ft. must succeed on a DC 14 Con save or be poisoned until the start of its next turn."
+      },
+      {
+        "name": "Spider Climb",
+        "desc": "Can climb difficult surfaces including ceilings."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three Tentacle attacks, or uses Harvest the Dead and makes two Tentacle attacks."
+      },
+      {
+        "name": "Tentacle",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (2d6+2) bludgeoning damage plus 10 (3d6) poison damage, and the target is grappled (escape DC 12) and restrained."
+      },
+      {
+        "name": "Harvest the Dead",
+        "desc": "Swallows one corpse within 10 ft. and gains 10 temporary HP. On a d6 roll of 6, a zombie animates within 5 ft."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three tentacles grapple up to two targets with poison. Horrible Stench passively poisons nearby. Corpses spawn zombies when it takes damage.",
+    "actionEconomy": "Three tentacle attacks or Harvest + two tentacles.",
+    "encounterNotes": "Undead-infested areas. A mobile nest of corpses.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_tortle",
+    "name": "Tortle",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "tortle",
+    "alignment": "lawful good",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 17,
+    "acNote": "natural armor",
+    "hp": 22,
+    "hpFormula": "4d8+4",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 30,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 10,
+    "con": 12,
+    "int": 11,
+    "wis": 13,
+    "cha": 12,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11
+    },
+    "languages": "Aquan, Common",
+    "traits": [
+      {
+        "name": "Hold Breath",
+        "desc": "Can hold its breath for 1 hour."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage."
+      },
+      {
+        "name": "Spear",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6+2) or 6 (1d8+2) piercing damage."
+      },
+      {
+        "name": "Shell Defense",
+        "desc": "The tortle withdraws into its shell, AC becomes 21, becomes prone, speed 0, can't take reactions, can only emerge as an action."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Shell Defense gives AC 21 when not attacking. Natural AC 17 normally.",
+    "actionEconomy": "Single attack or Shell Defense.",
+    "encounterNotes": "Coastal waters and tropical islands. Usually friendly.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_tortle_druid",
+    "name": "Tortle Druid",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "tortle",
+    "alignment": "neutral",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 17,
+    "acNote": "natural armor",
+    "hp": 33,
+    "hpFormula": "6d8+6",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 30,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 10,
+    "con": 12,
+    "int": 11,
+    "wis": 15,
+    "cha": 12,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 12
+    },
+    "languages": "Aquan, Common",
+    "traits": [
+      {
+        "name": "Hold Breath",
+        "desc": "Can hold its breath for 1 hour."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Wis-based (spell save DC 12). At will: druidcraft, guidance, shillelagh. 2/day each: cure wounds, thunderwave. 1/day each: call lightning, plant growth."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage."
+      },
+      {
+        "name": "Quarterstaff",
+        "desc": "Melee Weapon Attack: +4 to hit (or +4 with shillelagh), reach 5 ft., one target. Hit: 5 or 6 bludgeoning damage."
+      },
+      {
+        "name": "Shell Defense",
+        "desc": "Same as tortle."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Call lightning for sustained damage. Plant growth for terrain control. Shell Defense for extreme defense.",
+    "actionEconomy": "Spellcasting priority. Shell Defense when cornered.",
+    "encounterNotes": "Coastal communities. Spiritual leader of a tortle village.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_eidolon",
+    "name": "Eidolon",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "any alignment",
+    "cr": "12",
+    "xp": 8400,
+    "proficiencyBonus": 3,
+    "ac": 17,
+    "acNote": "natural armor",
+    "hp": 136,
+    "hpFormula": "16d8+64",
+    "speed": {
+      "walk": 30,
+      "fly": 40,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 21,
+    "dex": 14,
+    "con": 18,
+    "int": 15,
+    "wis": 18,
+    "cha": 16,
+    "savingThrows": {
+      "str": 9,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": 8,
+      "cha": 7
+    },
+    "skills": {
+      "history": 6,
+      "perception": 8,
+      "religion": 6
+    },
+    "damageResistances": [
+      "acid",
+      "fire",
+      "lightning",
+      "thunder",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "cold",
+      "necrotic",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "poisoned",
+      "prone",
+      "restrained"
+    ],
+    "senses": {
+      "passivePerception": 18,
+      "truesight": 60
+    },
+    "languages": "All languages it knew in life",
+    "traits": [
+      {
+        "name": "Divine Offices",
+        "desc": "When the eidolon manifests within a sacred statue, the statue uses the eidolon's statistics."
+      },
+      {
+        "name": "Incorporeal Movement",
+        "desc": "Can move through creatures and objects as difficult terrain."
+      },
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If the eidolon fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Slam attacks."
+      },
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) bludgeoning damage plus 9 (2d8) radiant or necrotic damage (eidolon's choice)."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Wis-based (spell save DC 16). At will: guidance, resistance, sacred flame. 3/day each: dispel magic, spiritual weapon. 1/day each: commune, flame strike, hero's feast."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Slam",
+        "desc": "Makes one Slam attack."
+      },
+      {
+        "name": "Blessing of the Faithful (2/Day)",
+        "desc": "A creature within 30 ft. gains 10 temporary HP."
+      },
+      {
+        "name": "Sanctify Ground (Costs 3 Actions)",
+        "desc": "Each allied creature that starts its turn within 60 ft. regains 5 HP if it has at least 1 HP."
+      }
+    ],
+    "legendaryActionsNote": "The eidolon can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Manifests in sacred statues. Legendary Resistance. Slam with flexible damage type. Flame Strike for AoE. Sanctify Ground regens ally HP.",
+    "actionEconomy": "Two slam attacks plus legendary actions and divine spellcasting.",
+    "encounterNotes": "Ancient temples. Awakened when its sacred space is desecrated.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_narzugon",
+    "name": "Narzugon",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Fiend",
+    "subtype": "devil",
+    "alignment": "lawful evil",
+    "cr": "13",
+    "xp": 10000,
+    "proficiencyBonus": 5,
+    "ac": 20,
+    "acNote": "plate armor",
+    "hp": 112,
+    "hpFormula": "15d8+45",
+    "speed": {
+      "walk": 30,
+      "fly": 60,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 20,
+    "dex": 10,
+    "con": 17,
+    "int": 16,
+    "wis": 14,
+    "cha": 19,
+    "savingThrows": {
+      "str": null,
+      "dex": 5,
+      "con": null,
+      "int": null,
+      "wis": 7,
+      "cha": 9
+    },
+    "skills": {
+      "perception": 7
+    },
+    "damageResistances": [
+      "cold",
+      "bludgeoning/piercing/slashing from nonmagical attacks not made with silvered weapons"
+    ],
+    "damageImmunities": [
+      "fire",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 17,
+      "darkvision": 120
+    },
+    "languages": "Common, Infernal, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Hellish Weapons",
+        "desc": "The narzugon's weapon attacks are magical and deal an extra 13 (3d8) psychic damage on a hit."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three Hellfire Lance attacks."
+      },
+      {
+        "name": "Hellfire Lance",
+        "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 11 (1d12+5) piercing damage plus 13 (3d8) psychic damage."
+      },
+      {
+        "name": "Infernal Command",
+        "desc": "Each ally within 60 ft. that isn't incapacitated must succeed on a DC 17 Wis save or be charmed until the start of the narzugon's next turn. A charmed creature must use its reaction to make one weapon attack against a target of the narzugon's choice."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Charge",
+        "desc": "Moves up to half its speed."
+      },
+      {
+        "name": "Hellfire Lance",
+        "desc": "Makes one Hellfire Lance attack."
+      },
+      {
+        "name": "Terrifying Command (Costs 2 Actions)",
+        "desc": "Uses Infernal Command."
+      }
+    ],
+    "legendaryActionsNote": "The narzugon can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three psychic lance attacks. Infernal Command forces nearby creatures to attack chosen targets. Hell's cavalry commander.",
+    "actionEconomy": "Three lance attacks plus legendary attacks and Infernal Command.",
+    "encounterNotes": "Hell's cavalry forces. Commands devil armies.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_orthon",
+    "name": "Orthon",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Fiend",
+    "subtype": "devil",
+    "alignment": "lawful evil",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 3,
+    "ac": 17,
+    "acNote": "natural armor",
+    "hp": 130,
+    "hpFormula": "20d8+40",
+    "speed": {
+      "walk": 30,
+      "fly": 30,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 22,
+    "dex": 16,
+    "con": 15,
+    "int": 17,
+    "wis": 15,
+    "cha": 17,
+    "savingThrows": {
+      "str": 10,
+      "dex": 7,
+      "con": null,
+      "int": null,
+      "wis": 6,
+      "cha": 7
+    },
+    "skills": {
+      "perception": 6,
+      "stealth": 7,
+      "survival": 6
+    },
+    "damageResistances": [
+      "cold",
+      "bludgeoning/piercing/slashing from nonmagical attacks not made with silvered weapons"
+    ],
+    "damageImmunities": [
+      "fire",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 16,
+      "darkvision": 120,
+      "truesight": 30
+    },
+    "languages": "Common, Infernal, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Devil's Sight",
+        "desc": "Magical darkness doesn't impede the orthon's darkvision."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      },
+      {
+        "name": "Smoke Aura",
+        "desc": "When the orthon takes damage, it emits a smoke cloud. Until the end of its next turn, attack rolls against the orthon have disadvantage."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Brass Crossbow attacks or one Brass Crossbow and one Infernal Dagger attack."
+      },
+      {
+        "name": "Brass Crossbow",
+        "desc": "Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit: 7 (1d8+3) piercing damage plus 14 (4d6) fire damage."
+      },
+      {
+        "name": "Infernal Dagger",
+        "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 9 (1d6+6) piercing damage plus 14 (4d6) fire damage, and the target must succeed on a DC 16 Con save or be poisoned for 1 minute."
+      },
+      {
+        "name": "Smoke Bomb (1/Day)",
+        "desc": "Throws a bomb that creates a 20-foot-radius sphere of thick smoke, heavily obscured, lasting 1 minute."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Fires crossbow for massive fire damage. Smoke Aura gives disadvantage to hit when taking damage. Smoke Bomb creates cover. Infernal bounty hunter.",
+    "actionEconomy": "Two ranged attacks or mixed melee/ranged each with heavy fire damage.",
+    "encounterNotes": "Sent from Hell to hunt specific targets \u2014 escaped souls, contract breakers.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_alhoon",
+    "name": "Alhoon",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "any evil alignment",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 3,
+    "ac": 15,
+    "acNote": "natural armor",
+    "hp": 120,
+    "hpFormula": "16d8+48",
+    "speed": {
+      "walk": 30,
+      "fly": 30,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 11,
+    "dex": 12,
+    "con": 15,
+    "int": 19,
+    "wis": 17,
+    "cha": 16,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": 7,
+      "int": 9,
+      "wis": 8,
+      "cha": 7
+    },
+    "skills": {
+      "arcana": 9,
+      "history": 9,
+      "insight": 8,
+      "perception": 8,
+      "stealth": 6
+    },
+    "damageResistances": [
+      "cold",
+      "lightning",
+      "necrotic"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "paralyzed",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 18,
+      "darkvision": 60,
+      "truesight": 60
+    },
+    "languages": "Deep Speech, Undercommon, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If the alhoon fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Int-based (spell save DC 17). Cantrips: chill touch, frostbite, mage hand, shocking grasp. 1st-4th level: darkness, detect magic, detect thoughts, lightning bolt, phantasmal killer, remove curse, scrying, thunderwave, wall of force."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Chilling Grasp",
+        "desc": "Melee Spell Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (4d6) cold damage, and the target can't regain HP until the start of the alhoon's next turn."
+      },
+      {
+        "name": "Mind Blast (Recharge 5-6)",
+        "desc": "60-foot cone; DC 17 Int save or take 27 (5d8+5) psychic damage and be stunned for 1 minute."
+      },
+      {
+        "name": "Paralyzing Touch (Recharge 6)",
+        "desc": "DC 17 Con save or paralyzed for 1 minute. Repeat save each turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Tentacle",
+        "desc": "Makes one Chilling Grasp attack."
+      },
+      {
+        "name": "Cast a Spell (Costs 2 Actions)",
+        "desc": "Uses Spellcasting."
+      },
+      {
+        "name": "Mind Blast (Costs 3 Actions)",
+        "desc": "Uses Mind Blast if available."
+      }
+    ],
+    "legendaryActionsNote": "The alhoon can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Mind Blast stuns groups. Chilling Grasp prevents healing. Paralyzing Touch locks down a PC. Wall of Force for isolation. A mind flayer that became undead to escape its elder brain.",
+    "actionEconomy": "Chilling Grasp plus Mind Blast and spellcasting. Legendary actions extend threat.",
+    "encounterNotes": "Abandoned mind flayer outposts. Brilliant, paranoid, hostile to nearly everyone.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_star_spawn_grue",
+    "name": "Star Spawn Grue",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 11,
+    "acNote": "",
+    "hp": 17,
+    "hpFormula": "5d6",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 6,
+    "dex": 13,
+    "con": 10,
+    "int": 14,
+    "wis": 10,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "frightened"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "Deep Speech",
+    "traits": [
+      {
+        "name": "Aura of Madness",
+        "desc": "Each creature within 20 ft. that isn't an aberration must succeed on a DC 10 Wis save at the start of its turn or take 1 psychic damage and have disadvantage on all attack rolls until the start of its next turn."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Confounding Bite",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage, and the target must succeed on a DC 10 Wis save or be frightened until the end of the target's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Aura of Madness passively gives all non-aberrations disadvantage on attacks. Stack multiple grues for a crushing debuff field.",
+    "actionEconomy": "Single bite with fear. Aura of Madness passive.",
+    "encounterNotes": "Far Realm incursions. Six grues together are devastating.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_star_spawn_mangler",
+    "name": "Star Spawn Mangler",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "ac": 14,
+    "acNote": "",
+    "hp": 71,
+    "hpFormula": "13d8+13",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 40
+    },
+    "str": 8,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": 7,
+      "con": null,
+      "int": null,
+      "wis": 3,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "frightened"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "Deep Speech",
+    "traits": [
+      {
+        "name": "Ambush",
+        "desc": "On the first round of combat, has advantage on attack rolls against any creature that hasn't taken a turn yet."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes six Claw attacks. Each Claw attack that hits the same target as a previous attack in this action deals 3 (1d6) extra slashing damage."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d4+4) slashing damage."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Shadow Stealth",
+        "desc": "While in dim light or darkness, takes the Hide action."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Six claw attacks per action, each subsequent hit on same target escalates damage. Ambush advantage on first round. A six-armed shredder.",
+    "actionEconomy": "Six claw attacks per action with escalating damage on same target.",
+    "encounterNotes": "Starfall sites. Appears and shreds a single target.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_star_spawn_hulk",
+    "name": "Star Spawn Hulk",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 3,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 136,
+    "hpFormula": "13d10+65",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 20,
+    "dex": 8,
+    "con": 21,
+    "int": 7,
+    "wis": 12,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": 2,
+      "con": null,
+      "int": null,
+      "wis": 5,
+      "cha": null
+    },
+    "skills": {
+      "perception": 5
+    },
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "frightened"
+    ],
+    "senses": {
+      "passivePerception": 15,
+      "darkvision": 60
+    },
+    "languages": "Deep Speech",
+    "traits": [
+      {
+        "name": "Psychic Mirror",
+        "desc": "If the hulk takes psychic damage, each creature within 10 ft. takes the same amount. The hulk takes no psychic damage."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Slam attacks."
+      },
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 14 (2d8+5) bludgeoning damage. If Large or smaller, DC 17 Str save or be moved to an unoccupied space within 10 ft."
+      },
+      {
+        "name": "Reaping Arms (Recharge 5-6)",
+        "desc": "Each creature within 10 ft. makes a DC 17 Dex save, taking 28 (8d6) slashing damage on failure or half on success. Area within 10 ft. becomes difficult terrain until start of hulk's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Psychic Mirror reflects psychic damage back at casters. Two slams reposition enemies. Reaping Arms AoE on recharge. Don't use psychic spells.",
+    "actionEconomy": "Two slam attacks plus Reaping Arms on recharge.",
+    "encounterNotes": "Far Realm incursions. The brute \u2014 crashes through defenses.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_star_spawn_larva_mage",
+    "name": "Star Spawn Larva Mage",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "16",
+    "xp": 15000,
+    "proficiencyBonus": 5,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 168,
+    "hpFormula": "16d10+80",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 17,
+    "dex": 12,
+    "con": 20,
+    "int": 18,
+    "wis": 14,
+    "cha": 16,
+    "savingThrows": {
+      "str": null,
+      "dex": 6,
+      "con": null,
+      "int": 9,
+      "wis": 7,
+      "cha": 8
+    },
+    "skills": {},
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "psychic"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "poisoned",
+      "restrained"
+    ],
+    "senses": {
+      "passivePerception": 17,
+      "darkvision": 60,
+      "truesight": 60
+    },
+    "languages": "Deep Speech; telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If it fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Cha-based (spell save DC 16). At will: detect magic. 2/day each: dominate monster, Evard's black tentacles, plane shift. 1/day: hunger of Hadar."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Slam attacks, or uses Plague of Grues."
+      },
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d10+3) bludgeoning damage plus 18 (4d8) psychic damage."
+      },
+      {
+        "name": "Plague of Grues (Recharge 5-6)",
+        "desc": "Hundreds of grues erupt from the mage. Each creature within 20 ft. must succeed on a DC 16 Dex save or take 35 (10d6) psychic damage and be incapacitated until the start of the mage's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Slam",
+        "desc": "Makes one Slam attack."
+      },
+      {
+        "name": "Feed on Weakness (Costs 2 Actions)",
+        "desc": "One creature within 60 ft. with 0 temporary HP takes 14 (4d6) psychic damage and is frightened until start of mage's next turn."
+      },
+      {
+        "name": "Plague of Grues (Costs 3 Actions)",
+        "desc": "Uses Plague of Grues if available."
+      }
+    ],
+    "legendaryActionsNote": "The larva mage can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Plague of Grues for AoE psychic incapacitation. Dominate Monster for control. Hunger of Hadar for area denial. Two slams with massive psychic.",
+    "actionEconomy": "Two slam attacks or Plague of Grues plus legendary and spellcasting.",
+    "encounterNotes": "Far Realm incursions. The spellcasting commander.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_star_spawn_seer",
+    "name": "Star Spawn Seer",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "13",
+    "xp": 10000,
+    "proficiencyBonus": 5,
+    "ac": 17,
+    "acNote": "natural armor",
+    "hp": 136,
+    "hpFormula": "16d8+64",
+    "speed": {
+      "walk": 30,
+      "fly": 30,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 12,
+    "dex": 16,
+    "con": 18,
+    "int": 22,
+    "wis": 18,
+    "cha": 14,
+    "savingThrows": {
+      "str": null,
+      "dex": 8,
+      "con": null,
+      "int": 11,
+      "wis": 9,
+      "cha": 7
+    },
+    "skills": {
+      "arcana": 11,
+      "history": 11
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "frightened"
+    ],
+    "senses": {
+      "passivePerception": 19,
+      "darkvision": 60,
+      "truesight": 60
+    },
+    "languages": "Common, Deep Speech, Undercommon; telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If it fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Int-based (spell save DC 19). At will: detect thoughts, levitate, mage hand. 3/day each: confusion, dimension door, suggestion. 1/day each: dominate monster, feeblemind, telekinesis."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Delusion attacks."
+      },
+      {
+        "name": "Delusion",
+        "desc": "Melee or Ranged Spell Attack: +11 to hit, reach 5 ft. or range 120 ft., one target. Hit: 20 (3d10+4) psychic damage, and the target must succeed on a DC 19 Wis save or become frightened for 1 minute."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Psychic Lash",
+        "desc": "One creature within 60 ft. takes 10 (3d6) psychic damage."
+      },
+      {
+        "name": "Vision of Terror (Costs 2 Actions)",
+        "desc": "One creature within 60 ft. must succeed on a DC 19 Wis save or take 22 (4d10) psychic damage and be frightened until start of seer's next turn."
+      },
+      {
+        "name": "Bend Space (Costs 3 Actions)",
+        "desc": "Two creatures within 120 ft. swap positions. Each must succeed on a DC 19 Wis save or be stunned until start of seer's next turn."
+      }
+    ],
+    "legendaryActionsNote": "The seer can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Feeblemind destroys a spellcaster. Dominate Monster for control. Bend Space repositions entire battlefield. Delusion frightens on failed save.",
+    "actionEconomy": "Two Delusion attacks plus full spellcasting and legendary actions.",
+    "encounterNotes": "Far Realm incursions led by guiding intelligence. Tactician of star spawn forces.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_yagnoloth",
+    "name": "Yagnoloth",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Fiend",
+    "subtype": "yugoloth",
+    "alignment": "neutral evil",
+    "cr": "11",
+    "xp": 7200,
+    "proficiencyBonus": 3,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 147,
+    "hpFormula": "14d10+70",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 19,
+    "dex": 14,
+    "con": 19,
+    "int": 16,
+    "wis": 15,
+    "cha": 18,
+    "savingThrows": {
+      "str": null,
+      "dex": 6,
+      "con": null,
+      "int": 7,
+      "wis": null,
+      "cha": 8
+    },
+    "skills": {
+      "deception": 8,
+      "insight": 6,
+      "perception": 6,
+      "persuasion": 8
+    },
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "acid",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 16,
+      "darkvision": 60,
+      "truesight": 60
+    },
+    "languages": "Abyssal, Infernal, telepathy 60 ft.",
+    "traits": [
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      },
+      {
+        "name": "Magic Weapons",
+        "desc": "The yagnoloth's weapon attacks are magical."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one Electrified Touch attack and one Massive Arm attack, or makes two Massive Arm attacks."
+      },
+      {
+        "name": "Electrified Touch",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 27 (6d8) lightning damage."
+      },
+      {
+        "name": "Massive Arm",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 23 (3d12+4) bludgeoning damage. If the target is a creature, DC 16 Con save or stunned until end of its next turn."
+      },
+      {
+        "name": "Battlefield Cunning (Recharge 4-6)",
+        "desc": "Up to two allied yugoloths within 60 ft. can use their reactions to each make one melee attack."
+      },
+      {
+        "name": "Life Drain",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one creature. Hit: 26 (4d12) necrotic damage, and the yagnoloth regains HP equal to the necrotic damage dealt."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "15-ft. reach massive arm stuns on failed save. Electrified touch is burst lightning. Life Drain for sustain. Battlefield Cunning gives two allies free attacks. A yugoloth field commander.",
+    "actionEconomy": "Two attacks per action. Battlefield Cunning triggers ally reactions.",
+    "encounterNotes": "Yugoloth mercenary forces. Negotiates contracts and leads troops.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_sibriex",
+    "name": "Sibriex",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Huge",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "18",
+    "xp": 20000,
+    "proficiencyBonus": 6,
+    "ac": 19,
+    "acNote": "natural armor",
+    "hp": 150,
+    "hpFormula": "12d12+72",
+    "speed": {
+      "walk": 30,
+      "fly": 20,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 10,
+    "dex": 3,
+    "con": 23,
+    "int": 25,
+    "wis": 24,
+    "cha": 25,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": 13,
+      "wis": 13,
+      "cha": 13
+    },
+    "skills": {
+      "arcana": 13,
+      "history": 13,
+      "nature": 13,
+      "perception": 13
+    },
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 23,
+      "truesight": 120
+    },
+    "languages": "All, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Contamination",
+        "desc": "The sibriex corrupts the air within 30 ft. of it. Any creature that starts its turn in that area must succeed on a DC 20 Con save or take 14 (4d6) poison damage."
+      },
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If the sibriex fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      },
+      {
+        "name": "Innate Spellcasting",
+        "desc": "Cha-based (spell save DC 21). At will: charm person, command, dispel magic, hold monster. 3/day each: feeblemind. 1/day: imprisonment."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three Warp attacks."
+      },
+      {
+        "name": "Warp",
+        "desc": "Ranged Spell Attack: +13 to hit, range 120 ft., one target. Hit: 21 (6d6) acid damage, and DC 20 Con save or restrained for 1 minute."
+      },
+      {
+        "name": "Squirt Bile (Recharge 5-6)",
+        "desc": "30-foot cone. DC 20 Con save or take 35 (10d6) poison damage and be poisoned for 1 minute on failure."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Cast a Spell",
+        "desc": "Uses Innate Spellcasting."
+      },
+      {
+        "name": "Warp (Costs 2 Actions)",
+        "desc": "Makes one Warp attack."
+      },
+      {
+        "name": "Contamination Wave (Costs 3 Actions)",
+        "desc": "Each creature in 30 ft. makes a DC 20 Con save or take 21 (6d6) poison damage and have Wis reduced by 1d4."
+      }
+    ],
+    "legendaryActionsNote": "The sibriex can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Contamination aura poisons every turn. Warp restrains targets. Feeblemind destroys spellcasters. Imprisonment for the big threat. Ancient demon who knows secrets of the Abyss.",
+    "actionEconomy": "Three Warp attacks per action plus legendary and spellcasting.",
+    "encounterNotes": "Ancient demonic sites. Present at the creation of the Abyss. Knows reality-altering secrets.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_wastrilith",
+    "name": "Wastrilith",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "13",
+    "xp": 10000,
+    "proficiencyBonus": 5,
+    "ac": 18,
+    "acNote": "natural armor",
+    "hp": 157,
+    "hpFormula": "15d10+75",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 80,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 19,
+    "dex": 18,
+    "con": 21,
+    "int": 19,
+    "wis": 12,
+    "cha": 14,
+    "savingThrows": {
+      "str": 9,
+      "dex": 9,
+      "con": 10,
+      "int": null,
+      "wis": 6,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 16,
+      "darkvision": 120
+    },
+    "languages": "Abyssal, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "desc": "Can breathe air and water."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      },
+      {
+        "name": "Undertow",
+        "desc": "Bonus action while in water: force each creature of its choice within 30 ft. in the water to succeed on a DC 18 Str save or be pulled up to 30 ft. toward the wastrilith."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one Bite and two Claw attacks."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 30 (4d12+4) piercing damage."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 18 (4d6+4) slashing damage."
+      },
+      {
+        "name": "Corrupted Water (Recharge 5-6)",
+        "desc": "Contaminates all water in a 60-foot cube. DC 18 Con save or take 35 (10d6) acid damage and be poisoned for 1 minute."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Undertow pulls creatures into melee. Three attacks with long reach. Corrupted Water for AoE acid/poison. Aquatic demon ruler.",
+    "actionEconomy": "Three attacks per action. Undertow as bonus action in water.",
+    "encounterNotes": "Aquatic demonic encounters. Commands aquatic demons in underwater Abyssal regions.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_bael",
+    "name": "Bael",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Fiend",
+    "subtype": "devil",
+    "alignment": "lawful evil",
+    "cr": "19",
+    "xp": 22000,
+    "proficiencyBonus": 6,
+    "ac": 18,
+    "acNote": "plate armor",
+    "hp": 189,
+    "hpFormula": "18d10+90",
+    "speed": {
+      "walk": 30,
+      "fly": 60,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 24,
+    "dex": 17,
+    "con": 20,
+    "int": 21,
+    "wis": 24,
+    "cha": 21,
+    "savingThrows": {
+      "str": null,
+      "dex": 9,
+      "con": 11,
+      "int": 11,
+      "wis": 13,
+      "cha": null
+    },
+    "skills": {
+      "intimidation": 11,
+      "perception": 13
+    },
+    "damageResistances": [
+      "cold",
+      "bludgeoning/piercing/slashing from nonmagical attacks not made with silvered weapons"
+    ],
+    "damageImmunities": [
+      "fire",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 23,
+      "darkvision": 120,
+      "truesight": 120
+    },
+    "languages": "All, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If Bael fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      },
+      {
+        "name": "Magic Weapons",
+        "desc": "Bael's weapon attacks are magical."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three Hellfire attacks."
+      },
+      {
+        "name": "Hellfire",
+        "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 16 (2d8+7) slashing damage plus 16 (3d10) fire damage. On a hit, the target is frightened until the start of Bael's next turn on a failed DC 21 Wis save."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Infernal Command",
+        "desc": "Each ally of Bael within 60 ft. gains a d10 bonus to its attack rolls until the start of Bael's next turn."
+      },
+      {
+        "name": "Terrifying Strike (Costs 2 Actions)",
+        "desc": "Makes one Hellfire attack. On a hit, the target is frightened until the end of its next turn on a failed DC 21 Wis save."
+      },
+      {
+        "name": "Summon Devils (Costs 3 Actions)",
+        "desc": "Summons 2d6 bearded devils, 1d4 chain devils, or one horned devil."
+      }
+    ],
+    "legendaryActionsNote": "Bael can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three hellfire attacks each frighten on hit. Infernal Command buffs all allies with d10 to attacks. Summon Devils for reinforcements. The Bronze General of Hell.",
+    "actionEconomy": "Three attacks plus legendary and Infernal Command.",
+    "encounterNotes": "Hell or major infernal incursions. Commands legions of devils. Very willing to negotiate.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_moloch",
+    "name": "Moloch",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Fiend",
+    "subtype": "devil",
+    "alignment": "lawful evil",
+    "cr": "21",
+    "xp": 33000,
+    "proficiencyBonus": 7,
+    "ac": 19,
+    "acNote": "natural armor",
+    "hp": 253,
+    "hpFormula": "22d10+132",
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 24,
+    "dex": 23,
+    "con": 24,
+    "int": 21,
+    "wis": 22,
+    "cha": 21,
+    "savingThrows": {
+      "str": null,
+      "dex": 9,
+      "con": 13,
+      "int": 8,
+      "wis": 9,
+      "cha": 8
+    },
+    "skills": {
+      "intimidation": 8,
+      "perception": 9
+    },
+    "damageResistances": [
+      "cold",
+      "bludgeoning/piercing/slashing from nonmagical attacks not made with silvered weapons"
+    ],
+    "damageImmunities": [
+      "fire",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 19,
+      "darkvision": 120,
+      "truesight": 120
+    },
+    "languages": "All, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Fear Aura",
+        "desc": "Any creature hostile to Moloch within 20 ft. must succeed on a DC 21 Wis save at the start of its turn or be frightened until start of its next turn."
+      },
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If Moloch fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three Hellfire Greatclub attacks."
+      },
+      {
+        "name": "Hellfire Greatclub",
+        "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 20 (3d8+7) bludgeoning damage plus 22 (4d10) fire damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Subjugate",
+        "desc": "One creature within 60 ft. must succeed on a DC 21 Wis save or be frightened and charmed by Moloch for 1 minute."
+      },
+      {
+        "name": "Hellfire Blast (Costs 2 Actions)",
+        "desc": "Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit: 35 (10d6) fire damage."
+      },
+      {
+        "name": "Summon Devils (Costs 3 Actions)",
+        "desc": "Summons 2d4 bearded devils, 2d4 chain devils, or one pit fiend."
+      }
+    ],
+    "legendaryActionsNote": "Moloch can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Fear Aura frightens enemies passively. Three 15-ft. reach attacks with fire. Subjugate to charm and frighten. Summon pit fiend. An archdevil of war.",
+    "actionEconomy": "Three attacks plus legendary and Fear Aura.",
+    "encounterNotes": "Phlegethos or major infernal incursions. Exiled archdevil \u2014 desperate and dangerous.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_geryon",
+    "name": "Geryon",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Huge",
+    "type": "Fiend",
+    "subtype": "devil",
+    "alignment": "lawful evil",
+    "cr": "22",
+    "xp": 41000,
+    "proficiencyBonus": 7,
+    "ac": 19,
+    "acNote": "natural armor",
+    "hp": 300,
+    "hpFormula": "24d12+120",
+    "speed": {
+      "walk": 30,
+      "fly": 50,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 29,
+    "dex": 17,
+    "con": 20,
+    "int": 15,
+    "wis": 20,
+    "cha": 23,
+    "savingThrows": {
+      "str": null,
+      "dex": 10,
+      "con": 12,
+      "int": null,
+      "wis": 12,
+      "cha": 13
+    },
+    "skills": {
+      "deception": 13,
+      "insight": 12,
+      "perception": 12,
+      "persuasion": 13
+    },
+    "damageResistances": [
+      "cold",
+      "bludgeoning/piercing/slashing from nonmagical attacks not made with silvered weapons"
+    ],
+    "damageImmunities": [
+      "fire",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 22,
+      "darkvision": 120,
+      "truesight": 120
+    },
+    "languages": "All, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If Geryon fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      },
+      {
+        "name": "Magic Weapons",
+        "desc": "Geryon's weapon attacks are magical."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one Claw and one Stinger attack."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 23 (4d6+9) slashing damage. If the target is Large or smaller, it is grappled (escape DC 24) and restrained. Geryon can grapple one creature at a time."
+      },
+      {
+        "name": "Stinger",
+        "desc": "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 14 (2d4+9) piercing damage plus 27 (6d8) poison damage, and the target must succeed on a DC 20 Con save or become poisoned and paralyzed. Repeat save at end of each turn."
+      },
+      {
+        "name": "Frightful Presence",
+        "desc": "Each creature of Geryon's choice within 120 ft. must succeed on a DC 21 Wis save or become frightened for 1 minute."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Infernal Glare",
+        "desc": "One creature within 120 ft. must succeed on a DC 23 Wis save or be frightened until start of Geryon's next turn."
+      },
+      {
+        "name": "Swift Sting (Costs 2 Actions)",
+        "desc": "Makes one Stinger attack."
+      },
+      {
+        "name": "Teleport (Costs 2 Actions)",
+        "desc": "Teleports up to 120 ft."
+      }
+    ],
+    "legendaryActionsNote": "Geryon can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Claw grapples and restrains, then stinger paralyzes the held target with massive poison. Frightful Presence to frighten all. Stinger reaches 20 ft. Teleport for repositioning.",
+    "actionEconomy": "Claw + stinger per action. Legendary stinger for extra paralysis.",
+    "encounterNotes": "Stygia layer of Hell. Geryon is exiled \u2014 bitter and extremely dangerous.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_vampiric_mist",
+    "name": "Vampiric Mist",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 30,
+    "hpFormula": "4d8+12",
+    "speed": {
+      "walk": 30,
+      "fly": 30,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 6,
+    "dex": 16,
+    "con": 16,
+    "int": 6,
+    "wis": 12,
+    "cha": 7,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "acid",
+      "cold",
+      "lightning",
+      "necrotic",
+      "thunder",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "poisoned",
+      "prone",
+      "restrained"
+    ],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Life Sense",
+        "desc": "Can sense the presence and location of any creature within 60 ft. that has blood."
+      },
+      {
+        "name": "Misty Form",
+        "desc": "Can occupy another creature's space and move through any opening air can pass through."
+      },
+      {
+        "name": "Sunlight Hypersensitivity",
+        "desc": "Takes 10 radiant damage at start of turn in sunlight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Blood Drain",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6+3) necrotic damage, and the mist regains HP equal to the damage dealt. The target's HP maximum is reduced by the same amount until it finishes a long rest."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Enters through any crack. Life Sense detects all blooded creatures within 60 ft. Drains blood and reduces HP max while healing itself.",
+    "actionEconomy": "Single Blood Drain attack with self-healing.",
+    "encounterNotes": "Vampire lairs and cursed swamps. Weakens prey before a vampire feeds.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_sword_wraith_warrior",
+    "name": "Sword Wraith Warrior",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "chain mail and shield",
+    "hp": 45,
+    "hpFormula": "6d8+18",
+    "speed": {
+      "walk": 30,
+      "fly": 30,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 14,
+    "con": 18,
+    "int": 11,
+    "wis": 12,
+    "cha": 14,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "necrotic",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "frightened",
+      "poisoned",
+      "unconscious"
+    ],
+    "senses": {
+      "passivePerception": 12,
+      "darkvision": 60
+    },
+    "languages": "The languages it knew in life",
+    "traits": [
+      {
+        "name": "Martial Fury",
+        "desc": "When the warrior takes the Attack action, it can make one Longsword attack as a bonus action. If both attacks hit the same target, the target takes an extra 9 (2d8) necrotic damage."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Longsword",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage, or 9 (1d10+4) if two-handed, plus 7 (2d6) necrotic damage."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Martial Fury",
+        "desc": "Makes one bonus Longsword attack (see trait)."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Longsword plus bonus action longsword \u2014 both hits add 2d8 necrotic. Two necrotic sword attacks per turn from an undead warrior that won't stop fighting.",
+    "actionEconomy": "Two longsword attacks per turn via Martial Fury.",
+    "encounterNotes": "Ancient battlefields and barrows. The undead of warriors who died with unfinished battles.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_sword_wraith_commander",
+    "name": "Sword Wraith Commander",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "8",
+    "xp": 3900,
+    "proficiencyBonus": 3,
+    "ac": 18,
+    "acNote": "chain mail and shield",
+    "hp": 127,
+    "hpFormula": "15d8+60",
+    "speed": {
+      "walk": 30,
+      "fly": 30,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 20,
+    "dex": 14,
+    "con": 18,
+    "int": 11,
+    "wis": 12,
+    "cha": 14,
+    "savingThrows": {
+      "str": 8,
+      "dex": null,
+      "con": 7,
+      "int": null,
+      "wis": 4,
+      "cha": null
+    },
+    "skills": {
+      "intimidation": 5,
+      "perception": 4
+    },
+    "damageResistances": [
+      "necrotic",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "frightened",
+      "poisoned",
+      "unconscious"
+    ],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 60
+    },
+    "languages": "The languages it knew in life",
+    "traits": [
+      {
+        "name": "Martial Fury",
+        "desc": "When the commander takes the Attack action, it can make one Longsword attack as a bonus action. If both attacks hit the same target, the target takes an extra 13 (3d8) necrotic damage."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Longsword attacks."
+      },
+      {
+        "name": "Longsword",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) slashing damage, or 10 (1d10+5) if two-handed, plus 13 (3d8) necrotic damage."
+      },
+      {
+        "name": "Animating Cry (Recharge 6)",
+        "desc": "Each sword wraith warrior within 30 ft. that can hear it gains 10 temporary HP and can immediately use its reaction to make one Longsword attack."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Martial Fury",
+        "desc": "Makes one bonus Longsword attack."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks per turn. Each hit adds 3d8 necrotic. Animating Cry gives all nearby warriors temp HP and a free attack.",
+    "actionEconomy": "Three attacks per turn (2 multiattack + 1 Martial Fury). Animating Cry for army-wide free attack.",
+    "encounterNotes": "Ancient battlefields. Commands a warband of sword wraith warriors.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_trapper",
+    "name": "Trapper",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "unaligned",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "natural armor",
+    "hp": 85,
+    "hpFormula": "10d10+30",
+    "speed": {
+      "walk": 10,
+      "fly": 10,
+      "swim": 10,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 17,
+    "dex": 10,
+    "con": 17,
+    "int": 2,
+    "wis": 12,
+    "cha": 4,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "stealth": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 60,
+      "blindsight": 30
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "False Appearance",
+        "desc": "While motionless, indistinguishable from a section of floor, wall, or ceiling."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Smother",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one Large or smaller creature. Hit: The creature is grappled (escape DC 13) and must succeed on a DC 13 Con save or be restrained and unable to breathe or speak. At the start of each of the trapper's turns, the target takes 17 (5d6) bludgeoning damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Disguised as floor/wall/ceiling. Wraps around victim and crushes. Can't breathe while smothered. Automatic 5d6 per turn.",
+    "actionEconomy": "Single Smother attack. Automatic damage each turn while smothering.",
+    "encounterNotes": "Caves and dungeons. Often missed until it wraps around the rearguard.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_vargouille",
+    "name": "Vargouille",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Tiny",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "",
+    "hp": 13,
+    "hpFormula": "3d4+6",
+    "speed": {
+      "walk": 30,
+      "fly": 40,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 6,
+    "dex": 13,
+    "con": 14,
+    "int": 4,
+    "wis": 9,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 9,
+      "darkvision": 60
+    },
+    "languages": "Understands Abyssal but can't speak",
+    "traits": [
+      {
+        "name": "Mimicry",
+        "desc": "Can mimic sounds of human screaming. DC 10 Insight to recognize as imitation."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 6 (2d4+1) piercing damage, and the target must succeed on a DC 12 Con save or be cursed. While cursed, target can't regain HP and takes 3 (1d6) psychic damage every 24 hours. If the target dies while cursed, its head tears free and becomes a vargouille."
+      },
+      {
+        "name": "Shriek (Recharge 6)",
+        "desc": "Each creature within 30 ft. that can hear and isn't a Fiend must succeed on a DC 12 Con save or be paralyzed until end of target's next turn. If the target fails by 5 or more, it is also frightened while paralyzed."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Bite curses target \u2014 prevents healing and kills slowly, creating more vargouilles. Shriek paralyzes everyone nearby.",
+    "actionEconomy": "Single bite with curse. Shriek on recharge for AoE paralysis.",
+    "encounterNotes": "Demonic encounters and cursed places. The curse must be cured quickly.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_elder_tempest",
+    "name": "Elder Tempest",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Gargantuan",
+    "type": "Elemental",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "23",
+    "xp": 50000,
+    "proficiencyBonus": 7,
+    "ac": 19,
+    "acNote": "natural armor",
+    "hp": 264,
+    "hpFormula": "16d20+96",
+    "speed": {
+      "walk": 30,
+      "fly": 150,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 25,
+    "dex": 24,
+    "con": 22,
+    "int": 13,
+    "wis": 14,
+    "cha": 15,
+    "savingThrows": {
+      "str": 14,
+      "dex": 14,
+      "con": 13,
+      "int": null,
+      "wis": 9,
+      "cha": null
+    },
+    "skills": {
+      "perception": 9
+    },
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "lightning",
+      "thunder"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained"
+    ],
+    "senses": {
+      "passivePerception": 19,
+      "darkvision": 120
+    },
+    "languages": "Auran, Primordial",
+    "traits": [
+      {
+        "name": "Air Form",
+        "desc": "Can enter a hostile creature's space and stop there. Can move through any opening at least 1 inch wide."
+      },
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If the elder tempest fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Siege Monster",
+        "desc": "Deals double damage to objects and structures."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Slam attacks."
+      },
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit: 30 (4d10+8) bludgeoning damage plus 11 (2d10) lightning damage."
+      },
+      {
+        "name": "Lightning Strike (Recharge 5-6)",
+        "desc": "One creature within 120 ft. must make a DC 21 Dex save. On failure, takes 99 (18d10) lightning damage. On success, half damage. The lightning arcs to a second target within 30 ft. for 55 (10d10) lightning damage (DC 21 Dex for half)."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Wind Burst",
+        "desc": "Each creature in a 20-foot-radius sphere must succeed on a DC 22 Str save or be pushed 20 ft. and knocked prone."
+      },
+      {
+        "name": "Slam (Costs 2 Actions)",
+        "desc": "Makes one Slam attack."
+      },
+      {
+        "name": "Lightning Strike (Costs 3 Actions)",
+        "desc": "Uses Lightning Strike if available."
+      }
+    ],
+    "legendaryActionsNote": "The elder tempest can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Lightning Strike hits one target for 18d10 and arcs for 10d10 more. Two massive slams. Wind Burst pushes and knocks prone. A living storm.",
+    "actionEconomy": "Two slam attacks plus legendary. Lightning Strike for apocalyptic burst.",
+    "encounterNotes": "Elemental incursions or where ley lines of storm power converge.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_zaratan",
+    "name": "Zaratan",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Gargantuan",
+    "type": "Elemental",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "22",
+    "xp": 41000,
+    "proficiencyBonus": 7,
+    "ac": 21,
+    "acNote": "natural armor",
+    "hp": 307,
+    "hpFormula": "23d20+69",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 40,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 30,
+    "dex": 10,
+    "con": 17,
+    "int": 2,
+    "wis": 17,
+    "cha": 7,
+    "savingThrows": {
+      "str": 17,
+      "dex": null,
+      "con": 10,
+      "int": null,
+      "wis": 9,
+      "cha": null
+    },
+    "skills": {
+      "perception": 9
+    },
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 19,
+      "darkvision": 60,
+      "tremorsense": 60
+    },
+    "languages": "Terran",
+    "traits": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If the zaratan fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Siege Monster",
+        "desc": "Deals double damage to objects and structures."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Bite attacks."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 32 (4d10+10) piercing damage. If the target is a Large or smaller creature, it is swallowed. A swallowed creature is blinded and restrained, has total cover, and takes 21 (6d6) acid damage at the start of each of the zaratan's turns."
+      },
+      {
+        "name": "Spit Rock",
+        "desc": "Ranged Weapon Attack: +17 to hit, range 120/480 ft., one target. Hit: 36 (4d12+8) bludgeoning damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Rumble",
+        "desc": "Each creature in contact with the ground within 60 ft. must succeed on a DC 25 Str save or fall prone."
+      },
+      {
+        "name": "Bite (Costs 2 Actions)",
+        "desc": "Makes one Bite attack."
+      },
+      {
+        "name": "Spit Rock (Costs 2 Actions)",
+        "desc": "Uses Spit Rock."
+      }
+    ],
+    "legendaryActionsNote": "The zaratan can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Swallows creatures whole. Spit Rock for long-range boulders. Rumble knocks everyone prone. A living island.",
+    "actionEconomy": "Two bite attacks plus legendary.",
+    "encounterNotes": "Ocean encounters or coastal destruction. Looks like a rocky island until it moves.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_leviathan",
+    "name": "Leviathan",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Gargantuan",
+    "type": "Elemental",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "20",
+    "xp": 25000,
+    "proficiencyBonus": 6,
+    "ac": 17,
+    "acNote": "natural armor",
+    "hp": 328,
+    "hpFormula": "23d20+92",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 60,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 30,
+    "dex": 24,
+    "con": 18,
+    "int": 2,
+    "wis": 18,
+    "cha": 17,
+    "savingThrows": {
+      "str": null,
+      "dex": 13,
+      "con": 11,
+      "int": null,
+      "wis": 11,
+      "cha": null
+    },
+    "skills": {
+      "perception": 11,
+      "stealth": 13
+    },
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "acid",
+      "cold",
+      "fire",
+      "lightning",
+      "thunder"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained"
+    ],
+    "senses": {
+      "passivePerception": 18,
+      "darkvision": 120,
+      "truesight": 60
+    },
+    "languages": "Aquan, Primordial",
+    "traits": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If the leviathan fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Siege Monster",
+        "desc": "Deals double damage to objects and structures."
+      },
+      {
+        "name": "Water Breathing",
+        "desc": "Can breathe only underwater."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Slam attacks."
+      },
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 28 (4d8+10) bludgeoning damage plus 14 (4d6) cold damage."
+      },
+      {
+        "name": "Tidal Wave (Recharge 5-6)",
+        "desc": "Creates a wave in a 60-foot-wide, 120-foot-long area. All creatures in the area must make a DC 19 Str save or take 35 (10d6) bludgeoning damage and be knocked prone and pushed up to 60 ft. On success, half damage only."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Surge",
+        "desc": "Moves up to half its swim speed."
+      },
+      {
+        "name": "Slam (Costs 2 Actions)",
+        "desc": "Makes one Slam attack."
+      },
+      {
+        "name": "Tidal Wave (Costs 3 Actions)",
+        "desc": "Uses Tidal Wave if available."
+      }
+    ],
+    "legendaryActionsNote": "The leviathan can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two slams with cold damage. Tidal Wave knocks prone and flings creatures 60 ft. Legendary Resistance. The ocean made manifest.",
+    "actionEconomy": "Two slam attacks plus legendary.",
+    "encounterNotes": "Deep ocean or Elemental Plane of Water. The apex of aquatic elemental power.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_sorrowsworn_wretched",
+    "name": "The Wretched",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 7,
+    "acNote": "",
+    "hp": 7,
+    "hpFormula": "2d6",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 7,
+    "dex": 13,
+    "con": 10,
+    "int": 5,
+    "wis": 6,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 8,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Sorrowsworn",
+        "desc": "The wretched deals 7 (2d6) extra damage to a creature if at least one other wretched is within 5 ft. of the target."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one Bite and one Claw attack."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) slashing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Swarms for extra damage. Two attacks per turn. Weak individually but terrifying in numbers.",
+    "actionEconomy": "Two attacks per action. Swarm bonus when two or more are adjacent.",
+    "encounterNotes": "Shadowfell. The lowest of the sorrowsworn \u2014 manifested suffering.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_sorrowsworn_hungry",
+    "name": "The Hungry",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "11",
+    "xp": 7200,
+    "proficiencyBonus": 3,
+    "ac": 19,
+    "acNote": "natural armor",
+    "hp": 225,
+    "hpFormula": "18d10+126",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 20,
+    "dex": 8,
+    "con": 24,
+    "int": 6,
+    "wis": 10,
+    "cha": 7,
+    "savingThrows": {
+      "str": 9,
+      "dex": null,
+      "con": 11,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "athletics": 9
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Sorrowsworn",
+        "desc": "At the start of each of its turns, if it can see a creature it attacked during its last turn, it gains 10 temporary HP."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Bite attacks."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 20 (3d10+5) piercing damage plus 14 (4d6) psychic damage. The target is grappled (escape DC 17) and restrained if Large or smaller."
+      },
+      {
+        "name": "Spit Tether",
+        "desc": "Ranged Weapon Attack: +3 to hit, range 30 ft., one target. Hit: The target is tethered \u2014 can't move more than 30 ft. from the Hungry. DC 17 Str to break."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Grapples with devastating bite. Spit Tether locks down a second target. Gains 10 temp HP each turn while pursuing the same target.",
+    "actionEconomy": "Two bite attacks plus Spit Tether for range control.",
+    "encounterNotes": "Shadowfell. Pursues prey relentlessly. Represents starvation and longing.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_sorrowsworn_lonely",
+    "name": "The Lonely",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "9",
+    "xp": 5000,
+    "proficiencyBonus": 3,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 150,
+    "hpFormula": "20d10+40",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 16,
+    "dex": 12,
+    "con": 15,
+    "int": 13,
+    "wis": 17,
+    "cha": 14,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": 7,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 17,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Sorrowsworn",
+        "desc": "When the lonely ends its turn without an ally within 60 ft., it takes 20 psychic damage."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Embrace attacks."
+      },
+      {
+        "name": "Embrace",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 16 (3d8+3) bludgeoning damage, and the target is grappled (escape DC 15) and restrained. The restrained target takes 10 (3d6) psychic damage at the start of each of its turns."
+      },
+      {
+        "name": "Forlorn Pining",
+        "desc": "One creature restrained by the lonely must succeed on a DC 15 Wis save or be charmed for 1 minute. While charmed, the creature regards the lonely as a beloved friend."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Embraces and restrains, dealing psychic damage. Charms the restrained victim into thinking it's a friend.",
+    "actionEconomy": "Two Embrace attacks plus Forlorn Pining.",
+    "encounterNotes": "Shadowfell. Represents isolation. Attempts to keep its 'friends' close forever.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_sorrowsworn_lost",
+    "name": "The Lost",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 78,
+    "hpFormula": "12d8+24",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 14,
+    "dex": 15,
+    "con": 15,
+    "int": 8,
+    "wis": 11,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Sorrowsworn",
+        "desc": "At the start of the lost's turn, each creature within 30 ft. must succeed on a DC 13 Wis save or lose the ability to use Dash until the start of the lost's next turn."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Rend attacks."
+      },
+      {
+        "name": "Rend",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8+2) slashing damage."
+      },
+      {
+        "name": "Hamstring",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) slashing damage, and the target's speed is halved until the start of the lost's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Aura prevents Dash. Hamstring halves movement. Traps victims in place.",
+    "actionEconomy": "Two attacks per action. Aura passive at start of each turn.",
+    "encounterNotes": "Shadowfell. Manifests from the suffering of being lost.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_sorrowsworn_angry",
+    "name": "The Angry",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "11",
+    "xp": 7200,
+    "proficiencyBonus": 3,
+    "ac": 18,
+    "acNote": "natural armor",
+    "hp": 183,
+    "hpFormula": "22d10+66",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 22,
+    "dex": 8,
+    "con": 16,
+    "int": 5,
+    "wis": 11,
+    "cha": 9,
+    "savingThrows": {
+      "str": 10,
+      "dex": null,
+      "con": 7,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "athletics": 10
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Sorrowsworn",
+        "desc": "When the angry takes damage from a creature, it gains advantage on all attack rolls against that creature until the start of its next turn."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two Slam attacks."
+      },
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (4d6+6) bludgeoning damage."
+      },
+      {
+        "name": "Wave of Fury (Recharge 5-6)",
+        "desc": "Each creature in a 30-foot cone must make a DC 15 Str save, taking 36 (8d8) bludgeoning damage and being knocked prone on failure."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Gains advantage on attacks against anything that hurts it. Two massive slams. Wave of Fury AoE knockdown. Hitting it makes it angrier and more accurate.",
+    "actionEconomy": "Two slam attacks plus Wave of Fury on recharge.",
+    "encounterNotes": "Shadowfell. Represents uncontrollable anger. Fighting it empowers it.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_mindwitness",
+    "name": "Mindwitness",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "ac": 15,
+    "acNote": "natural armor",
+    "hp": 75,
+    "hpFormula": "10d10+20",
+    "speed": {
+      "walk": 30,
+      "fly": 20,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 15,
+    "wis": 15,
+    "cha": 10,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "perception": 7
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "prone"
+    ],
+    "senses": {
+      "passivePerception": 17,
+      "darkvision": 120,
+      "truesight": 30
+    },
+    "languages": "Deep Speech, Undercommon, telepathy 600 ft.",
+    "traits": [
+      {
+        "name": "Telepathic Hub",
+        "desc": "If the mindwitness is targeted by a telepathy spell, the caster can communicate telepathically with all creatures the mindwitness chooses within 600 ft."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one Bite and four Eye Ray attacks."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 16 (4d6+2) piercing damage."
+      },
+      {
+        "name": "Eye Rays",
+        "desc": "The mindwitness shoots two random magical eye rays at targets within 120 ft. Roll 2d4: 1-Dazing (DC 13 Wis or incapacitated), 2-Fear (DC 13 Wis or frightened), 3-Freezing (DC 13 Con or speed halved and AC reduced by 2), 4-Telekinetic (DC 13 Str or moved 30 ft.)."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Five attacks per turn (1 bite + 4 eye rays). Telepathic Hub relays communications for a mind flayer colony. A beholder reimagined.",
+    "actionEconomy": "One bite plus four eye rays per action.",
+    "encounterNotes": "Mind flayer colonies. A captured beholder repurposed as a communication relay.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "mpmm_molydeus",
+    "name": "Molydeus",
+    "source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "sourceTag": "MPMM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Huge",
+    "type": "Fiend",
+    "subtype": "demon",
+    "alignment": "chaotic evil",
+    "cr": "21",
+    "xp": 33000,
+    "proficiencyBonus": 7,
+    "ac": 19,
+    "acNote": "natural armor",
+    "hp": 262,
+    "hpFormula": "21d12+126",
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 28,
+    "dex": 14,
+    "con": 23,
+    "int": 21,
+    "wis": 24,
+    "cha": 18,
+    "savingThrows": {
+      "str": 15,
+      "dex": null,
+      "con": 12,
+      "int": null,
+      "wis": 13,
+      "cha": 10
+    },
+    "skills": {
+      "perception": 13
+    },
+    "damageResistances": [
+      "cold",
+      "fire",
+      "lightning",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 23,
+      "truesight": 120
+    },
+    "languages": "Abyssal, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Demonic Weapons",
+        "desc": "The molydeus's weapon attacks are magical and ignore resistance from nonmagical attacks."
+      },
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If the molydeus fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saving throws against spells."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one Demonic Weapon attack and one Snake Bite attack."
+      },
+      {
+        "name": "Demonic Weapon",
+        "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 20 (2d10+9) slashing or bludgeoning damage plus 22 (4d10) lightning or fire damage."
+      },
+      {
+        "name": "Snake Bite",
+        "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 9 (1d6+6) piercing damage, and the target must succeed on a DC 20 Con save or take 99 (18d10) poison damage on failure or half on success."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Attack",
+        "desc": "Makes one Demonic Weapon attack."
+      },
+      {
+        "name": "Fling",
+        "desc": "One Large or smaller creature grappled by the molydeus is thrown up to 60 ft. in a random direction, falling prone. Takes 3 (1d6) bludgeoning damage per 10 ft. thrown."
+      },
+      {
+        "name": "Summon Demons (Costs 3 Actions)",
+        "desc": "Summons 1d6 vrocks, 1d4 hezrous, or 1d2 glabrezus."
+      }
+    ],
+    "legendaryActionsNote": "The molydeus can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Demonic Weapon deals mixed elemental damage. Snake Bite can deal 99 poison damage on a bad save. Summon Demons to overwhelm. A demon lord's bodyguard and executioner.",
+    "actionEconomy": "One weapon attack + one snake bite per action plus legendary.",
+    "encounterNotes": "Demon lords' throne rooms. The most elite demonic soldiers.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },

@@ -1,0 +1,6026 @@
+  {
+    "id": "vgm_grung",
+    "name": "Grung",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "grung",
+    "alignment": "lawful evil",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "natural armor",
+    "hp": 11,
+    "hpFormula": "2d6+4",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 25
+    },
+    "str": 7,
+    "dex": 14,
+    "con": 15,
+    "int": 10,
+    "wis": 11,
+    "cha": 10,
+    "savingThrows": {
+      "str": null,
+      "dex": 4,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "athletics": 2,
+      "perception": 2,
+      "stealth": 4,
+      "survival": 2
+    },
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 12
+    },
+    "languages": "Grung",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "desc": "Can breathe air and water."
+      },
+      {
+        "name": "Poisonous Skin",
+        "desc": "Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Con save or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+      },
+      {
+        "name": "Standing Leap",
+        "desc": "The grung's long jump is up to 25 ft. and its high jump is up to 15 ft., with or without a running start."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage plus 5 (2d4) poison damage."
+      },
+      {
+        "name": "Shortbow",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage plus 5 (2d4) poison damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Poisonous skin deters grappling. Both attacks add poison damage. Arboreal ambushers that leap between trees.",
+    "actionEconomy": "Single attack (dagger or shortbow) plus poison on contact.",
+    "encounterNotes": "Jungles of Chult and tropical settings. Color-coded by rank. Worship a toad deity.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_grung_elite_warrior",
+    "name": "Grung Elite Warrior",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "grung",
+    "alignment": "lawful evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 49,
+    "hpFormula": "9d6+18",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 25
+    },
+    "str": 7,
+    "dex": 14,
+    "con": 15,
+    "int": 10,
+    "wis": 11,
+    "cha": 12,
+    "savingThrows": {
+      "str": null,
+      "dex": 4,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "athletics": 2,
+      "perception": 2,
+      "stealth": 4,
+      "survival": 2
+    },
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 12
+    },
+    "languages": "Grung",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "desc": "Can breathe air and water."
+      },
+      {
+        "name": "Poisonous Skin",
+        "desc": "DC 12 Con save or poisoned for 1 minute on contact."
+      },
+      {
+        "name": "Standing Leap",
+        "desc": "Long jump 25 ft., high jump 15 ft."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The grung makes two attacks with its dagger or two attacks with its shortbow."
+      },
+      {
+        "name": "Dagger",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage plus 5 (2d4) poison damage."
+      },
+      {
+        "name": "Shortbow",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage plus 5 (2d4) poison damage."
+      },
+      {
+        "name": "Mesmerizing Chirr (Recharge 5-6)",
+        "desc": "The grung makes a chirring noise to which grungs are immune. Each humanoid or beast within 15 ft. that can hear it must succeed on a DC 12 Wis save or be stunned until the end of the grung's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks per turn with poison on both. Mesmerizing Chirr stuns nearby creatures. Elite caste of grung society.",
+    "actionEconomy": "Two attacks per action. Chirr on recharge for AoE stun.",
+    "encounterNotes": "Grung villages. Caste system \u2014 elite warriors wear blue-orange coloration.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_grung_wildling",
+    "name": "Grung Wildling",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "grung",
+    "alignment": "lawful evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 27,
+    "hpFormula": "6d6+6",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 25
+    },
+    "str": 7,
+    "dex": 14,
+    "con": 13,
+    "int": 10,
+    "wis": 15,
+    "cha": 11,
+    "savingThrows": {
+      "str": null,
+      "dex": 4,
+      "con": null,
+      "int": null,
+      "wis": 4,
+      "cha": null
+    },
+    "skills": {
+      "athletics": 2,
+      "nature": 4,
+      "perception": 4,
+      "stealth": 4,
+      "survival": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 14
+    },
+    "languages": "Grung",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "desc": "Can breathe air and water."
+      },
+      {
+        "name": "Poisonous Skin",
+        "desc": "DC 12 Con save or poisoned for 1 minute on contact."
+      },
+      {
+        "name": "Standing Leap",
+        "desc": "Long jump 25 ft., high jump 15 ft."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Wis-based (spell save DC 12). At will: druidcraft, poison spray, produce flame. 2/day each: cure wounds, spike growth. 1/day each: plant growth."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage plus 5 (2d4) poison damage."
+      },
+      {
+        "name": "Shortbow",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage plus 5 (2d4) poison damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Spike growth and plant growth for jungle area control. Poison spray at range. Support caster of the grung.",
+    "actionEconomy": "Single attack plus druid-style spellcasting.",
+    "encounterNotes": "Grung shamans and priests. Green-colored caste.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_kobold_dragonshield",
+    "name": "Kobold Dragonshield",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "koboldoid",
+    "alignment": "lawful evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "leather armor and shield",
+    "hp": 44,
+    "hpFormula": "8d6+16",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 7,
+    "dex": 15,
+    "con": 15,
+    "int": 8,
+    "wis": 7,
+    "cha": 10,
+    "savingThrows": {
+      "str": 0,
+      "dex": null,
+      "con": 4,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "perception": 0
+    },
+    "damageResistances": [
+      "a damage type based on the type of dragon whose scale is worn (see trait)"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 8,
+      "darkvision": 60
+    },
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Dragon's Resistance",
+        "desc": "The kobold has resistance to a type of damage based on its scale: black/copper=acid, blue/bronze=lightning, brass/gold/red=fire, green=poison, silver/white=cold."
+      },
+      {
+        "name": "Heart of the Dragon",
+        "desc": "If the kobold is frightened or paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 ft."
+      },
+      {
+        "name": "Pack Tactics",
+        "desc": "Advantage on attack rolls if ally within 5 ft. of the target."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage on attacks and Perception (sight) checks in sunlight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The kobold makes two melee attacks."
+      },
+      {
+        "name": "Shortsword",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Saving Shield",
+        "desc": "When an ally the kobold can see is hit by an attack, the kobold grants that ally a +2 bonus to AC against the attack. To do so, the kobold must be within 5 ft. of the ally and wielding a shield."
+      }
+    ],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks per turn with pack tactics. Saving Shield protects allies. Heart of the Dragon prevents fear chains. Elite kobold guardian.",
+    "actionEconomy": "Two shortsword attacks. Saving Shield reaction to protect allies.",
+    "encounterNotes": "Dragon lairs and well-organized kobold warrens. Protects the wyrmling or the chieftain.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_kobold_inventor",
+    "name": "Kobold Inventor",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "koboldoid",
+    "alignment": "lawful evil",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "leather armor",
+    "hp": 9,
+    "hpFormula": "2d6+2",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 7,
+    "dex": 16,
+    "con": 12,
+    "int": 12,
+    "wis": 8,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "arcana": 3
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 8,
+      "darkvision": 60
+    },
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Pack Tactics",
+        "desc": "Advantage on attack rolls if ally within 5 ft."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage on attacks and sight Perception checks in sunlight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage."
+      },
+      {
+        "name": "Weapon Invention",
+        "desc": "The kobold uses one of the following options if it has the relevant item. Roll a d8 to choose randomly, or select: 1-Acid: One creature within 5 ft., DC 10 Dex save or 7 (2d6) acid damage. 2-Alchemist's fire: One creature within 10 ft., DC 10 Dex save or 2 (1d4) fire damage per turn until extinguished. 3-Basket of centipedes: One creature within 5 ft., DC 10 Con save or poisoned with centipedes dealing 1 poison damage per turn. 4-Green slime pot: One creature within 10 ft., DC 10 Dex save or covered in green slime (1d6 acid per round, CON DC 10 to shake off). 5-Rot grub pot: One creature within 5 ft., DC 10 Dex save or infested with rot grubs. 6-Scorpion on a stick: One creature within 5 ft., DC 10 Con save or 4 (1d8) poison damage. 7-Skunk in a bag: Each creature within 5 ft., DC 10 Con save or poisoned until end of next turn. 8-Wasp nest: Each creature within 10 ft., DC 10 Dex save or 7 (2d6) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Uses improvised weapons and inventions. Unpredictable and chaotic. Pack tactics with allies. Great at making encounters memorable.",
+    "actionEconomy": "Dagger or Weapon Invention each action. Wildly variable.",
+    "encounterNotes": "Kobold warrens. The tinkerer caste. Each encounter is different.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_kobold_scale_sorcerer",
+    "name": "Kobold Scale Sorcerer",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "koboldoid",
+    "alignment": "lawful evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "mage armor",
+    "hp": 27,
+    "hpFormula": "6d6+6",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 7,
+    "dex": 15,
+    "con": 13,
+    "int": 14,
+    "wis": 9,
+    "cha": 14,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": 1,
+      "cha": null
+    },
+    "skills": {
+      "arcana": 4,
+      "medicine": 1
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 9,
+      "darkvision": 60
+    },
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Pack Tactics",
+        "desc": "Advantage on attack rolls if ally within 5 ft."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage on attacks and sight Perception checks in sunlight."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Cha-based (spell save DC 12). At will: mage hand, minor illusion, prestidigitation. 2/day each: charm person, fog cloud, levitate. 1/day each: fear."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage."
+      },
+      {
+        "name": "Chromatic Bolt",
+        "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one creature. Hit: 9 (2d8) damage of a type chosen by the sorcerer: acid, cold, fire, lightning, or poison."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Fog cloud to obscure the kobold warren. Fear to route enemies. Chromatic bolt for flexible elemental damage. Pack tactics with allies.",
+    "actionEconomy": "Chromatic bolt for damage, spellcasting for control. Pack tactics.",
+    "encounterNotes": "Kobold warrens and dragon lairs. The magical specialist. Uses fog cloud as opening gambit.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_vegepygmy",
+    "name": "Vegepygmy",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Plant",
+    "subtype": null,
+    "alignment": "neutral",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 9,
+    "hpFormula": "2d6+2",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 7,
+    "dex": 14,
+    "con": 13,
+    "int": 6,
+    "wis": 11,
+    "cha": 7,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "lightning",
+      "piercing"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "Vegepygmy",
+    "traits": [
+      {
+        "name": "Plant Camouflage",
+        "desc": "Advantage on Dexterity (Stealth) checks in any terrain with ample obscuring plant life."
+      },
+      {
+        "name": "Regeneration",
+        "desc": "The vegepygmy regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of its next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage."
+      },
+      {
+        "name": "Thorn Dagger",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage."
+      },
+      {
+        "name": "Thorn Spray",
+        "desc": "The vegepygmy spits thorns. Each creature in a 10-foot cube originating from the vegepygmy must make a DC 11 Dex save or take 4 (1d4+2) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Regeneration makes them persistent. Resistance to piercing and lightning. Plant camouflage for ambushes in overgrown dungeons.",
+    "actionEconomy": "Single claw or thorn attack. Thorn Spray for AoE.",
+    "encounterNotes": "Ancient ruins overgrown with vegetation. Created by russet mold. Serve their chief.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_stench_kow",
+    "name": "Stench Kow",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Beast",
+    "subtype": null,
+    "alignment": "unaligned",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 10,
+    "acNote": "",
+    "hp": 15,
+    "hpFormula": "2d10+4",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 10,
+    "con": 14,
+    "int": 2,
+    "wis": 10,
+    "cha": 4,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Stench",
+        "desc": "Any creature (other than a stench kow) that starts its turn within 5 ft. of the stench kow must succeed on a DC 12 Con save or be poisoned until the start of its next turn. On a successful save, the creature is immune to the stench of all stench kows for 1 hour."
+      },
+      {
+        "name": "Toxic Bile",
+        "desc": "When the stench kow dies, it explodes in a burst of toxic bile. Each creature within 5 ft. must succeed on a DC 12 Con save or take 7 (2d6) poison damage and be poisoned until the end of its next turn."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Gore",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Passive stench poisons adjacent creatures. Death explosion punishes melee. Used as biological weapons by demons and warlords.",
+    "actionEconomy": "Single gore attack. Stench and Toxic Bile are passive.",
+    "encounterNotes": "Lower planes and demon encounters. Sometimes used as living weapons.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_twig_blight",
+    "name": "Twig Blight",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Plant",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "1/8",
+    "xp": 25,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 4,
+    "hpFormula": "1d6+1",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 6,
+    "dex": 13,
+    "con": 12,
+    "int": 4,
+    "wis": 8,
+    "cha": 3,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [
+      "fire"
+    ],
+    "conditionImmunities": [
+      "blinded",
+      "deafened"
+    ],
+    "senses": {
+      "passivePerception": 9,
+      "blindsight": 60
+    },
+    "languages": "Understands Common but can't speak",
+    "traits": [
+      {
+        "name": "False Appearance",
+        "desc": "While motionless, indistinguishable from a dead shrub."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Swarms in numbers. False appearance lets them ambush. Fire vulnerability is the key weakness.",
+    "actionEconomy": "Single claw attack.",
+    "encounterNotes": "Blighted forests and corrupted druid circles. Usually in groups of 6\u201312.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_needle_blight",
+    "name": "Needle Blight",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Plant",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "natural armor",
+    "hp": 11,
+    "hpFormula": "2d6+4",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 4,
+    "wis": 8,
+    "cha": 3,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [
+      "fire"
+    ],
+    "conditionImmunities": [
+      "blinded",
+      "deafened"
+    ],
+    "senses": {
+      "passivePerception": 9,
+      "blindsight": 60
+    },
+    "languages": "Understands Common but can't speak",
+    "traits": [
+      {
+        "name": "False Appearance",
+        "desc": "While motionless among dead vegetation, indistinguishable from a dead shrub."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4+1) slashing damage."
+      },
+      {
+        "name": "Needles",
+        "desc": "Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 6 (2d4+1) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Ranged needle attacks from cover. Swarms alongside twig blights. Fire kills them fast.",
+    "actionEconomy": "Single claw or needle attack.",
+    "encounterNotes": "Blighted forests. Stand still in a field and fire volleys of needles.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_vine_blight",
+    "name": "Vine Blight",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Plant",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "natural armor",
+    "hp": 26,
+    "hpFormula": "4d8+8",
+    "speed": {
+      "walk": 10,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 8,
+    "con": 14,
+    "int": 5,
+    "wis": 10,
+    "cha": 3,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "blinded",
+      "deafened"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "blindsight": 60
+    },
+    "languages": "Understands Common but can't speak",
+    "traits": [
+      {
+        "name": "False Appearance",
+        "desc": "While motionless among vegetation, indistinguishable from a tangle of vines."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Constrict",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 9 (2d6+2) bludgeoning damage, and a Large or smaller target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the blight can't constrict another target."
+      },
+      {
+        "name": "Entangling Plants (Recharge 5-6)",
+        "desc": "Grasping roots and vines sprout in a 15-foot radius centered on the blight, withering away after 1 minute. For the duration, that area is difficult terrain for nonplant creatures. In addition, each nonplant creature in that area when the plants appear must succeed on a DC 12 Str save or become restrained. A creature restrained by the plants can use its action to make a DC 12 Str save, freeing itself on a success."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Constricts and restrains with 10 ft. reach. Entangling Plants creates a massive restraint zone. The toughest blight.",
+    "actionEconomy": "Constrict attack plus Entangling Plants on recharge.",
+    "encounterNotes": "Blighted forests and corrupted groves. Often the centerpiece blight around which others cluster.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_darkling",
+    "name": "Darkling",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Fey",
+    "subtype": null,
+    "alignment": "chaotic neutral",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "ac": 14,
+    "acNote": "leather armor",
+    "hp": 22,
+    "hpFormula": "4d6+8",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 9,
+    "dex": 16,
+    "con": 13,
+    "int": 10,
+    "wis": 12,
+    "cha": 10,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "acrobatics": 5,
+      "deception": 2,
+      "perception": 3,
+      "stealth": 7
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 13,
+      "darkvision": 60
+    },
+    "languages": "Elvish, Sylvan",
+    "traits": [
+      {
+        "name": "Death Flash",
+        "desc": "When the darkling dies, nonmagical light flashes out from it in a 10-foot radius as it releases its absorbed light. This flash of light lasts for 1 round. Any creature in the radius when the darkling dies and any creature that enters the radius before the end of the darkling's next turn must make a DC 10 Con save or be blinded until the end of that creature's turn."
+      },
+      {
+        "name": "Light Sensitivity",
+        "desc": "While in bright light, the darkling has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The darkling makes two attacks."
+      },
+      {
+        "name": "Dagger",
+        "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage plus 7 (2d6) necrotic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two dagger attacks with heavy necrotic damage. Death Flash blinds adjacent creatures on death. High Stealth for ambushes in darkness.",
+    "actionEconomy": "Two attacks per action with strong necrotic bonus.",
+    "encounterNotes": "Forests and dungeons away from light. Corrupted fey who stole too much shadow.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_meenlock",
+    "name": "Meenlock",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Fey",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 31,
+    "hpFormula": "7d6+7",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 7,
+    "dex": 15,
+    "con": 12,
+    "int": 11,
+    "wis": 10,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "perception": 4,
+      "stealth": 6
+    },
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "frightened",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 60,
+      "truesight": 30
+    },
+    "languages": "Sylvan, telepathy 30 ft.",
+    "traits": [
+      {
+        "name": "Fear Aura",
+        "desc": "Any beast or humanoid that starts its turn within 10 ft. of the meenlock must succeed on a DC 11 Wis save or be frightened until the start of the creature's next turn."
+      },
+      {
+        "name": "Light Sensitivity",
+        "desc": "While in bright light, disadvantage on attacks and Perception (sight) checks."
+      },
+      {
+        "name": "Shadow Teleport (Recharge 5-6)",
+        "desc": "The meenlock teleports to an unoccupied space that it can see within 30 ft. Both the space it teleports from and the space it teleports to must be in dim light or darkness."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) piercing damage. If the target is humanoid, it must succeed on a DC 11 Wis save or be frightened of meenlocks for 1 hour. If the target fails this save by 5 or more, the target is also paralyzed while frightened. A frightened target can repeat the save every 10 minutes."
+      },
+      {
+        "name": "Psychic Torment (Recharge 5-6)",
+        "desc": "One creature within 30 ft. that the meenlock can see must succeed on a DC 11 Wis save or take 10 (3d6) psychic damage and be paralyzed until the end of the meenlock's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Fear aura frightens nearby creatures passively. Claws can cause long-term fear/paralysis. Shadow Teleport to reposition. Hunts in packs through telepathy.",
+    "actionEconomy": "Claw attack plus psychic torment on recharge. Fear aura is passive every turn.",
+    "encounterNotes": "Dark forests and dungeons. Telepathically coordinate attacks. Slowly transform paralyzed victims into more meenlocks.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_sea_spawn",
+    "name": "Sea Spawn",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 11,
+    "acNote": "natural armor",
+    "hp": 32,
+    "hpFormula": "5d8+10",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 30,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 8,
+    "con": 14,
+    "int": 6,
+    "wis": 10,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "cold"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Understands Aquan and Common but can't speak",
+    "traits": [
+      {
+        "name": "Limited Amphibiousness",
+        "desc": "Can breathe air and water, but needs to be submerged at least once every 4 hours or begin suffocating."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The sea spawn makes three attacks: two unarmed strikes and one with its Piscine Appendage."
+      },
+      {
+        "name": "Unarmed Strike",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage."
+      },
+      {
+        "name": "Piscine Appendage",
+        "desc": "The sea spawn has one of the following appendages, chosen randomly or by DM selection. Pincer (crab): +4 to hit, 2d6+2 bludgeoning damage and grapple (DC 12). Tentacle (octopus): +4 to hit, 1d6+2 bludgeoning damage and grapple (DC 12). Rotting Fins (shark): each creature within 5 ft. must succeed on DC 12 Con save or take 1d6 poison damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks per turn. Appendage varies the threat. Cold resistance useful in aquatic environments.",
+    "actionEconomy": "Three attacks per action (2 unarmed + 1 appendage).",
+    "encounterNotes": "Coastal waters and underwater ruins. Humanoids transformed by deep sea entities.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_firenewt_warrior",
+    "name": "Firenewt Warrior",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "firenewt",
+    "alignment": "neutral evil",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "scale mail",
+    "hp": 13,
+    "hpFormula": "2d8+4",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 10,
+    "dex": 13,
+    "con": 12,
+    "int": 7,
+    "wis": 11,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "fire"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10
+    },
+    "languages": "Draconic",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "desc": "Can breathe air and water."
+      },
+      {
+        "name": "Implacable March",
+        "desc": "If the firenewt moves at least 20 ft. straight toward a creature on its turn, that creature must succeed on a DC 10 Str save or be knocked prone."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Scimitar",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) slashing damage."
+      },
+      {
+        "name": "Spit Fire (Recharge 6)",
+        "desc": "The firenewt spits fire at a creature within 10 ft. The creature must make a DC 11 Dex save. On a failure, the creature takes 9 (2d8) fire damage and catches fire, taking 3 (1d6) fire damage at the start of each of its turns until it or another creature uses an action to douse the flames."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Charges to knock prone. Spit Fire on recharge ignites targets. Fire immunity.",
+    "actionEconomy": "Single scimitar attack. Spit Fire on recharge.",
+    "encounterNotes": "Volcanic regions and fire cult strongholds. Serve fire giants and salamanders.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_firenewt_warlock_of_imix",
+    "name": "Firenewt Warlock of Imix",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "firenewt",
+    "alignment": "neutral evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 10,
+    "acNote": "natural armor",
+    "hp": 33,
+    "hpFormula": "6d8+6",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 13,
+    "dex": 11,
+    "con": 12,
+    "int": 9,
+    "wis": 11,
+    "cha": 14,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "fire"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10
+    },
+    "languages": "Draconic, Ignan",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "desc": "Can breathe air and water."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Cha-based (spell save DC 12). At will: burning hands, fire bolt, guidance. 2/day each: scorching ray, command."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Morningstar",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8+1) piercing damage plus 3 (1d6) fire damage."
+      },
+      {
+        "name": "Spit Fire (Recharge 6)",
+        "desc": "Same as firenewt warrior."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Burning hands for melee crowd AoE. Scorching ray for single-target burst. Fire immune. Support spellcaster of firenewt warbands.",
+    "actionEconomy": "Morningstar with fire or spellcasting.",
+    "encounterNotes": "Firenewt strongholds. Warlock priest of Imix, the Prince of Evil Fire.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_gnoll_flesh_gnawer",
+    "name": "Gnoll Flesh Gnawer",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "gnoll",
+    "alignment": "chaotic evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "leather armor",
+    "hp": 22,
+    "hpFormula": "4d8+4",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 12,
+    "dex": 14,
+    "con": 12,
+    "int": 8,
+    "wis": 11,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "athletics": 3,
+      "perception": 2,
+      "stealth": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 12,
+      "darkvision": 60
+    },
+    "languages": "Gnoll",
+    "traits": [
+      {
+        "name": "Rampage",
+        "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three attacks: one with its bite and two with its shortswords."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4+2) piercing damage."
+      },
+      {
+        "name": "Shortsword",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Sudden Rush",
+        "desc": "Until the end of the turn, the gnoll's speed increases by 60 ft. and it doesn't provoke opportunity attacks."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks per turn plus Rampage. Sudden Rush lets it charge 60 ft. without provoking OA. Skirmisher of the gnoll pack.",
+    "actionEconomy": "Three attacks (bite + 2 shortswords) per action. Sudden Rush bonus for mobility.",
+    "encounterNotes": "Gnoll warbands as fast-moving skirmishers.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_gnoll_hunter",
+    "name": "Gnoll Hunter",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "gnoll",
+    "alignment": "chaotic evil",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "leather armor",
+    "hp": 22,
+    "hpFormula": "4d8+4",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 8,
+    "wis": 12,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "nature": 1,
+      "perception": 3,
+      "stealth": 4,
+      "survival": 3
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 13,
+      "darkvision": 60
+    },
+    "languages": "Gnoll",
+    "traits": [
+      {
+        "name": "Rampage",
+        "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack, can bonus action move and bite."
+      },
+      {
+        "name": "Unending Hunger",
+        "desc": "After using Rampage, the gnoll must use its action on its next turn to attack."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks: one with its bite and one with its spear."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4+2) piercing damage."
+      },
+      {
+        "name": "Spear",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6+2) piercing damage."
+      },
+      {
+        "name": "Hamstring Shot",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 7 (2d4+2) piercing damage, and the target's speed is reduced by 10 ft. until it receives magical healing or completes a short or long rest."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Hamstring Shot reduces movement permanently until healed. Two attacks per turn. Skirmisher that hobbles prey.",
+    "actionEconomy": "Two attacks (bite + spear/hamstring) per action.",
+    "encounterNotes": "Gnoll warbands. Scout and skirmisher role. Hamstrings fleeing targets.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_gnoll_witherling",
+    "name": "Gnoll Witherling",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "natural armor",
+    "hp": 11,
+    "hpFormula": "2d8+2",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 12,
+    "dex": 8,
+    "con": 13,
+    "int": 8,
+    "wis": 3,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 6,
+      "darkvision": 60
+    },
+    "languages": "Understands Gnoll but can't speak",
+    "traits": [
+      {
+        "name": "Rampage",
+        "desc": "When the witherling reduces a creature to 0 hit points with a melee attack, can bonus action move and bite."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks: one with its bite and one with its claws."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4+1) piercing damage."
+      },
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) slashing damage."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Attack",
+        "desc": "The gnoll witherling makes one bite attack."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Undead gnoll shock troops. Two attacks plus Rampage. Bonus action attack makes them surprisingly active.",
+    "actionEconomy": "Two attacks per action plus bonus action bite.",
+    "encounterNotes": "Gnoll graveyards and witherling hordes. Gnoll Fangs of Yeenoghu command them.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_quickling",
+    "name": "Quickling",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Tiny",
+    "type": "Fey",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 10,
+    "hpFormula": "3d4+3",
+    "speed": {
+      "walk": 120,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 4,
+    "dex": 20,
+    "con": 13,
+    "int": 10,
+    "wis": 12,
+    "cha": 7,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "acrobatics": 7,
+      "perception": 3,
+      "stealth": 7
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 13
+    },
+    "languages": "Common, Sylvan",
+    "traits": [
+      {
+        "name": "Blurred Movement",
+        "desc": "Attack rolls against the quickling have disadvantage unless the quickling is incapacitated or its speed is reduced to 0."
+      },
+      {
+        "name": "Evasion",
+        "desc": "If the quickling is subjected to an effect that allows it to make a Dex save to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The quickling makes three dagger attacks."
+      },
+      {
+        "name": "Dagger",
+        "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4+5) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks at +7 to hit. Blurred movement gives all attacks disadvantage. Evasion for saving throws. Speed 120 ft. makes it nearly uncatchable.",
+    "actionEconomy": "Three dagger attacks per action. Blurred Movement is passive.",
+    "encounterNotes": "Fey forests. Works alone or as a scout. Nearly impossible to catch if it decides to flee.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_redcap",
+    "name": "Redcap",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Fey",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 45,
+    "hpFormula": "6d6+24",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 13,
+    "con": 18,
+    "int": 10,
+    "wis": 12,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": 6,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11
+    },
+    "languages": "Common, Sylvan",
+    "traits": [
+      {
+        "name": "Iron Boots",
+        "desc": "The redcap wears boots of iron. While wearing these boots, the redcap's Dexterity decreases by 2, the redcap cannot be knocked prone, and it deals an extra 3 (1d6) bludgeoning damage when it hits with a kick."
+      },
+      {
+        "name": "Outsize Strength",
+        "desc": "While grappling, the redcap is considered to be Medium."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The redcap makes three attacks: one with its bite and two with its war pick or two kicks."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4+4) piercing damage."
+      },
+      {
+        "name": "War Pick",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage."
+      },
+      {
+        "name": "Kick",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) bludgeoning damage. If the target is Huge or smaller, it must succeed on a DC 14 Str save or be knocked prone."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks per turn including kick to knock prone. Resistance to nonmagical weapons. Iron boots prevent knockdown. Brutal and murderous.",
+    "actionEconomy": "Three attacks per action (bite + 2 war pick/kick).",
+    "encounterNotes": "Fey forests and sites of old violence. Redcaps dye their caps in the blood of their victims \u2014 the cap must stay wet or they die.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_shadow_mastiff",
+    "name": "Shadow Mastiff",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "",
+    "hp": 33,
+    "hpFormula": "6d8+6",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 16,
+    "dex": 14,
+    "con": 13,
+    "int": 5,
+    "wis": 12,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks while in dim light or darkness"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 13,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Ethereal Awareness",
+        "desc": "The shadow mastiff can see ethereal creatures and objects."
+      },
+      {
+        "name": "Keen Hearing and Smell",
+        "desc": "Advantage on Perception checks relying on hearing or smell."
+      },
+      {
+        "name": "Shadow Blend",
+        "desc": "While in dim light or darkness, the shadow mastiff can use a bonus action to become invisible, along with anything it is wearing or carrying. The invisibility ends if the mastiff attacks or moves into bright light."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage. If the target is a creature, it must succeed on a DC 13 Str save or be knocked prone."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Shadow Blend",
+        "desc": "As described in the trait."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Goes invisible in dim light or darkness. Bites for knockdown. Resistance to nonmagical attacks in darkness. Pack hunters.",
+    "actionEconomy": "Single bite with knockdown. Shadow Blend bonus action for invisibility.",
+    "encounterNotes": "Shadowfell-adjacent areas and dark forests. Shadow mastiff alpha leads the pack.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_shadow_mastiff_alpha",
+    "name": "Shadow Mastiff Alpha",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "",
+    "hp": 44,
+    "hpFormula": "8d8+8",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 16,
+    "dex": 14,
+    "con": 13,
+    "int": 5,
+    "wis": 12,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks while in dim light or darkness"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 13,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Ethereal Awareness",
+        "desc": "The shadow mastiff can see ethereal creatures and objects."
+      },
+      {
+        "name": "Keen Hearing and Smell",
+        "desc": "Advantage on Perception checks relying on hearing or smell."
+      },
+      {
+        "name": "Shadow Blend",
+        "desc": "Bonus action invisibility in dim light or darkness, ends if it attacks or enters bright light."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage. If the target is a creature, it must succeed on a DC 13 Str save or be knocked prone."
+      },
+      {
+        "name": "Terrifying Howl",
+        "desc": "The shadow mastiff howls. Every creature within 300 ft. that can hear it must succeed on a DC 11 Wis save or be frightened until the end of the creature's next turn. On a successful save, a creature is immune to this mastiff's howl for 24 hours."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Shadow Blend",
+        "desc": "As described in the trait."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Same as regular shadow mastiff plus Terrifying Howl to frighten all nearby creatures. Leads the pack.",
+    "actionEconomy": "Bite with knockdown plus Terrifying Howl for AoE fear.",
+    "encounterNotes": "Leads a pack of 2\u20136 shadow mastiffs. Howl opens the hunt.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_orc_war_chief",
+    "name": "Orc War Chief",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "orc",
+    "alignment": "chaotic evil",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "chain mail",
+    "hp": 93,
+    "hpFormula": "11d8+44",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 12,
+    "con": 18,
+    "int": 11,
+    "wis": 11,
+    "cha": 16,
+    "savingThrows": {
+      "str": 6,
+      "dex": null,
+      "con": 6,
+      "int": null,
+      "wis": 2,
+      "cha": null
+    },
+    "skills": {
+      "intimidation": 5
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "Common, Orc",
+    "traits": [
+      {
+        "name": "Aggressive",
+        "desc": "As a bonus action, can move up to speed toward a hostile creature it can see."
+      },
+      {
+        "name": "Gruumsh's Fury",
+        "desc": "The orc deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attack)."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three attacks with its greataxe or its spear."
+      },
+      {
+        "name": "Greataxe",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (1d12+4+1d8) slashing damage."
+      },
+      {
+        "name": "Spear",
+        "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (1d6+4+1d8) piercing damage, or 13 (1d8+4+1d8) piercing damage two-handed."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Battle Cry (Recharges after a Short or Long Rest)",
+        "desc": "Each creature of the war chief's choice that is within 30 ft., can hear the war chief, and not already affected by Battle Cry gains advantage on attack rolls until the start of the war chief's next turn. The war chief can then make one attack as a bonus action."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks per turn each with +1d8 divine damage. Battle Cry gives all allies advantage and grants a free attack. Aggressive for charge mobility.",
+    "actionEconomy": "Three attacks per action plus Battle Cry bonus action.",
+    "encounterNotes": "The chieftain of an orc warband. Commands 20\u2013100 orcs. A genuine threat even for mid-level parties.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_orc_eye_of_gruumsh",
+    "name": "Orc Eye of Gruumsh",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "orc",
+    "alignment": "chaotic evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "chain mail and shield",
+    "hp": 45,
+    "hpFormula": "6d8+18",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 9,
+    "wis": 13,
+    "cha": 12,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "intimidation": 3,
+      "religion": 1
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 60
+    },
+    "languages": "Common, Orc",
+    "traits": [
+      {
+        "name": "Aggressive",
+        "desc": "Bonus action move toward a hostile creature."
+      },
+      {
+        "name": "Gruumsh's Fury",
+        "desc": "Deals an extra 4 (1d8) damage when hitting with a weapon (included)."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Wis-based (spell save DC 11). At will: guidance, resistance, spare the dying, thaumaturgy. 1/day each: augury, bless, bestow curse, bloodlust (as divine favor)."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks."
+      },
+      {
+        "name": "Spear",
+        "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 10 (1d6+3+1d8) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Bless on the whole warband. Bestow curse to debilitate a key PC. Two spear attacks with divine damage. Support priest.",
+    "actionEconomy": "Two attacks per action plus spellcasting.",
+    "encounterNotes": "Every major orc warband has an Eye of Gruumsh. The spiritual leader who channels the one-eyed god.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_orc_blade_of_ilneval",
+    "name": "Orc Blade of Ilneval",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "orc",
+    "alignment": "chaotic evil",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "ac": 18,
+    "acNote": "half plate",
+    "hp": 60,
+    "hpFormula": "8d8+24",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 17,
+    "dex": 11,
+    "con": 16,
+    "int": 11,
+    "wis": 10,
+    "cha": 12,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": 2,
+      "cha": null
+    },
+    "skills": {
+      "intimidation": 3
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "Common, Orc",
+    "traits": [
+      {
+        "name": "Aggressive",
+        "desc": "Bonus action move toward a hostile creature."
+      },
+      {
+        "name": "Gruumsh's Fury",
+        "desc": "Extra 4 (1d8) damage on weapon attacks (included)."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three longsword attacks."
+      },
+      {
+        "name": "Longsword",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (1d8+3+1d8) slashing damage."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Ilneval's Command",
+        "desc": "Up to three allied orcs within 60 ft. that can hear the blade can use their reactions to each make one melee weapon attack."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks per turn with divine bonus damage. Ilneval's Command lets three orcs each make a free attack as a reaction \u2014 potentially four extra attacks in a round.",
+    "actionEconomy": "Three attacks per action. Ilneval's Command gives up to three allies a reaction attack.",
+    "encounterNotes": "Elite orc strategist. Commands orc infantry. Ilneval's Command can be devastating with a large warband.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_orc_hand_of_yurtrus",
+    "name": "Orc Hand of Yurtrus",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "orc",
+    "alignment": "chaotic evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "leather armor",
+    "hp": 30,
+    "hpFormula": "4d8+12",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 14,
+    "dex": 8,
+    "con": 16,
+    "int": 9,
+    "wis": 13,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 60
+    },
+    "languages": "Common, Orc",
+    "traits": [
+      {
+        "name": "Aggressive",
+        "desc": "Bonus action move toward hostile creature."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Wis-based (spell save DC 11). At will: chill touch, spare the dying. 2/day each: blindness/deafness, inflict wounds."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks with its claws or a claw and an inflict wounds."
+      },
+      {
+        "name": "Corrupting Touch",
+        "desc": "Melee Spell Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d6) necrotic damage, and the creature must succeed on a DC 11 Con save or its hit point maximum is reduced by the amount of necrotic damage taken until it finishes a long rest."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Corrupting Touch reduces HP maximum. Inflict wounds for burst necrotic. Blindness/deafness to cripple a PC. Death-cult priest.",
+    "actionEconomy": "Two attacks with Corrupting Touch plus spellcasting.",
+    "encounterNotes": "Orc warbands. Priest of Yurtrus, orc god of death and disease.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_orc_nurtured_one_of_yurtrus",
+    "name": "Orc Nurtured One of Yurtrus",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "orc",
+    "alignment": "chaotic evil",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "ac": 9,
+    "acNote": "",
+    "hp": 30,
+    "hpFormula": "4d8+12",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 8,
+    "con": 16,
+    "int": 7,
+    "wis": 11,
+    "cha": 7,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "Common, Orc",
+    "traits": [
+      {
+        "name": "Aggressive",
+        "desc": "Bonus action move toward hostile creature."
+      },
+      {
+        "name": "Corrupted Body",
+        "desc": "When the orc dies, it explodes in a burst of viscera. Each creature within 5 ft. must succeed on a DC 13 Con save or take 9 (2d8) poison damage and be poisoned until the end of its next turn."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Corrupting Touch",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) necrotic damage, and the creature must succeed on a DC 11 Con save or be poisoned until the end of its next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Death explosion is the main threat. Rush into melee and explode on death. Suicide bomber of the orc warband.",
+    "actionEconomy": "Single Corrupting Touch. The real attack is dying.",
+    "encounterNotes": "Orc warbands as shock troops. They're EXPECTED to die. Enemies ignore them at their peril.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_orc_red_fang_of_shargaas",
+    "name": "Orc Red Fang of Shargaas",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "orc",
+    "alignment": "chaotic evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "studded leather",
+    "hp": 52,
+    "hpFormula": "8d8+16",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 11,
+    "dex": 16,
+    "con": 14,
+    "int": 9,
+    "wis": 11,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "acrobatics": 5,
+      "perception": 4,
+      "stealth": 7
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 60
+    },
+    "languages": "Common, Orc",
+    "traits": [
+      {
+        "name": "Aggressive",
+        "desc": "Bonus action move toward hostile creature."
+      },
+      {
+        "name": "Shargaas's Sight",
+        "desc": "Magical darkness doesn't impede the orc's darkvision."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two shortsword attacks."
+      },
+      {
+        "name": "Shortsword",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 7 (2d6) poison damage."
+      },
+      {
+        "name": "Hand Crossbow",
+        "desc": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 6 (1d6+3) piercing damage plus 7 (2d6) poison damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks with heavy poison damage. Sees through magical darkness. High stealth for assassination approach. Assassin caste of orcish society.",
+    "actionEconomy": "Two attacks (melee or ranged) per action with poison.",
+    "encounterNotes": "Orc thieves guild. Assassin of the war chief. Works in darkness and shadows.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_orc_claw_of_luthic",
+    "name": "Orc Claw of Luthic",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "orc",
+    "alignment": "chaotic evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "hide armor",
+    "hp": 45,
+    "hpFormula": "6d8+18",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 14,
+    "dex": 10,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "medicine": 4,
+      "religion": 3,
+      "stealth": 2
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 12,
+      "darkvision": 60
+    },
+    "languages": "Common, Orc",
+    "traits": [
+      {
+        "name": "Aggressive",
+        "desc": "Bonus action move toward hostile creature."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Wis-based (spell save DC 12). At will: guidance, mending, resistance, spare the dying, thaumaturgy. 2/day each: augury, bless, cure wounds. 1/day each: bestow curse, spirit guardians."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two claw attacks."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Spirit guardians for ongoing radiant damage while healing allies. Bless to buff. Two strong claw attacks. Healer/support of the warband.",
+    "actionEconomy": "Two claw attacks plus spellcasting.",
+    "encounterNotes": "Every orc warband needs a Claw of Luthic. Heals the wounded and maintains the cave.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_despot",
+    "name": "Duergar Despot",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "dwarf",
+    "alignment": "lawful evil",
+    "cr": "12",
+    "xp": 8400,
+    "proficiencyBonus": 3,
+    "ac": 21,
+    "acNote": "natural armor",
+    "hp": 119,
+    "hpFormula": "14d8+56",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 20,
+    "dex": 5,
+    "con": 18,
+    "int": 15,
+    "wis": 12,
+    "cha": 18,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": 8,
+      "int": null,
+      "wis": 5,
+      "cha": 8
+    },
+    "skills": {},
+    "damageResistances": [
+      "poison"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 120
+    },
+    "languages": "Dwarvish, Undercommon",
+    "traits": [
+      {
+        "name": "Duergar Resilience",
+        "desc": "Advantage on saves against poison, spells, and illusions; resist charm and paralysis."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage on attacks and Perception (sight) in sunlight."
+      },
+      {
+        "name": "Innate Spellcasting",
+        "desc": "Cha-based (spell save DC 16). At will: detect magic, mage hand (invisible). 1/day each: plane shift (self only)."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes four attacks or uses its Psychic Crush twice."
+      },
+      {
+        "name": "Spiked Iron Throne",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) piercing damage plus 10 (3d6) psychic damage."
+      },
+      {
+        "name": "Iron Fist",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (2d4+5) bludgeoning damage plus 10 (3d6) psychic damage."
+      },
+      {
+        "name": "Psychic Crush",
+        "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit: 26 (4d12) psychic damage."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Psychic Torrent",
+        "desc": "Each creature of the despot's choice within 30 ft. must succeed on a DC 16 Int save or take 16 (3d10) psychic damage."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Four attacks per turn, each with psychic bonus damage. Psychic Crush at range. Psychic Torrent as a bonus action AoE. Iron Throne melee is massive.",
+    "actionEconomy": "Four attacks per action plus Psychic Torrent bonus action.",
+    "encounterNotes": "Duergar city ruler. The most powerful duergar. Commands armies and psychic powers.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_hammerer",
+    "name": "Duergar Hammerer",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Construct",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "ac": 17,
+    "acNote": "natural armor",
+    "hp": 33,
+    "hpFormula": "6d8+6",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 17,
+    "dex": 5,
+    "con": 14,
+    "int": 5,
+    "wis": 5,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 7,
+      "darkvision": 60
+    },
+    "languages": "Understands Dwarvish but can't speak",
+    "traits": [
+      {
+        "name": "Siege Monster",
+        "desc": "The hammerer deals double damage to objects and structures."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks: one with its war pick and one with its crushing wheel."
+      },
+      {
+        "name": "War Pick",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) piercing damage."
+      },
+      {
+        "name": "Crushing Wheel",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12+3) bludgeoning damage, and if the target is a creature, it must succeed on a DC 13 Str save or be knocked prone."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks per turn. Siege monster doubles damage to structures. Crushing Wheel knocks prone. A walking siege engine.",
+    "actionEconomy": "Two attacks per action (war pick + crushing wheel).",
+    "encounterNotes": "Duergar fortresses and mining operations. Used to break through doors and walls.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_kavalrachni",
+    "name": "Duergar Kavalrachni",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "dwarf",
+    "alignment": "lawful evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "scale mail and shield",
+    "hp": 26,
+    "hpFormula": "4d8+8",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 14,
+    "dex": 11,
+    "con": 14,
+    "int": 11,
+    "wis": 10,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "poison"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Dwarvish, Undercommon",
+    "traits": [
+      {
+        "name": "Duergar Resilience",
+        "desc": "Advantage on saves against poison, spells, and illusions."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage on attacks and sight Perception in sunlight."
+      },
+      {
+        "name": "Cavalry Training",
+        "desc": "When the kavalrachni hits a target with a melee weapon while mounted, its mount can use its reaction to make one melee attack against the same target."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two war pick attacks."
+      },
+      {
+        "name": "War Pick",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) piercing damage."
+      },
+      {
+        "name": "Enlarge (Recharges after a Short or Long Rest)",
+        "desc": "For 1 minute the duergar magically increases in size, along with anything it is carrying. While enlarged, doubles its damage dice and has advantage on Str checks and saves."
+      },
+      {
+        "name": "Invisibility (Recharges after a Short or Long Rest)",
+        "desc": "Magically turns invisible until it attacks, casts a spell, or its concentration ends."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks plus mount's reaction attack. Enlarge for doubled damage. Invisibility for approach. Mounted cavalry of the duergar.",
+    "actionEconomy": "Two attacks plus mount reaction attack. Enlarge for burst damage.",
+    "encounterNotes": "Duergar cavalry on giant spiders or other underground mounts.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_mind_master",
+    "name": "Duergar Mind Master",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "dwarf",
+    "alignment": "lawful evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "leather armor",
+    "hp": 39,
+    "hpFormula": "6d6+18",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 11,
+    "dex": 17,
+    "con": 16,
+    "int": 12,
+    "wis": 10,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "poison"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120,
+      "truesight": 30
+    },
+    "languages": "Dwarvish, Undercommon",
+    "traits": [
+      {
+        "name": "Duergar Resilience",
+        "desc": "Advantage on saves against poison, spells, and illusions."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage in sunlight."
+      },
+      {
+        "name": "Innate Spellcasting",
+        "desc": "Int-based (spell save DC 11). At will: mind spike (as inflict wounds, 3d10 psychic). 1/day: dominate person."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two shortsword attacks."
+      },
+      {
+        "name": "Shortsword",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 5 (2d4) psychic damage."
+      },
+      {
+        "name": "Mind Spike",
+        "desc": "Melee Spell Attack: +3 to hit, reach 5 ft., one creature. Hit: 16 (3d10) psychic damage."
+      },
+      {
+        "name": "Shrink",
+        "desc": "Magically decreases to Small size for 1 hour. While small, speed is halved, attacks deal half damage, and it can move through spaces a Tiny creature can."
+      },
+      {
+        "name": "Invisibility",
+        "desc": "As standard duergar."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks with psychic bonus. Mind Spike for burst psychic damage. Dominate Person to take over a PC. Shrink to fit through tunnels. Spy and infiltrator.",
+    "actionEconomy": "Two attacks per action plus Mind Spike and Dominate Person.",
+    "encounterNotes": "Duergar spies and infiltrators. Works alone or guides a squad through tight passages.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_screamer",
+    "name": "Duergar Screamer",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Construct",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 15,
+    "acNote": "natural armor",
+    "hp": 38,
+    "hpFormula": "7d8+7",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 7,
+    "con": 13,
+    "int": 5,
+    "wis": 5,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 7,
+      "darkvision": 60
+    },
+    "languages": "Understands Dwarvish but can't speak",
+    "traits": [
+      {
+        "name": "Siege Monster",
+        "desc": "Deals double damage to objects and structures."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one drill attack and uses its Sonic Scream."
+      },
+      {
+        "name": "Drill",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8+2) piercing damage."
+      },
+      {
+        "name": "Sonic Scream",
+        "desc": "Each creature within 5 ft. must succeed on a DC 11 Con save or take 7 (2d6) thunder damage and be stunned until the end of the screamer's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Drill for piercing plus Sonic Scream AoE stun every turn. Siege monster for structures. Pair with infantry for maximum chaos.",
+    "actionEconomy": "One drill attack plus Sonic Scream per action.",
+    "encounterNotes": "Duergar war machines. Used to break formations and stun enemies while duergar soldiers close in.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_stone_guard",
+    "name": "Duergar Stone Guard",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "dwarf",
+    "alignment": "lawful evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 20,
+    "acNote": "plate armor and shield",
+    "hp": 39,
+    "hpFormula": "6d8+12",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 11,
+    "wis": 10,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "poison"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Dwarvish, Undercommon",
+    "traits": [
+      {
+        "name": "Duergar Resilience",
+        "desc": "Advantage on saves against poison, spells, and illusions."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage in sunlight."
+      },
+      {
+        "name": "Phalanx Fighting",
+        "desc": "The stone guard has advantage on attack rolls while at least one ally is within 5 ft. of it and not incapacitated."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two war pick attacks."
+      },
+      {
+        "name": "War Pick",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage."
+      },
+      {
+        "name": "Enlarge",
+        "desc": "As standard duergar."
+      },
+      {
+        "name": "Invisibility",
+        "desc": "As standard duergar."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks with phalanx fighting (advantage when adjacent to allies). AC 20 is exceptional. Shield wall tactics.",
+    "actionEconomy": "Two attacks per action with phalanx advantage.",
+    "encounterNotes": "Elite duergar infantry. Forms shield walls in tunnels. Essentially impossible to bypass in narrow corridors.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_soul_blade",
+    "name": "Duergar Soul Blade",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "dwarf",
+    "alignment": "lawful evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 14,
+    "acNote": "studded leather",
+    "hp": 18,
+    "hpFormula": "4d8",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 11,
+    "dex": 16,
+    "con": 10,
+    "int": 11,
+    "wis": 10,
+    "cha": 12,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "poison"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Dwarvish, Undercommon",
+    "traits": [
+      {
+        "name": "Duergar Resilience",
+        "desc": "Advantage on saves against poison, spells, and illusions."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage in sunlight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two shortsword attacks."
+      },
+      {
+        "name": "Shortsword",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 2 (1d4) psychic damage."
+      },
+      {
+        "name": "Invisibility",
+        "desc": "As standard duergar."
+      },
+      {
+        "name": "Shrink",
+        "desc": "As standard duergar."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks with psychic bonus damage. Invisibility for approach. High Dexterity makes it a skirmisher.",
+    "actionEconomy": "Two attacks per action.",
+    "encounterNotes": "Duergar assassins and scouts. Works in small squads.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_warlord",
+    "name": "Duergar Warlord",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "dwarf",
+    "alignment": "lawful evil",
+    "cr": "6",
+    "xp": 2300,
+    "proficiencyBonus": 3,
+    "ac": 20,
+    "acNote": "plate armor and shield",
+    "hp": 135,
+    "hpFormula": "18d8+54",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 20,
+    "dex": 9,
+    "con": 16,
+    "int": 11,
+    "wis": 10,
+    "cha": 14,
+    "savingThrows": {
+      "str": 8,
+      "dex": null,
+      "con": 6,
+      "int": null,
+      "wis": 3,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "poison"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Dwarvish, Undercommon",
+    "traits": [
+      {
+        "name": "Duergar Resilience",
+        "desc": "Advantage on saves against poison, spells, and illusions."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage in sunlight."
+      },
+      {
+        "name": "Healing Surge (Recharges after a Short or Long Rest)",
+        "desc": "As a bonus action, the warlord regains 20 hit points."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three war pick attacks or one war pick and uses Spiked Gauntlet twice."
+      },
+      {
+        "name": "War Pick",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) piercing damage."
+      },
+      {
+        "name": "Spiked Gauntlet",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d4+5) piercing damage, and the target must succeed on a DC 16 Str save or be knocked prone."
+      },
+      {
+        "name": "Enlarge (Recharges after a Short or Long Rest)",
+        "desc": "As standard duergar."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Healing Surge",
+        "desc": "Regains 20 hit points. Recharges after short or long rest."
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks per turn. Spiked Gauntlet knocks prone. Healing Surge self-heals 20 HP as bonus action. The mightiest duergar warrior.",
+    "actionEconomy": "Three attacks per action plus Healing Surge bonus.",
+    "encounterNotes": "Duergar fortress commander. Leads the Stone Guard. A serious threat.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_watch_captain",
+    "name": "Duergar Watch Captain",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "dwarf",
+    "alignment": "lawful evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "chain mail and shield",
+    "hp": 52,
+    "hpFormula": "8d8+16",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 11,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 13,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "poison"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Dwarvish, Undercommon",
+    "traits": [
+      {
+        "name": "Duergar Resilience",
+        "desc": "Advantage on saves against poison, spells, and illusions."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage in sunlight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two war pick attacks."
+      },
+      {
+        "name": "War Pick",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) piercing damage."
+      },
+      {
+        "name": "Dire Warning",
+        "desc": "One creature the watch captain can see within 30 ft. must succeed on a DC 11 Wis save or be frightened of the watch captain until the end of the creature's next turn."
+      },
+      {
+        "name": "Enlarge (Recharges after a Short or Long Rest)",
+        "desc": "As standard duergar."
+      },
+      {
+        "name": "Invisibility (Recharges after a Short or Long Rest)",
+        "desc": "As standard duergar."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks plus Dire Warning to frighten. Enlarge for doubled damage. Patrols duergar strongholds.",
+    "actionEconomy": "Two attacks plus Dire Warning for fear.",
+    "encounterNotes": "Duergar city patrol leader. Commands a squad of stone guards.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_duergar_xarrorn",
+    "name": "Duergar Xarrorn",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "dwarf",
+    "alignment": "lawful evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 18,
+    "acNote": "plate armor",
+    "hp": 26,
+    "hpFormula": "4d8+8",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 16,
+    "dex": 11,
+    "con": 14,
+    "int": 11,
+    "wis": 10,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "poison"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Dwarvish, Undercommon",
+    "traits": [
+      {
+        "name": "Duergar Resilience",
+        "desc": "Advantage on saves against poison, spells, and illusions."
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "Disadvantage in sunlight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Fire Lance",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (1d12+3) piercing damage plus 3 (1d6) fire damage. If the target is a flammable object that isn't being worn or carried, it ignites."
+      },
+      {
+        "name": "Fire Spray (Recharge 5-6)",
+        "desc": "The xarrorn vomits a 15-foot cone of flame. Each creature in the area must make a DC 12 Dex save, taking 14 (4d6) fire damage on a failure or half on a success."
+      },
+      {
+        "name": "Enlarge (Recharges after a Short or Long Rest)",
+        "desc": "As standard duergar."
+      },
+      {
+        "name": "Invisibility (Recharges after a Short or Long Rest)",
+        "desc": "As standard duergar."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "10 ft. reach fire lance with ignite. Fire Spray cone AoE on recharge. Enlarge for doubled lance damage. Fire support specialist.",
+    "actionEconomy": "Fire lance attack plus Fire Spray on recharge.",
+    "encounterNotes": "Duergar military. Fire-lance wielders who provide ranged fire support in tunnel warfare.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_hook_horror",
+    "name": "Hook Horror",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 15,
+    "acNote": "natural armor",
+    "hp": 75,
+    "hpFormula": "10d10+20",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 30
+    },
+    "str": 18,
+    "dex": 10,
+    "con": 15,
+    "int": 6,
+    "wis": 12,
+    "cha": 7,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 120,
+      "blindsight": 60
+    },
+    "languages": "Hook Horror",
+    "traits": [
+      {
+        "name": "Echolocation",
+        "desc": "Can't use blindsight while deafened."
+      },
+      {
+        "name": "Keen Hearing",
+        "desc": "Advantage on Perception checks relying on hearing."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two hook attacks."
+      },
+      {
+        "name": "Hook",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6+4) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two 10 ft. reach hooks. Climbs on walls and ceilings. Clicking sounds alert the rest of the pack.",
+    "actionEconomy": "Two hook attacks per action.",
+    "encounterNotes": "Underdark caverns. Packs of 3\u20136. The clicking communication summons more.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_froghemoth",
+    "name": "Froghemoth",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Huge",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "unaligned",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 3,
+    "ac": 14,
+    "acNote": "natural armor",
+    "hp": 184,
+    "hpFormula": "16d12+80",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 30,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 23,
+    "dex": 13,
+    "con": 20,
+    "int": 2,
+    "wis": 12,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": 9,
+      "int": null,
+      "wis": 5,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "fire",
+      "lightning"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Shock Susceptibility",
+        "desc": "If the froghemoth takes lightning damage, it suffers two effects until the end of its next turn: it has disadvantage on Wis (Perception) checks, and it has disadvantage on saving throws against being frightened."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The froghemoth makes two attacks: one with its tongue and one with its tentacles, or it makes four tentacle attacks."
+      },
+      {
+        "name": "Tongue",
+        "desc": "Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit: 26 (4d8+8) bludgeoning damage, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained. The froghemoth can only have one target grappled by its tongue at a time."
+      },
+      {
+        "name": "Tentacle",
+        "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d4+8) bludgeoning damage, and the target must succeed on a DC 18 Str save or be knocked prone."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (4d6+8) piercing damage. If the target is a Medium or smaller creature grappled by the froghemoth, that creature is swallowed. A swallowed creature is blinded and restrained, has total cover against attacks from outside, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns."
+      },
+      {
+        "name": "Swallow",
+        "desc": "See above."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Tongue grabs from 20 ft., tentacles knock prone, bite swallows restrained targets. Four tentacle attacks is devastating. Lightning vulnerability is the key weakness.",
+    "actionEconomy": "Two attacks (tongue + tentacle) or four tentacle attacks per action.",
+    "encounterNotes": "Underdark swamps and Barrier Peaks. An ancient, alien predator that makes no sense to anyone.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_flail_snail",
+    "name": "Flail Snail",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Elemental",
+    "subtype": null,
+    "alignment": "unaligned",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 52,
+    "hpFormula": "8d10+8",
+    "speed": {
+      "walk": 10,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 17,
+    "dex": 5,
+    "con": 12,
+    "int": 3,
+    "wis": 10,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "fire",
+      "poison"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Antimagic Shell",
+        "desc": "When the flail snail is targeted by a magic spell or is in the area of a magical effect, roll a d6. On a 1-2, the snail is affected normally. On a 3-5, the snail is unaffected by the spell. On a 6, the snail is unaffected by the spell and the spell is reflected back at the caster as though it had originated from the snail."
+      },
+      {
+        "name": "Flail Tentacles",
+        "desc": "The flail snail has 1d4+3 flail tentacles. Each tentacle makes a separate attack. When a tentacle is reduced to 0 HP, it falls off and the snail takes 1d10 damage. Each tentacle has an AC of 12 and 10 hit points."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The flail snail makes as many attacks as it has tentacles, each targeting one creature."
+      },
+      {
+        "name": "Tentacle",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 7 (1d8+3) bludgeoning damage."
+      },
+      {
+        "name": "Luminous Mucus (Recharge 6)",
+        "desc": "The snail exudes its luminous slime in a 10-foot-radius sphere around itself. The slime clings to creatures in the area, making them glow. Until a creature takes an action to scrape off the slime, it sheds dim light in a 5-foot radius and can't benefit from being invisible."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Multiple tentacle attacks based on how many it has. Antimagic Shell randomly deflects or reflects spells. Glowing slime reveals invisible creatures.",
+    "actionEconomy": "Variable number of attacks (1d4+3 tentacles). Antimagic Shell is passive on spells.",
+    "encounterNotes": "Underground caves. Valuable for its shell (magical components) and slime.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_leucrotta",
+    "name": "Leucrotta",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 14,
+    "acNote": "natural armor",
+    "hp": 67,
+    "hpFormula": "9d10+18",
+    "speed": {
+      "walk": 50,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 14,
+    "con": 15,
+    "int": 9,
+    "wis": 12,
+    "cha": 6,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "deception": 2,
+      "perception": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 60
+    },
+    "languages": "Abyssal",
+    "traits": [
+      {
+        "name": "Kicking Retreat",
+        "desc": "When the leucrotta moves at least 20 ft. straight toward a creature and attacks with its kick, it can immediately move up to 10 ft. away from the creature after the attack without provoking opportunity attacks."
+      },
+      {
+        "name": "Mimicry",
+        "desc": "Can mimic sounds it has heard, including voices. DC 14 Insight check to identify as imitation."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks: one with its kick and one with its bite."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage. If the leucrotta scores a critical hit, it rolls the damage dice three times, instead of twice."
+      },
+      {
+        "name": "Kick",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Mimics voices to lure prey. Kicking Retreat lets it attack and disengage for free. Critical hit triple damage on bite. Fast ambush predator.",
+    "actionEconomy": "Two attacks (kick + bite) per action. Kicking retreat built into kick attack.",
+    "encounterNotes": "Wilderness. Uses mimicry to lure travelers into ambushes. Disgusting scent precedes it.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_kraken_priest",
+    "name": "Kraken Priest",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "ac": 10,
+    "acNote": "",
+    "hp": 75,
+    "hpFormula": "10d8+30",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 30,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 12,
+    "dex": 10,
+    "con": 16,
+    "int": 12,
+    "wis": 15,
+    "cha": 14,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": 4,
+      "cha": 4
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 12
+    },
+    "languages": "Any two languages plus Primordial",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "desc": "Can breathe air and water."
+      },
+      {
+        "name": "Innate Spellcasting",
+        "desc": "Wis-based (spell save DC 12). At will: command, create or destroy water. 1/day each: call lightning, Evard's black tentacles, control water."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two melee attacks."
+      },
+      {
+        "name": "Thunderous Touch",
+        "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 27 (5d10) thunder damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Evard's Black Tentacles for massive area restrain. Call lightning for sustained damage. Thunderous Touch for burst. Control Water to flood or drain areas.",
+    "actionEconomy": "Two Thunderous Touch attacks or spellcasting.",
+    "encounterNotes": "Coastal and underwater. Devoted servant of a kraken. Gathers sacrifices and worshippers.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_deep_scion",
+    "name": "Deep Scion",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "shapechanger",
+    "alignment": "neutral evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 11,
+    "acNote": "",
+    "hp": 67,
+    "hpFormula": "9d8+27",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 40,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 11,
+    "con": 16,
+    "int": 10,
+    "wis": 10,
+    "cha": 12,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "deception": 5,
+      "insight": 2,
+      "persuasion": 3,
+      "stealth": 2
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 120
+    },
+    "languages": "Aquan, Common, plus one other language",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "desc": "Can breathe air and water."
+      },
+      {
+        "name": "Shapechanger",
+        "desc": "Can use its action to polymorph into a humanoid form it has seen, or back into its true form. Its statistics are the same in each form, but it can't use Psychic Screech in humanoid form."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "In humanoid form, makes two claw attacks. In true form, makes two claw attacks or one claw attack and one Psychic Screech."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) slashing damage."
+      },
+      {
+        "name": "Psychic Screech (True Form Only)",
+        "desc": "Each creature within 60 ft. must succeed on a DC 13 Int save or be stunned until the end of the deep scion's next turn and take 16 (3d10) psychic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Shapeshifts to infiltrate coastal communities. Psychic Screech stuns everything nearby. Two claw attacks in true form.",
+    "actionEconomy": "Two attacks per action. Psychic Screech for AoE stun.",
+    "encounterNotes": "Coastal towns. Spy for an Elder Evil or aboleth. Discovered only when it needs to reveal itself.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_tlincalli",
+    "name": "Tlincalli",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "ac": 15,
+    "acNote": "natural armor",
+    "hp": 114,
+    "hpFormula": "12d10+48",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 19,
+    "dex": 13,
+    "con": 18,
+    "int": 11,
+    "wis": 12,
+    "cha": 7,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "perception": 4,
+      "stealth": 4,
+      "survival": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 60
+    },
+    "languages": "Tlincalli",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three attacks: two with its scimitars and one with its stinger."
+      },
+      {
+        "name": "Scimitar",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage."
+      },
+      {
+        "name": "Stinger",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 4 (1d4) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 15 Con save or be poisoned for 1 hour. While poisoned in this way, the target is paralyzed."
+      },
+      {
+        "name": "Lasso",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: The target is grappled (escape DC 15). Until this grapple ends, the target is restrained and the tlincalli can't use its lasso on another target."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks per turn. Stinger paralyzes on failed save. Lasso to restrain. Scorpion-like upper body.",
+    "actionEconomy": "Three attacks per action (2 scimitars + stinger) plus lasso for restrain.",
+    "encounterNotes": "Desert and rocky terrain. Hunt alone. Collect humanoid captives for rituals.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_slithering_tracker",
+    "name": "Slithering Tracker",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Ooze",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 14,
+    "acNote": "",
+    "hp": 32,
+    "hpFormula": "5d6+15",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 30,
+      "burrow": 0,
+      "climb": 30
+    },
+    "str": 16,
+    "dex": 19,
+    "con": 16,
+    "int": 10,
+    "wis": 13,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "stealth": 8
+    },
+    "damageResistances": [
+      "acid",
+      "cold",
+      "fire",
+      "lightning",
+      "thunder",
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "blinded",
+      "charmed",
+      "deafened",
+      "exhaustion",
+      "frightened",
+      "prone"
+    ],
+    "senses": {
+      "passivePerception": 11,
+      "blindsight": 120
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Ambusher",
+        "desc": "In the first round of combat, the slithering tracker has advantage on attack rolls against any creature it has surprised."
+      },
+      {
+        "name": "Damage Transfer",
+        "desc": "While the tracker is attached to a creature, the tracker takes only half the damage dealt to it (rounded down), and the creature the tracker is attached to takes the other half."
+      },
+      {
+        "name": "False Appearance",
+        "desc": "While motionless, indistinguishable from a puddle of water."
+      },
+      {
+        "name": "Keen Smell",
+        "desc": "Advantage on Perception checks relying on smell."
+      },
+      {
+        "name": "Liquid Form",
+        "desc": "The tracker can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without squeezing."
+      },
+      {
+        "name": "Spider Climb",
+        "desc": "Can climb difficult surfaces including ceilings without checks."
+      },
+      {
+        "name": "Stealthy",
+        "desc": "Can take the Hide action as a bonus action."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) bludgeoning damage, and the tracker attaches to the target if the target is Medium or smaller. While attached, the tracker can't make slam attacks; instead, at the start of each of the tracker's turns, the target loses 7 (1d6+4) hit points due to blood loss. If the target is reduced to 0 hit points, the tracker detaches."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Ambushes as puddle of water. Attaches and drains blood automatically. Damage transfer halves damage to itself while attached. Nearly invisible until it strikes.",
+    "actionEconomy": "Single slam to attach. Automatic drain each turn while attached.",
+    "encounterNotes": "Dungeons and swamps. Created from the soul of a treacherous water creature. Undetectable until it strikes.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_spawn_of_kyuss",
+    "name": "Spawn of Kyuss",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 10,
+    "acNote": "",
+    "hp": 42,
+    "hpFormula": "5d8+20",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 14,
+    "dex": 10,
+    "con": 18,
+    "int": 5,
+    "wis": 8,
+    "cha": 6,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "exhaustion",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 9,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Regeneration",
+        "desc": "The spawn regains 10 hit points at the start of its turn if it has at least 1 hit point. If the spawn takes fire or radiant damage, this trait doesn't function at the start of its next turn."
+      },
+      {
+        "name": "Worm Transfer",
+        "desc": "A worm can transfer from the spawn to an adjacent creature. The creature must succeed on a DC 11 Con save or take 1 piercing damage and have a worm burrow into its body. Each time the target finishes a long rest without being magically healed, it must succeed on a DC 11 Con save or take 14 (4d6) poison damage. If this reduces the creature to 0 hit points, it dies and becomes a new Spawn of Kyuss after 24 hours."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two slam attacks."
+      },
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage, and a worm leaps from the spawn to the target. The target must succeed on a DC 11 Dex save or have a worm burrow into its body. At the start of the target's next turn, the target takes 5 (1d10) piercing damage from the worm. The target can remove the worm if it uses its action to make a DC 11 Dex check (or another creature uses an action and an appropriate tool or aid). If the creature doesn't remove the worm, it must repeat the Con save when it finishes its next long rest, taking 14 (4d6) poison damage on a failure, or dying and becoming a spawn of Kyuss after 24 hours."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two slam attacks that implant worms causing infection. Regeneration makes them hard to kill permanently. The worm infection is the real long-term threat.",
+    "actionEconomy": "Two slam attacks per action. Worms are the main threat.",
+    "encounterNotes": "Ancient crypts and undead lairs. The worm infection can spread through a party.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_swarm_of_cranium_rats",
+    "name": "Swarm of Cranium Rats",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Beast",
+    "subtype": "swarm of Tiny Beasts",
+    "alignment": "lawful evil",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "ac": 12,
+    "acNote": "",
+    "hp": 36,
+    "hpFormula": "8d8",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 9,
+    "dex": 11,
+    "con": 10,
+    "int": 15,
+    "wis": 11,
+    "cha": 14,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 30
+    },
+    "languages": "Telepathy 30 ft.",
+    "traits": [
+      {
+        "name": "Illumination",
+        "desc": "The swarm sheds dim light in a 10-foot radius when it has more than half its HP and bright light in 5 ft. plus dim light in 5 ft. when it has half or fewer HP."
+      },
+      {
+        "name": "Swarm",
+        "desc": "Can occupy another creature's space. Can't regain HP or gain temp HP."
+      },
+      {
+        "name": "Telepathic Shroud",
+        "desc": "The swarm is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells."
+      },
+      {
+        "name": "Innate Spellcasting (Requires half or more HP)",
+        "desc": "Int-based (spell save DC 13). At will: command, comprehend languages, detect thoughts. 1/day: confusion."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bites",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer, plus 9 (2d8) psychic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Bites do psychic damage. Can cast Command and Detect Thoughts while at half HP. Telepathic shroud protects from divination. Mind flayer servants.",
+    "actionEconomy": "Single bites attack with psychic damage. Spellcasting at half HP.",
+    "encounterNotes": "Mind flayer colonies. A swarm of cranium rats is actually a collective intelligence.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_venom_troll",
+    "name": "Venom Troll",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Giant",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "ac": 15,
+    "acNote": "natural armor",
+    "hp": 138,
+    "hpFormula": "12d10+72",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 18,
+    "dex": 13,
+    "con": 22,
+    "int": 5,
+    "wis": 8,
+    "cha": 4,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "perception": 1
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 60
+    },
+    "languages": "Giant",
+    "traits": [
+      {
+        "name": "Keen Smell",
+        "desc": "Advantage on Perception checks relying on smell."
+      },
+      {
+        "name": "Poison Splash",
+        "desc": "When the troll takes damage from a melee attack, the attacker takes 7 (2d6) poison damage."
+      },
+      {
+        "name": "Regeneration",
+        "desc": "Regains 10 HP per turn unless it took acid or fire damage this turn."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one bite and two claw attacks."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage plus 4 (1d8) poison damage."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage plus 4 (1d8) poison damage."
+      },
+      {
+        "name": "Venom Spray (Recharge 6)",
+        "desc": "Each creature in a 15-foot cube originating from the troll must make a DC 16 Con save, taking 35 (10d6) poison damage on fail or half on success. On a failed save, the creature is poisoned until the start of the troll's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks with poison damage. Poison Splash retaliates on melee hits. Venom Spray for massive AoE. Regeneration. Don't get close without fire or acid ready.",
+    "actionEconomy": "Three attacks per action (bite + 2 claws) plus Venom Spray on recharge.",
+    "encounterNotes": "Swamps and forests. More dangerous than a regular troll due to poison aura.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_xvart",
+    "name": "Xvart",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "xvart",
+    "alignment": "chaotic evil",
+    "cr": "1/8",
+    "xp": 25,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "leather armor",
+    "hp": 7,
+    "hpFormula": "2d6",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 8,
+    "dex": 14,
+    "con": 8,
+    "int": 7,
+    "wis": 7,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "stealth": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 9,
+      "darkvision": 30
+    },
+    "languages": "Abyssal",
+    "traits": [
+      {
+        "name": "Low Cunning",
+        "desc": "The xvart can take the Disengage action as a bonus action on each of its turns."
+      },
+      {
+        "name": "Overbearing Pack",
+        "desc": "The xvart has advantage on Str (Athletics) checks to grapple a creature if at least one of the xvart's allies is within 5 ft. of the target and the ally isn't incapacitated."
+      },
+      {
+        "name": "Raxivort's Tongue",
+        "desc": "The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Shortsword",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+      },
+      {
+        "name": "Sling",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) bludgeoning damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Low Cunning lets it disengage every turn for free. Swarms in packs with rats and bats. Cowardly but numerous.",
+    "actionEconomy": "Single attack. Bonus action disengage every turn.",
+    "encounterNotes": "Sewers and ruins. Worshippers of the demon prince Raxivort. Command rats and bats.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_xvart_warlock_of_raxivort",
+    "name": "Xvart Warlock of Raxivort",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "xvart",
+    "alignment": "chaotic evil",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 12,
+    "acNote": "leather armor",
+    "hp": 22,
+    "hpFormula": "5d6+5",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 8,
+    "dex": 14,
+    "con": 12,
+    "int": 7,
+    "wis": 7,
+    "cha": 13,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "stealth": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 9,
+      "darkvision": 30
+    },
+    "languages": "Abyssal",
+    "traits": [
+      {
+        "name": "Low Cunning",
+        "desc": "Can take the Disengage action as a bonus action."
+      },
+      {
+        "name": "Raxivort's Tongue",
+        "desc": "Can communicate with ordinary and giant bats and rats."
+      },
+      {
+        "name": "Innate Spellcasting",
+        "desc": "Cha-based (spell save DC 11). At will: burning hands, detect magic. 1/day each: scorching ray, spider climb."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two shortsword attacks."
+      },
+      {
+        "name": "Shortsword",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Burning hands for melee AoE. Scorching ray for single target. Spider climb for positioning. The magical leader of a xvart band.",
+    "actionEconomy": "Two attacks or spellcasting. Bonus action disengage.",
+    "encounterNotes": "Xvart lairs. The warlock leader channels the power of Raxivort.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_darkling_elder",
+    "name": "Darkling Elder",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Fey",
+    "subtype": null,
+    "alignment": "chaotic neutral",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 15,
+    "acNote": "studded leather",
+    "hp": 40,
+    "hpFormula": "9d8",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 13,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 13,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "acrobatics": 5,
+      "deception": 3,
+      "perception": 4,
+      "stealth": 5
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 120
+    },
+    "languages": "Elvish, Sylvan",
+    "traits": [
+      {
+        "name": "Death Flash",
+        "desc": "When the darkling elder dies, nonmagical light flashes in a 10-foot radius. Until the end of the elder's next turn, all creatures in the radius when it dies must make a DC 11 Con save or be blinded until the end of that creature's turn."
+      },
+      {
+        "name": "Light Sensitivity",
+        "desc": "While in bright light, disadvantage on attacks and Perception (sight) checks."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks: two scimitars, or one scimitar and one Darkness Tendril."
+      },
+      {
+        "name": "Scimitar",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage plus 7 (2d6) necrotic damage."
+      },
+      {
+        "name": "Darkness Tendril",
+        "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d8) necrotic damage, and the target must succeed on a DC 11 Con save or be blinded until the end of the darkling elder's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two attacks with heavy necrotic damage. Darkness Tendril blinds on failed save. Death Flash blinds on death. Leads the darklings.",
+    "actionEconomy": "Two attacks per action (scimitar + Darkness Tendril or two scimitars).",
+    "encounterNotes": "Dark forests and underground. Elder of a darkling community.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_skull_lasher_of_myrkul",
+    "name": "Skull Lasher of Myrkul",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "any race",
+    "alignment": "neutral evil",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 13,
+    "acNote": "leather armor",
+    "hp": 32,
+    "hpFormula": "5d8+10",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 11,
+    "dex": 14,
+    "con": 14,
+    "int": 11,
+    "wis": 13,
+    "cha": 11,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "arcana": 2,
+      "religion": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 11
+    },
+    "languages": "Any one language plus Abyssal or Infernal",
+    "traits": [
+      {
+        "name": "Necrotic Flurry",
+        "desc": "When the skull lasher hits with a flail, roll a d4. On a 4, the target takes 7 (2d6) extra necrotic damage."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two flail attacks."
+      },
+      {
+        "name": "Flail",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) bludgeoning damage."
+      },
+      {
+        "name": "Death Gaze",
+        "desc": "One creature within 30 ft. must make a DC 11 Wis save or take 7 (2d6) necrotic damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Two flail attacks with random necrotic bonus. Death Gaze for ranged necrotic. Cult enforcer of Myrkul.",
+    "actionEconomy": "Two attacks plus Death Gaze.",
+    "encounterNotes": "Death cults and Myrkul worship sites.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_catoblepas",
+    "name": "Catoblepas",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "unaligned",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "ac": 14,
+    "acNote": "natural armor",
+    "hp": 84,
+    "hpFormula": "13d10+13",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 19,
+    "dex": 12,
+    "con": 13,
+    "int": 9,
+    "wis": 14,
+    "cha": 8,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "perception": 4
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 14,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Keen Smell",
+        "desc": "Advantage on Perception checks relying on smell."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Tail",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6+4) bludgeoning damage, and the target must succeed on a DC 14 Con save or be stunned until the end of the target's next turn."
+      },
+      {
+        "name": "Death Ray (Recharge 5-6)",
+        "desc": "The catoblepas fixes its gaze on one creature it can see within 30 ft. The target must make a DC 14 Con save. On a failed save, the target takes 36 (8d8) necrotic damage. On a successful save, the target takes half as much damage. The target dies if reduced to 0 by this damage. A humanoid killed by this ray rises as a zombie at the start of the catoblepas's next turn."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Stun with tail, then Death Ray the stunned target for near-certain death. The Death Ray creates zombies from kills. Dangerous despite low CR label.",
+    "actionEconomy": "Tail attack plus Death Ray on recharge.",
+    "encounterNotes": "Swamps. The bison-buffalo of doom. Its heads droops \u2014 it can only use the Death Ray after lifting its head.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_cave_fisher",
+    "name": "Cave Fisher",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "unaligned",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 58,
+    "hpFormula": "9d8+18",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 20
+    },
+    "str": 16,
+    "dex": 13,
+    "con": 14,
+    "int": 3,
+    "wis": 10,
+    "cha": 3,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "blindsight": 60
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Spider Climb",
+        "desc": "Can climb difficult surfaces including ceilings without checks."
+      },
+      {
+        "name": "Flammable Blood",
+        "desc": "If the cave fisher takes more than 10 piercing or slashing damage in a single hit, the blood that spills ignites if exposed to open flame. The fire burns for 1 minute, shedding bright light in a 10-foot radius and dealing 1d6 fire damage to any creature that enters the area or ends its turn there."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks: one with its filament and one with its claws."
+      },
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage."
+      },
+      {
+        "name": "Filament",
+        "desc": "The cave fisher extrudes a sticky filament up to 60 ft. long. One creature in the filament's path must succeed on a DC 14 Str save or be pulled 30 ft. toward the cave fisher. The creature is restrained by the filament until the start of the cave fisher's next turn. While restrained, the creature is pulled 30 ft. closer to the cave fisher at the start of each of the cave fisher's turns. A creature can use an action to make a DC 14 Str check to free itself or another creature. A filament can be attacked and destroyed (AC 15, 10 HP; vulnerable to fire; immune to bludgeoning, poison, and psychic)."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Fires 60-ft filament to pull prey from distance. Claws for melee. Hangs from cave ceilings. Flammable blood is a hazard for torch-bearers.",
+    "actionEconomy": "Filament to pull, then claws in melee.",
+    "encounterNotes": "Cave ceilings and underground passages. Drops on prey once reeled in.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_bodak",
+    "name": "Bodak",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "6",
+    "xp": 2300,
+    "proficiencyBonus": 3,
+    "ac": 13,
+    "acNote": "natural armor",
+    "hp": 58,
+    "hpFormula": "9d8+18",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 15,
+    "dex": 16,
+    "con": 15,
+    "int": 7,
+    "wis": 12,
+    "cha": 12,
+    "savingThrows": {
+      "str": 4,
+      "dex": null,
+      "con": 4,
+      "int": null,
+      "wis": 3,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "cold",
+      "fire",
+      "necroitc"
+    ],
+    "damageImmunities": [
+      "lightning",
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "charmed",
+      "frightened",
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 120,
+      "truesight": 30
+    },
+    "languages": "Abyssal, the languages it knew in life",
+    "traits": [
+      {
+        "name": "Aura of Annihilation",
+        "desc": "The bodak can activate or deactivate this feature as a bonus action. While active, the aura deals 4 (1d8) necrotic damage to any creature that ends its turn within 30 ft. of the bodak."
+      },
+      {
+        "name": "Death Gaze",
+        "desc": "When a creature that can see the bodak's eyes starts its turn within 30 ft. of the bodak, the bodak can force it to make a DC 13 Con save. On a failed save, the creature drops to 0 hit points. On a successful save, the creature is frightened until the start of its next turn. A creature that isn't surprised can avert its eyes to avoid the save but has disadvantage on attacks against the bodak until the start of its next turn."
+      },
+      {
+        "name": "Sunlight Hypersensitivity",
+        "desc": "The bodak takes 5 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attacks and ability checks."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Fist",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage plus 9 (2d8) necrotic damage."
+      },
+      {
+        "name": "Corrupting Gaze",
+        "desc": "One creature the bodak can see within 60 ft. must make a DC 13 Con save, taking 22 (4d10) necrotic damage on fail or half on success."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Death Gaze at the start of each enemy turn can instantly drop creatures to 0 HP. Aura of Annihilation passively damages all nearby. Corrupting Gaze for ranged necrotic. Avert eyes or die.",
+    "actionEconomy": "Fist attack plus Corrupting Gaze. Death Gaze and Aura of Annihilation are passive.",
+    "encounterNotes": "Vestiges of those destroyed by demogorgon. The very sight of them is lethal.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_gray_render",
+    "name": "Gray Render",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": null,
+    "alignment": "neutral",
+    "cr": "12",
+    "xp": 8400,
+    "proficiencyBonus": 3,
+    "ac": 19,
+    "acNote": "natural armor",
+    "hp": 189,
+    "hpFormula": "18d10+90",
+    "speed": {
+      "walk": 35,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 19,
+    "dex": 8,
+    "con": 20,
+    "int": 3,
+    "wis": 6,
+    "cha": 8,
+    "savingThrows": {
+      "str": 8,
+      "dex": null,
+      "con": 9,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "perception": 2
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 12,
+      "darkvision": 60
+    },
+    "languages": "",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes one bite attack and two claw attacks."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) piercing damage, and the target must succeed on a DC 17 Str save or be knocked prone."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage. If the target is a creature, it must succeed on a DC 17 Str save or be grappled."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three attacks. Bite knocks prone. Claws grapple. Bonds with a single creature as a loyal companion \u2014 both a threat and a potential asset.",
+    "actionEconomy": "Three attacks per action (bite + 2 claws).",
+    "encounterNotes": "Wilderness. Forms a permanent bond with one creature. The bonded creature can direct it. If the bonded creature is killed, the gray render goes berserk.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_morkoth",
+    "name": "Morkoth",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "11",
+    "xp": 7200,
+    "proficiencyBonus": 3,
+    "ac": 17,
+    "acNote": "natural armor",
+    "hp": 130,
+    "hpFormula": "20d8+40",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 50,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 14,
+    "dex": 14,
+    "con": 14,
+    "int": 20,
+    "wis": 15,
+    "cha": 13,
+    "savingThrows": {
+      "str": null,
+      "dex": 6,
+      "con": null,
+      "int": 9,
+      "wis": 6,
+      "cha": 5
+    },
+    "skills": {
+      "arcana": 9,
+      "history": 9,
+      "perception": 6,
+      "stealth": 6
+    },
+    "damageResistances": [
+      "bludgeoning/piercing/slashing from nonmagical attacks"
+    ],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 16,
+      "darkvision": 120,
+      "truesight": 30
+    },
+    "languages": "All, telepathy 120 ft.",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "desc": "Can breathe air and water."
+      },
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "desc": "If the morkoth fails a save, it can choose to succeed instead."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saves against spells."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Int-based (spell save DC 17). At will: detect magic, detect thoughts, mage hand. 3/day each: counterspell, hypnotic pattern, mirror image. 1/day each: counterspell (at 5th), plane shift, project image."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three attacks: two bites and one with its tentacles."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d6+2) piercing damage."
+      },
+      {
+        "name": "Tentacles",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 15 (3d8+2) psychic damage, and the target must succeed on a DC 17 Int save or be stunned until the end of the morkoth's next turn."
+      },
+      {
+        "name": "Hypnosis",
+        "desc": "The morkoth projects a 30-foot cone of hypnotic light. Each creature in the cone must succeed on a DC 17 Wis save or be charmed for 1 minute. While charmed, it can take no actions other than moving toward the morkoth and can't take reactions."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Swim",
+        "desc": "The morkoth swims up to half its speed without provoking opportunity attacks."
+      },
+      {
+        "name": "Cast a Spell (Costs 2 Actions)",
+        "desc": "The morkoth uses Spellcasting."
+      },
+      {
+        "name": "Hypnosis (Costs 3 Actions)",
+        "desc": "The morkoth uses Hypnosis."
+      }
+    ],
+    "legendaryActionsNote": "The morkoth can take 3 legendary actions.",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Hypnosis to charm groups. Tentacles stun on failed Int save. Legendary Resistance. Counterspell at 5th level. Mirror Image for survivability. A terrifying underwater lair boss.",
+    "actionEconomy": "Three attacks per action plus spellcasting. Legendary actions for mobility and spells.",
+    "encounterNotes": "Underwater lairs formed from spiraling tunnels. A legendary creature that collects magic items.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_neogi",
+    "name": "Neogi",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "ac": 15,
+    "acNote": "natural armor",
+    "hp": 33,
+    "hpFormula": "6d6+12",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 30
+    },
+    "str": 6,
+    "dex": 16,
+    "con": 14,
+    "int": 13,
+    "wis": 12,
+    "cha": 15,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "deception": 4,
+      "intimidation": 4,
+      "perception": 3
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 13,
+      "darkvision": 60
+    },
+    "languages": "Common, Deep Speech, Undercommon",
+    "traits": [
+      {
+        "name": "Mental Fortitude",
+        "desc": "The neogi has advantage on saving throws against being charmed or frightened, and magic can't put the neogi to sleep."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks: one with its bite and one with its claws."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage."
+      },
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) piercing damage."
+      },
+      {
+        "name": "Enslave (3/Day)",
+        "desc": "One creature within 30 ft. must succeed on a DC 14 Wis save or be magically charmed by the neogi. The charmed target obeys the neogi's commands and can't take reactions. The creature can repeat the save every 24 hours and whenever it takes damage. On a success the target is freed. The effect also ends if the neogi dies."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Bite with massive poison damage. Enslave to control creatures. Two attacks per turn. Enslaver species that keeps umber hulks as servants.",
+    "actionEconomy": "Two attacks (bite + claws) per action. Enslave 3 times per day.",
+    "encounterNotes": "Spelljammer settings and underground. Always accompanied by enslaved creatures (umber hulks, etc.)",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_neogi_hatchling",
+    "name": "Neogi Hatchling",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Tiny",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "1/8",
+    "xp": 25,
+    "proficiencyBonus": 2,
+    "ac": 11,
+    "acNote": "",
+    "hp": 7,
+    "hpFormula": "2d4+2",
+    "speed": {
+      "walk": 20,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 20
+    },
+    "str": 3,
+    "dex": 13,
+    "con": 12,
+    "int": 6,
+    "wis": 7,
+    "cha": 5,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 8,
+      "darkvision": 30
+    },
+    "languages": "",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage plus 5 (2d4) poison damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Small and weak but poisonous. Swarms in numbers. Hatch from a neogi master.",
+    "actionEconomy": "Single bite with poison.",
+    "encounterNotes": "Neogi lairs. Hatch from the body of a neogi master that sacrificed itself.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_neogi_master",
+    "name": "Neogi Master",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Medium",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "lawful evil",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "ac": 15,
+    "acNote": "natural armor",
+    "hp": 67,
+    "hpFormula": "9d8+27",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 30
+    },
+    "str": 6,
+    "dex": 16,
+    "con": 16,
+    "int": 14,
+    "wis": 13,
+    "cha": 16,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {
+      "deception": 5,
+      "intimidation": 5,
+      "perception": 5
+    },
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 15,
+      "darkvision": 60
+    },
+    "languages": "Common, Deep Speech, Undercommon",
+    "traits": [
+      {
+        "name": "Mental Fortitude",
+        "desc": "Advantage on saves against being charmed or frightened; can't be magically put to sleep."
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "Cha-based (spell save DC 13). At will: eldritch blast (1d10 force, two beams), mage armor. 2/day each: arms of Hadar, hunger of Hadar. 1/day: hold monster."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two attacks with its bite and one with its claws."
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage."
+      },
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) piercing damage."
+      },
+      {
+        "name": "Enslave (3/Day)",
+        "desc": "As per the neogi, DC 14 Wis save."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Hunger of Hadar for AoE blind and damage. Hold Monster to lock down a PC. Three attacks per turn. Arms of Hadar for melee AoE. Dominant among neogi.",
+    "actionEconomy": "Three attacks per action plus warlock-style spellcasting.",
+    "encounterNotes": "Neogi lairs as the elder among their kind. Commands neogi and enslaved creatures.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_neothelid",
+    "name": "Neothelid",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Gargantuan",
+    "type": "Aberration",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "cr": "13",
+    "xp": 10000,
+    "proficiencyBonus": 5,
+    "ac": 16,
+    "acNote": "natural armor",
+    "hp": 325,
+    "hpFormula": "26d20+52",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 27,
+    "dex": 7,
+    "con": 14,
+    "int": 3,
+    "wis": 10,
+    "cha": 12,
+    "savingThrows": {
+      "str": 12,
+      "dex": null,
+      "con": null,
+      "int": 2,
+      "wis": 4,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [],
+    "damageImmunities": [],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [],
+    "senses": {
+      "passivePerception": 10,
+      "blindsight": 120
+    },
+    "languages": "",
+    "traits": [
+      {
+        "name": "Creature Sense",
+        "desc": "The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence of 4 or greater. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it."
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "Advantage on saves against spells."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes two tentacle attacks."
+      },
+      {
+        "name": "Tentacle",
+        "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 21 (3d8+8) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a DC 20 Str save or be swallowed. A swallowed creature is blinded and restrained, has total cover, and takes 35 (10d6) acid damage at the start of each of the neothelid's turns. If the neothelid takes 30+ damage from inside on a single turn, it must succeed on a DC 21 Con save or regurgitate all swallowed creatures, which fall prone in a space within 10 ft. of the neothelid."
+      },
+      {
+        "name": "Acid Breath (Recharge 5-6)",
+        "desc": "The neothelid exhales acid in a 60-foot cone. Each creature in the area must make a DC 14 Dex save, taking 35 (10d6) acid damage on fail or half on success."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Tentacles swallow Large or smaller creatures. Acid breath hits a 60-ft cone. Magic resistance. A failed mind flayer colony that devoured its own elder brain.",
+    "actionEconomy": "Two tentacle attacks plus Acid Breath on recharge.",
+    "encounterNotes": "Abandoned mind flayer colonies. A nightmare that emerges when the elder brain is consumed.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_vegepygmy_chief",
+    "name": "Vegepygmy Chief",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Plant",
+    "subtype": null,
+    "alignment": "neutral",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "ac": 14,
+    "acNote": "natural armor",
+    "hp": 33,
+    "hpFormula": "6d6+12",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 16,
+    "dex": 14,
+    "con": 15,
+    "int": 7,
+    "wis": 13,
+    "cha": 9,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "lightning",
+      "piercing"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 11,
+      "darkvision": 60
+    },
+    "languages": "Vegepygmy",
+    "traits": [
+      {
+        "name": "Plant Camouflage",
+        "desc": "Advantage on Stealth checks in terrain with ample plant life."
+      },
+      {
+        "name": "Regeneration",
+        "desc": "Regains 5 HP at start of turn. Dies only if starts turn at 0 HP without regenerating."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "Makes three claw attacks."
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) slashing damage."
+      },
+      {
+        "name": "Thorn Spray",
+        "desc": "Each creature in a 10-foot cube must make a DC 13 Dex save or take 5 (1d4+3) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Three claw attacks. Regeneration. Thorn Spray for AoE. Commands the vegepygmy tribe. Larger and tougher than standard vegepygmies.",
+    "actionEconomy": "Three claw attacks per action plus Thorn Spray.",
+    "encounterNotes": "Ruins and overgrown dungeons. The boss of the russet mold colony.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  },
+  {
+    "id": "vgm_vegepygmy_thorny",
+    "name": "Vegepygmy Thorny",
+    "source": "Volo's Guide to Monsters",
+    "sourceTag": "VGM",
+    "isHomebrew": false,
+    "isImported": true,
+    "size": "Small",
+    "type": "Plant",
+    "subtype": null,
+    "alignment": "neutral",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "ac": 14,
+    "acNote": "natural armor",
+    "hp": 27,
+    "hpFormula": "5d6+10",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "burrow": 0,
+      "climb": 0
+    },
+    "str": 13,
+    "dex": 12,
+    "con": 15,
+    "int": 5,
+    "wis": 10,
+    "cha": 6,
+    "savingThrows": {
+      "str": null,
+      "dex": null,
+      "con": null,
+      "int": null,
+      "wis": null,
+      "cha": null
+    },
+    "skills": {},
+    "damageResistances": [
+      "lightning",
+      "piercing"
+    ],
+    "damageImmunities": [
+      "poison"
+    ],
+    "damageVulnerabilities": [],
+    "conditionImmunities": [
+      "poisoned"
+    ],
+    "senses": {
+      "passivePerception": 10,
+      "darkvision": 60
+    },
+    "languages": "Vegepygmy",
+    "traits": [
+      {
+        "name": "Plant Camouflage",
+        "desc": "Advantage on Stealth checks in plant-rich terrain."
+      },
+      {
+        "name": "Regeneration",
+        "desc": "Regains 5 HP at start of turn unless took cold, fire, or necrotic damage last turn."
+      },
+      {
+        "name": "Thorny Body",
+        "desc": "At the start of each of its turns, the vegepygmy deals 5 (1d10) piercing damage to any creature grappling it."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8+1) slashing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "legendaryActionsNote": "",
+    "lairActions": [],
+    "regionalEffects": [],
+    "mythicActions": [],
+    "tactics": "Thorny Body punishes anyone who grapples it. Regeneration. The war beast of a vegepygmy tribe.",
+    "actionEconomy": "Single claw attack. Thorny Body passive.",
+    "encounterNotes": "Vegepygmy tribes. The thorny vegepygmy is a specialized combatant.",
+    "dmNotes": "",
+    "dmTags": [],
+    "lastModified": "2026-01-01"
+  }
+]
