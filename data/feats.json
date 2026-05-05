@@ -1,0 +1,900 @@
+{
+  "version": "1.0",
+  "description": "D&D 5e/5.5e feats",
+  "total": 95,
+  "feats": [
+    {
+      "id": "actor",
+      "name": "Actor",
+      "prerequisite": "",
+      "description": "Skilled at mimicry and dramatics, you gain the following benefits:\n\u2022 Increase your Charisma score by 1, to a maximum of 20.\n\u2022 You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.\n\u2022 You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.",
+      "modifiers": [
+        "charisma +1"
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "alert",
+      "name": "Alert",
+      "prerequisite": "",
+      "description": "Always on the lookout for danger, you gain the following\n\u2022 You gain a +5 bonus to initiative.\n\u2022 You can't be surprised while you are conscious.\n\u2022 Other creatures don't gain advantage on attack rolls against you as a result of being hidden from you.",
+      "modifiers": [
+        "initiative +5"
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "athlete",
+      "name": "Athlete",
+      "prerequisite": "",
+      "description": "You have undergone extensive physical training to gain the following benefits: \u2022 Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\u2022 When you are prone, standing up uses only 5 feet of your movement.\n\u2022 Climbing doesn't require extra movement.\n\u2022 You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "charger",
+      "name": "Charger",
+      "prerequisite": "",
+      "description": "When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.\nIf you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "crossbow_expert",
+      "name": "Crossbow Expert",
+      "prerequisite": "",
+      "description": "Thanks to extensive practice with the crossbow, you gain the following benefits:\n\u2022 You ignore the loading quality of crossbows with which you are proficient.\n\u2022 Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.\n\u2022 When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a loaded hand crossbow you are holding.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "defensive_duelist",
+      "name": "Defensive Duelist",
+      "prerequisite": "Dexterity 13 or higher",
+      "description": "When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_detection",
+      "name": "Dragonmark of Detection",
+      "prerequisite": "half-elf",
+      "description": "Your have the magical mark of Detection, the dragonmark of House Medani, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: detect magic, mage hand\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: detect thoughts\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: clairvoyance",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_finding",
+      "name": "Dragonmark of Finding",
+      "prerequisite": "half-orc or human",
+      "description": "Your have the magical mark of Finding, the dragonmark of House Tharashk, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: identify, mage hand\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: locate object\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: clairvoyance",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_handling",
+      "name": "Dragonmark of Handling",
+      "prerequisite": "human",
+      "description": "Your have the magical mark of Handling, the dragonmark of House Vadalis, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: druidcraft, speak with animals\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: beast sense\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: conjure animals",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_healing",
+      "name": "Dragonmark of Healing",
+      "prerequisite": "halfling",
+      "description": "Your have the magical mark of Healing, the dragonmark of House Jorasco, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: cure wounds, spare the dying\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: lesser restoration\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: revivify",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_hospitality",
+      "name": "Dragonmark of Hospitality",
+      "prerequisite": "halfling",
+      "description": "Your have the magical mark of Hospitality, the dragonmark of House Ghallanda, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Charisma as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: friends, unseen servant\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: rope trick\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: Leomund's tiny hut",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_making",
+      "name": "Dragonmark of Making",
+      "prerequisite": "human",
+      "description": "Your have the magical mark of Making, the dragonmark of House Cannith, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: identify, mending\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: magic weapon\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: fabricate",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_passage",
+      "name": "Dragonmark of Passage",
+      "prerequisite": "human",
+      "description": "Your have the magical mark of Passage, the dragonmark of House Orien, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: expeditious retreat, light\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: misty step\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: teleportation circle",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_scribing",
+      "name": "Dragonmark of Scribing",
+      "prerequisite": "gnome",
+      "description": "Your have the magical mark of Scribing, the dragonmark of House Sivis, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: comprehend languages, message\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: sending\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: tongues",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_sentinel",
+      "name": "Dragonmark of Sentinel",
+      "prerequisite": "human",
+      "description": "Your have the magical mark of Sentinel, the dragonmark of House Deneith, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: blade ward, compelled duel\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: blur\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: protection from energy",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_shadow",
+      "name": "Dragonmark of Shadow",
+      "prerequisite": "elf",
+      "description": "Your have the magical mark of Shadow, the dragonmark of House Phiarlan and House Thuranni, and are a member of one of those houses.\nYou gain the ability to innately cast spells and cantrips, using Charisma as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: dancing lights, disguise self\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: darkness\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: nondetection",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_storm",
+      "name": "Dragonmark of Storm",
+      "prerequisite": "half-elf",
+      "description": "Your have the magical mark of Storm, the dragonmark of House Lyrander, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: fog cloud, shocking grasp\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: gust of wind\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: sleet storm",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonmark_of_warding",
+      "name": "Dragonmark of Warding",
+      "prerequisite": "dwarf",
+      "description": "Your have the magical mark of Warding, the dragonmark of House Kundarak, and are a member of that house.\nYou gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:\nLeast Dragonmark.\nWhen you first take this feat, you gain the least dragonmark. You learn the following spells: alarm, resistance\nLesser Dragonmark.\nAt 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: arcane lock\nGreater Dragonmark.\nAt 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: magic circle",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dual_wielder",
+      "name": "Dual Wielder",
+      "prerequisite": "",
+      "description": "You master fighting with two weapons, gaining the following benefits:\n\u2022 You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.\n\u2022 You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.\n\u2022 You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dungeon_delver",
+      "name": "Dungeon Delver",
+      "prerequisite": "",
+      "description": "Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:\n\u2022 You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors.\n\u2022 You have advantage on saving throws made to avoid or resist traps.\n\u2022 You have resistance to the damage dealt by traps.\n\u2022 You can search for traps while traveling at a normal pace, instead of only at a slow pace.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "durable",
+      "name": "Durable",
+      "prerequisite": "",
+      "description": "Hardy and resilient, you gain the following benefits:\n\u2022 Increase your Constitution score by 1, to a maximum of 20.\n\u2022 When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).",
+      "modifiers": [
+        "constitution +1"
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "elemental_adept",
+      "name": "Elemental Adept",
+      "prerequisite": "The ability to cast at least one spell",
+      "description": "When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.\nSpells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.\nYou can select this feat multiple times. Each time you do so, you must choose a different damage type.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "grappler",
+      "name": "Grappler",
+      "prerequisite": "Strength 13 or higher",
+      "description": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:\n\u2022 You have advantage on attack rolls against a creature you are grappling.\n\u2022 You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "great_weapon_master",
+      "name": "Great Weapon Master",
+      "prerequisite": "",
+      "description": "You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:\n\u2022 On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.\n\u2022 Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "healer",
+      "name": "Healer",
+      "prerequisite": "",
+      "description": "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:\n\u2022 When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.\n\u2022 As an action, you can spend one use of a healer's kit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "heavily_armored",
+      "name": "Heavily Armored",
+      "prerequisite": "Proficiency with medium armor",
+      "description": "You have trained to master the use of heavy armor, gaining the following benefits:\n\u2022 Increase your Strength score by 1, to a maximum of 20.\n\u2022 You gain proficiency with heavy armor.",
+      "modifiers": [
+        "strength +1"
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "heavy_armor_master",
+      "name": "Heavy Armor Master",
+      "prerequisite": "Proficiency with heavy armor",
+      "description": "You can use your armor to deflect strikes that would kill others. You gain the following benefits:\n\u2022 Increase your Strength score by 1, to a maximum of 20.\n\u2022 While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by 3.",
+      "modifiers": [
+        "strength +1"
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "inspiring_leader",
+      "name": "Inspiring Leader",
+      "prerequisite": "CHA 13",
+      "description": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "keen_mind",
+      "name": "Keen Mind",
+      "prerequisite": "",
+      "description": "You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits.\n\u2022 Increase your Intelligence score by 1, to a maximum of 20.\n\u2022 You always know which way is north.\n\u2022 You always know the number of hours left before the next sunrise or sunset.\n\u2022 You can accurately recall anything you have seen or heard within the past month.",
+      "modifiers": [
+        "intelligence +1"
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "lightly_armored",
+      "name": "Lightly Armored",
+      "prerequisite": "",
+      "description": "You have trained to master the use of light armor, gaining the following benefits:\n\u2022 Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\u2022 You gain proficiency with light armor.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "linguist",
+      "name": "Linguist",
+      "prerequisite": "",
+      "description": "You have studied languages and codes, gaining the following benefits:\n\u2022 Increase your Intelligence score by 1, to a maximum of 20.\n\u2022 You learn three languages of your choice.\n\u2022 You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it.",
+      "modifiers": [
+        "intelligence +1"
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "lucky",
+      "name": "Lucky",
+      "prerequisite": "",
+      "description": "You have inexplicable luck that seems to kick in at just the right moment.\nYou have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.\nYou can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.\nYou regain your expended luck points when you finish a long rest.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "mage_slayer",
+      "name": "Mage Slayer",
+      "prerequisite": "",
+      "description": "You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:\n\u2022 When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.\n\u2022 When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.\n\u2022 You have advantage on saving throws against spells cast by creatures within 5 feet of you.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "magic_initiate",
+      "name": "Magic Initiate",
+      "prerequisite": "",
+      "description": "Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two cantrips of your choice from that class's spell list.\nIn addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again using this feat.\nYour spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid: or Intelligence for wizard.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "martial_adept",
+      "name": "Martial Adept",
+      "prerequisite": "",
+      "description": "You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:\n\u2022 You learn two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).\n\u2022 If you already have superiority dice, you add one more to your existing pool; otherwise, you have one superiority die, which is a d6. This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "medium_armor_master",
+      "name": "Medium Armor Master",
+      "prerequisite": "Proficiency with medium armor",
+      "description": "You have practiced moving in medium armor to gain the following benefits:\n\u2022 Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.\n\u2022 When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile",
+      "prerequisite": "",
+      "description": "You are exceptionally speedy and agile. You gain the following benefits:\n\u2022 Your speed increases by 10 feet.\n\u2022 When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn.\n\u2022 When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.",
+      "modifiers": [
+        "speed +10"
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "moderately_armored",
+      "name": "Moderately Armored",
+      "prerequisite": "Proficiency with light armor",
+      "description": "You have trained to master the use of medium armor and shields, gaining the following benefits:\n\u2022 Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\u2022 You gain proficiency with medium armor and shields.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "mounted_combatant",
+      "name": "Mounted Combatant",
+      "prerequisite": "",
+      "description": "You are a dangerous foe to face while mounted. While you are mounted and aren't incapacitated, you gain the following benefits:\n\u2022 You have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.\n\u2022 You can force an attack targeted at your mount to target you instead.\n\u2022 If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "observant",
+      "name": "Observant",
+      "prerequisite": "",
+      "description": "Quick to notice details of your environment, you gain the following benefits:\n\u2022 Increase your Intelligence or Wisdom score by 1, to a maximum of 20.\n\u2022 If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.\n\u2022 You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.",
+      "modifiers": [
+        "passive wisdom +5"
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "polearm_master",
+      "name": "Polearm Master",
+      "prerequisite": "",
+      "description": "You can keep your enemies at bay with reach weapons. You gain the following benefits:\n\u2022 When you take the Attack action and attack with only a glaive, halberd, or quarterstaff, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the main attack. The weapon's damage die for this attack is a d4, and the attack deals bludgeoning damage.\n\u2022 While you are wielding a glaive, halberd, pike, or quarterstaff, other creatures provoke an opportunity attack from you when they enter your reach.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "resilient",
+      "name": "Resilient",
+      "prerequisite": "",
+      "description": "Choose one ability score. You gain the following benefits:\n\u2022 Increase the chosen ability score by 1, to a maximum of 20.\n\u2022 You gain proficiency in saving throws using the chosen ability.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "ritual_caster",
+      "name": "Ritual Caster",
+      "prerequisite": "Intelligence or Wisdom 13 or higher",
+      "description": "You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.\nWhen you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells from that class's spell list, and the spells you choose must have the ritual tag. The class you choose also determines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.\nIf you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "savage_attacker",
+      "name": "Savage Attacker",
+      "prerequisite": "",
+      "description": "Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel",
+      "prerequisite": "",
+      "description": "You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:\n\u2022 When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.\n\u2022 Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach.\n\u2022 When a creature within 5 feet of you makes an attack against a target other than you (and that target doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "sharpshooter",
+      "name": "Sharpshooter",
+      "prerequisite": "",
+      "description": "You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits:\n\u2022 Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.\n\u2022 Your ranged weapon attacks ignore half cover and three-quarters cover.\n\u2022 Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "shield_master",
+      "name": "Shield Master",
+      "prerequisite": "",
+      "description": "You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a shield:\n\u2022 If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.\n\u2022 If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.\n\u2022 If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "skilled",
+      "name": "Skilled",
+      "prerequisite": "",
+      "description": "You gain proficiency in any combination of three skills or tools of your choice.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "skulker",
+      "name": "Skulker",
+      "prerequisite": "Dexterity 13 or higher",
+      "description": "You are expert at slinking through shadows. You gain the following benefits:\n\u2022 You can try to hide when you are lightly obscured from the creature from which you are hiding.\n\u2022 When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.\n\u2022 Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "spell_sniper",
+      "name": "Spell Sniper",
+      "prerequisite": "The ability to cast at least one spell",
+      "description": "You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:\n\u2022 When you cast a spell that requires you to make an attack roll, the spell's range is doubled.\n\u2022 Your ranged spell attacks ignore half cover and three-quarters cover.\n\u2022 You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "svirfneblin_magic",
+      "name": "Svirfneblin Magic",
+      "prerequisite": "Gnome (deep gnome)",
+      "description": "You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast nondetection on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: blindness/deafness, blur, and disguise self. You regain the ability to cast these spells when you finish a long rest.\nIntelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "tavern_brawler",
+      "name": "Tavern Brawler",
+      "prerequisite": "",
+      "description": "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:\n\u2022 Increase your Strength or Constitution score by 1, to a maximum of 20.\n\u2022 You are proficient with improvised weapons.\n\u2022 Your unarmed strike uses a d4 for damage.\n\u2022 When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "tough",
+      "name": "Tough",
+      "prerequisite": "",
+      "description": "Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "war_caster",
+      "name": "War Caster",
+      "prerequisite": "The ability to cast at least one spell",
+      "description": "You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:\n\u2022 You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.\n\u2022 You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.\n\u2022 When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "weapon_master",
+      "name": "Weapon Master",
+      "prerequisite": "",
+      "description": "You have practiced extensively with a variety of weapons, gaining the following benefits:\n\u2022 Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\u2022 You gain proficiency with four simple or martial weapons of your choice.",
+      "modifiers": [],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "alert_2024",
+      "name": "Alert",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "Always on the lookout for danger, you gain the following benefits:\n\u2022 Initiative Bonus. You gain a bonus to Initiative equal to your Proficiency Bonus.\n\u2022 No Surprise. You aren't Surprised.",
+      "modifiers": []
+    },
+    {
+      "id": "crafter_2024",
+      "name": "Crafter",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You are an expert at crafting things and bargaining for materials and selling your creations.\n\u2022 Tool Proficiency. You gain Tool Proficiency with three different Artisan's Tools of your choice.\n\u2022 Discount. Whenever you buy a nonmagical item, you receive a 20 percent discount on it.\n\u2022 Faster Crafting. When you craft a nonmagical item using a tool with which you have Tool Proficiency, the required crafting time is halved.",
+      "modifiers": []
+    },
+    {
+      "id": "healer_2024",
+      "name": "Healer",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have the training and intuition to administer first aid and other care effectively, granting you the following benefits:\n\u2022 Battle Medic. If you have a Healer's Kit, you can expend one use of it and tend to a creature within 5 feet of you as a Utilize action. That creature can expend one of its Hit Point Dice, and you then roll that die. The creature regains a number of Hit Points equal to the roll plus your Proficiency Bonus.\n\u2022 Healing Rerolls. Whenever you roll a die to determine the number of Hit Points you restore with a spell or with this feat's Battle Medic benefit, you can reroll the die if it rolls a 1, and you must use the new roll.",
+      "modifiers": []
+    },
+    {
+      "id": "lucky_2024",
+      "name": "Lucky",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have inexplicable luck that seems to kick in at just the right moment.\n\u2022 Luck Points. You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest.\n\u2022 Advantage. Immediately after you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.\n\u2022 Disadvantage. When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.",
+      "modifiers": []
+    },
+    {
+      "id": "magic_initiate_2024",
+      "name": "Magic Initiate",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have learned the basics of a particular magical tradition.\n\u2022 Two Cantrips. You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list.\n\u2022 1st-Level Spell. Choose one 1st-level spell from the same spell list as your cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.\n\u2022 Spell Change. Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the same spell list.\nSpellcasting Ability. Your spellcasting ability for these spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+      "modifiers": []
+    },
+    {
+      "id": "savage_attacker_2024",
+      "name": "Savage Attacker",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have trained to deal particularly damaging strikes.\nOnce per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.",
+      "modifiers": []
+    },
+    {
+      "id": "skilled_2024",
+      "name": "Skilled",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have exceptionally broad learning.\nGain Proficiency in any combination of three skills or tools of your choice. You can take this feat multiple times.",
+      "modifiers": []
+    },
+    {
+      "id": "tavern_brawler_2024",
+      "name": "Tavern Brawler",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "Accustomed to fighting without weapons or armor, you gain the following benefits:\n\u2022 Enhanced Unarmed Strike. When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d4 + your Strength modifier, instead of the normal damage of an Unarmed Strike.\n\u2022 Damage Rerolls. Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.\n\u2022 Shove. When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away. Both effects\u2014damage and the push\u2014happen simultaneously.\n\u2022 Furniture as Weapons. You can wield furniture as a Weapon, using the rules of the Club for Small or Tiny furniture and the rules of the Greatclub for Large or larger furniture.",
+      "modifiers": []
+    },
+    {
+      "id": "tough_2024",
+      "name": "Tough",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "Your Hit Point maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points.",
+      "modifiers": [
+        "hp +2 per level"
+      ]
+    },
+    {
+      "id": "war_caster_2024",
+      "name": "War Caster",
+      "prerequisite": "Spellcasting or Pact Magic feature",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:\n\u2022 Concentration. You have Advantage on Constitution saving throws that you make to maintain your Concentration.\n\u2022 Reactive Spell. When a creature provokes an Opportunity Attack from you by leaving your reach, you can take a Reaction to cast a spell at the creature, rather than making an Opportunity Attack. The spell must have a casting time of one action and must target only that creature.\n\u2022 Somatic Components. You can perform the Somatic components of spells even when you have weapons or a Shield in one or both hands.",
+      "modifiers": []
+    },
+    {
+      "id": "ability_score_improvement_2024",
+      "name": "Ability Score Improvement",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "Increase one ability score of your choice by 2, or increase two different ability scores of your choice by 1 each. This feat can be taken multiple times.",
+      "modifiers": []
+    },
+    {
+      "id": "actor_2024",
+      "name": "Actor",
+      "prerequisite": "Charisma 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "Skilled at mimicry and dramatics, you gain the following benefits:\n\u2022 Ability Score Increase. Increase your Charisma score by 1, to a maximum of 20.\n\u2022 Impersonation. While you're disguised as a real or fictional person, you have Advantage on Charisma (Deception or Performance) checks (your choice) made to convince others that you are that person.\n\u2022 Mimicry. You can mimic the sounds of other creatures, including speech. A creature that hears the sounds can tell they are imitations only if it succeeds on a Wisdom (Insight) check against a DC of 8 plus your Charisma modifier and Proficiency Bonus.",
+      "modifiers": [
+        "charisma +1"
+      ]
+    },
+    {
+      "id": "athlete_2024",
+      "name": "Athlete",
+      "prerequisite": "Strength, Dexterity, or Constitution 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have undergone extensive physical training to gain the following benefits:\n\u2022 Ability Score Increase. Increase your Strength, Dexterity, or Constitution score by 1.\n\u2022 Climb Speed. You gain a Climb Speed equal to your Speed.\n\u2022 Hop Up. When you are Prone, you can right yourself by spending only 5 feet of movement.\n\u2022 Jump. You can make a running Long Jump or High Jump after moving only 5 feet on foot, rather than 10 feet.",
+      "modifiers": []
+    },
+    {
+      "id": "charger_2024",
+      "name": "Charger",
+      "prerequisite": "Proficiency with a Martial Weapon",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have trained to charge headlong into battle, gaining the following benefits:\n\u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1.\n\u2022 Improved Dash. When you take the Dash action, your Speed increases by 10 feet for that action.\n\u2022 Charge Attack. If you move at least 10 feet in a straight line immediately before hitting with an attack as part of the Attack action on your turn, choose one of the following effects: gain a +1d8 bonus to the attack's damage roll, or push the target up to 10 feet, provided the target is no more than one size larger than you. You can use this benefit only once per turn.",
+      "modifiers": []
+    },
+    {
+      "id": "crossbow_expert_2024",
+      "name": "Crossbow Expert",
+      "prerequisite": "Dexterity 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "Thanks to extensive practice with the crossbow, you gain the following benefits:\n\u2022 Ability Score Increase. Increase your Dexterity score by 1.\n\u2022 Ignore Loading. You ignore the Loading property of crossbows.\n\u2022 Firing in Melee. Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with crossbows.\n\u2022 Dual Wielding. When you make the extra attack of the Light weapon property, you can add your ability modifier to the damage of the extra attack if that attack is with a crossbow that has the Light property.",
+      "modifiers": [
+        "dexterity +1"
+      ]
+    },
+    {
+      "id": "dual_wielder_2024",
+      "name": "Dual Wielder",
+      "prerequisite": "Dexterity or Strength 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You master fighting with two weapons, gaining the following benefits:\n\u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1.\n\u2022 Enhanced Dual Wielding. When you take the Attack action and attack with a weapon that has the Light property, you can make one extra attack as a Bonus Action later on the same turn with a different weapon, which must be a Melee weapon that lacks the Two-Handed property. You don't add your ability modifier to the extra attack's damage unless that modifier is negative.\n\u2022 Quick Draw. You can draw or stow two weapons when you would normally be able to draw or stow only one.",
+      "modifiers": []
+    },
+    {
+      "id": "durable_2024",
+      "name": "Durable",
+      "prerequisite": "Constitution 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "Hardy and resilient, you gain the following benefits:\n\u2022 Ability Score Increase. Increase your Constitution score by 1.\n\u2022 Defy Death. You have Advantage on Death Saving Throws. In addition, when you roll 18-20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.\n\u2022 Speedy Recovery. As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll.",
+      "modifiers": [
+        "constitution +1"
+      ]
+    },
+    {
+      "id": "elemental_adept_2024",
+      "name": "Elemental Adept",
+      "prerequisite": "Spellcasting or Pact Magic feature",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "When you gain this feat, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder.\nSpells you cast ignore Resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.\nYou can select this feat multiple times. Each time you do so, you must choose a different damage type.",
+      "modifiers": []
+    },
+    {
+      "id": "grappler_2024",
+      "name": "Grappler",
+      "prerequisite": "Strength or Dexterity 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have developed the skills necessary to hold your own in close-quarters grappling:\n\u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1.\n\u2022 Attack Advantage. You have Advantage on attack rolls against a creature you are Grappling.\n\u2022 Fast Wrestler. You aren't slowed when you move a Grappled creature if the creature is your size or smaller.\n\u2022 Punch and Grab. When you hit a creature with a Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also Grapple it. Both effects happen simultaneously.",
+      "modifiers": []
+    },
+    {
+      "id": "great_weapon_master_2024",
+      "name": "Great Weapon Master",
+      "prerequisite": "Proficiency with a Martial Weapon",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You've learned to use the weight of a weapon to your advantage, letting its momentum empower your strikes:\n\u2022 Ability Score Increase. Increase your Strength score by 1.\n\u2022 Heavy Weapon Mastery. When you hit a creature with a weapon that has the Heavy property as part of the Attack action on your turn, you can cause the weapon to deal extra damage to the target equal to your Proficiency Bonus.\n\u2022 Hew. Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action.",
+      "modifiers": [
+        "strength +1"
+      ]
+    },
+    {
+      "id": "inspiring_leader_2024",
+      "name": "Inspiring Leader",
+      "prerequisite": "Wisdom or Charisma 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You can inspire others through stirring speeches:\n\u2022 Ability Score Increase. Increase your Wisdom or Charisma score by 1.\n\u2022 Inspiring Speech. At the end of a Short or Long Rest, you can give an inspiring speech to as many as ten creatures (which can include yourself) within 30 feet of you, each of whom must understand you. Inspired creatures gain Temporary Hit Points equal to your level plus the modifier of the ability you increased with this feat.",
+      "modifiers": []
+    },
+    {
+      "id": "keen_mind_2024",
+      "name": "Keen Mind",
+      "prerequisite": "Intelligence 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have a mind that can track time, direction, and detail with uncanny precision:\n\u2022 Ability Score Increase. Increase your Intelligence score by 1.\n\u2022 Lore Knowledge. Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.\n\u2022 Quick Study. You can take the Study action as a Bonus Action.",
+      "modifiers": [
+        "intelligence +1"
+      ]
+    },
+    {
+      "id": "lightly_armored_2024",
+      "name": "Lightly Armored",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have trained to use light armor effectively:\n\u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1.\n\u2022 Armor Training. You gain training with Light armor and Shields.",
+      "modifiers": []
+    },
+    {
+      "id": "mage_slayer_2024",
+      "name": "Mage Slayer",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have practiced techniques useful in melee combat against spellcasters:\n\u2022 Concentration Breaker. When you damage a creature that is concentrating, it has Disadvantage on the saving throw it makes to maintain Concentration.\n\u2022 Guarded Mind. If you fail an Intelligence, a Wisdom, or a Charisma saving throw, you can cause yourself to succeed instead. Once you use this benefit, you can't use it again until you finish a Short or Long Rest.",
+      "modifiers": []
+    },
+    {
+      "id": "moderately_armored_2024",
+      "name": "Moderately Armored",
+      "prerequisite": "Light Armor Training",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have trained to use medium armor and shields effectively:\n\u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1.\n\u2022 Armor Training. You gain training with Medium armor and Shields.",
+      "modifiers": []
+    },
+    {
+      "id": "mounted_combatant_2024",
+      "name": "Mounted Combatant",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have developed a bond with your mounts, granting you the following benefits:\n\u2022 Ability Score Increase. Increase your Strength, Dexterity, or Wisdom score by 1.\n\u2022 Mount Handler. You have Advantage on Wisdom (Animal Handling) checks made to handle or train horses and other Beasts employed as mounts.\n\u2022 Mounted Strike. While mounted, you have Advantage on attack rolls against any creature that is within 5 feet of your mount and at least one size smaller than it.\n\u2022 Leap Aside. If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. For your mount to gain this benefit, you must be riding it.\n\u2022 Veer. While mounted, you can use your Reaction to make your mount take the Dodge action.",
+      "modifiers": []
+    },
+    {
+      "id": "observant_2024",
+      "name": "Observant",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "Quick to notice details of your environment, you gain the following benefits:\n\u2022 Ability Score Increase. Increase your Intelligence or Wisdom score by 1.\n\u2022 Keen Observer. Choose one of the following skills: Insight, Investigation, or Perception. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.\n\u2022 Quick Search. You can take the Search action as a Bonus Action.",
+      "modifiers": []
+    },
+    {
+      "id": "piercer_2024",
+      "name": "Piercer",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have trained to inflict piercing wounds, gaining the following benefits:\n\u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1.\n\u2022 Puncture. Once per turn, when you hit a creature with an attack that deals Piercing damage, you can reroll one of the attack's damage dice, and you must use the new roll.\n\u2022 Enhanced Critical. When you score a Critical Hit that deals Piercing damage to a creature, you can roll one additional damage die when determining the extra Piercing damage the target takes.",
+      "modifiers": []
+    },
+    {
+      "id": "poisoner_2024",
+      "name": "Poisoner",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You can prepare and deliver deadly poisons, gaining the following benefits:\n\u2022 Ability Score Increase. Increase your Dexterity or Intelligence score by 1.\n\u2022 Potent Poison. When you make a damage roll that deals Poison damage, it ignores Resistance to Poison damage.\n\u2022 Brew Poison. You gain proficiency with the Poisoner's Kit. With 1 hour of work using a Poisoner's Kit and expending 50 GP worth of materials, you can create a number of poison doses equal to your Proficiency Bonus. As a Bonus Action, you can apply a poison dose to a weapon or piece of ammunition. Once applied, the poison retains potency for 1 minute or until you hit with the weapon or ammunition. When a creature takes damage from the poisoned weapon or ammunition, that creature must succeed on a Constitution saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or be Poisoned until the end of your next turn.",
+      "modifiers": []
+    },
+    {
+      "id": "polearm_master_2024",
+      "name": "Polearm Master",
+      "prerequisite": "Proficiency with a Martial Weapon",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You can keep your enemies at bay with reach weapons:\n\u2022 Ability Score Increase. Increase your Strength score by 1.\n\u2022 Pole Strike. Immediately after you take the Attack action and attack with a weapon that has the Reach property, you can use a Bonus Action to make a melee attack with the opposite end of the weapon. The weapon deals Bludgeoning damage, and the weapon's damage die for this attack is a d4.\n\u2022 Reactive Strike. While you are holding a weapon that has the Reach property, you can use your Reaction to make one melee attack against a creature that enters the Reach you have with that weapon.",
+      "modifiers": [
+        "strength +1"
+      ]
+    },
+    {
+      "id": "resilient_2024",
+      "name": "Resilient",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have developed the resilience to better withstand certain dangers:\n\u2022 Ability Score Increase. Increase one ability score of your choice by 1.\n\u2022 Saving Throw Proficiency. You gain proficiency in the saving throw of the same ability score you increased with this feat.",
+      "modifiers": []
+    },
+    {
+      "id": "ritual_caster_2024",
+      "name": "Ritual Caster",
+      "prerequisite": "Intelligence, Wisdom, or Charisma 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have studied the techniques for casting spells as rituals:\n\u2022 Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1.\n\u2022 Ritual Spells. Choose two 1st-level spells that have the Ritual tag from the Cleric, Druid, Warlock, or Wizard spell list. You always have those two spells prepared, and you can cast them with any spell slots you have. The spells' spellcasting ability is the ability increased by this feat. You can cast either spell as a Ritual.\n\u2022 Quick Ritual. With this feat, you can cast a Ritual spell that you have prepared using its regular casting time, rather than the extended time for a Ritual. Doing so doesn't require a spell slot. Once you cast the spell in this way, you can't use this benefit again until you finish a Long Rest.",
+      "modifiers": []
+    },
+    {
+      "id": "sentinel_2024",
+      "name": "Sentinel",
+      "prerequisite": "Proficiency with a Martial Weapon",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have mastered techniques to take advantage of every drop in any enemy's guard:\n\u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1.\n\u2022 Guardian. Immediately after a creature within 5 feet of you takes the Disengage action or hits a target other than you with an attack, you can make an Opportunity Attack against that creature.\n\u2022 Halt. When you hit a creature with an Opportunity Attack, the creature's Speed becomes 0 for the rest of the current turn.",
+      "modifiers": []
+    },
+    {
+      "id": "sharpshooter_2024",
+      "name": "Sharpshooter",
+      "prerequisite": "Dexterity 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You can make shots that others find difficult:\n\u2022 Ability Score Increase. Increase your Dexterity score by 1.\n\u2022 Bypass Cover. Your ranged attacks with weapons ignore Half Cover and Three-Quarters Cover.\n\u2022 Firing in Melee. Being within 5 feet of an enemy doesn't impose Disadvantage on your ranged attack rolls with weapons.\n\u2022 Long Shots. Attacking at long range doesn't impose Disadvantage on your ranged attack rolls with weapons.",
+      "modifiers": [
+        "dexterity +1"
+      ]
+    },
+    {
+      "id": "shield_master_2024",
+      "name": "Shield Master",
+      "prerequisite": "Proficiency with Shields",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You use shields not just for protection but also for offense:\n\u2022 Ability Score Increase. Increase your Strength score by 1.\n\u2022 Shield Bash. If you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can make an additional Unarmed Strike against the same creature as a Bonus Action.\n\u2022 Interpose Shield. If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your Reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
+      "modifiers": [
+        "strength +1"
+      ]
+    },
+    {
+      "id": "skulker_2024",
+      "name": "Skulker",
+      "prerequisite": "Dexterity 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You are expert at slinking through shadows:\n\u2022 Ability Score Increase. Increase your Dexterity score by 1.\n\u2022 Blindsight. You have Blindsight with a range of 10 feet.\n\u2022 Fog of War. You exploit the distractions of battle, gaining Advantage on any Dexterity (Stealth) check you make as part of the Hide action during combat.\n\u2022 Sniper. If you make an attack roll while hidden and the roll misses, making the attack roll doesn't reveal your location.",
+      "modifiers": [
+        "dexterity +1"
+      ]
+    },
+    {
+      "id": "slasher_2024",
+      "name": "Slasher",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have learned where to cut to have the greatest effect:\n\u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1.\n\u2022 Hamstring. Once per turn, when you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10 feet until the start of your next turn.\n\u2022 Enhanced Critical. When you score a Critical Hit that deals Slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has Disadvantage on all attack rolls.",
+      "modifiers": []
+    },
+    {
+      "id": "speedy_2024",
+      "name": "Speedy",
+      "prerequisite": "Dexterity or Constitution 13+",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You possess exceptional speed and stamina:\n\u2022 Ability Score Increase. Increase your Dexterity or Constitution score by 1.\n\u2022 Speed Increase. Your Speed increases by 10 feet.\n\u2022 Dash over Difficult Terrain. When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.\n\u2022 Agile. You can take the Dash or Disengage action as a Bonus Action.",
+      "modifiers": []
+    },
+    {
+      "id": "spell_sniper_2024",
+      "name": "Spell Sniper",
+      "prerequisite": "Spellcasting or Pact Magic feature",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have learned techniques to enhance your attacks with certain kinds of spells:\n\u2022 Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1.\n\u2022 Bypass Cover. Your attacks with spells ignore Half Cover and Three-Quarters Cover.\n\u2022 Casting in Melee. Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with spells.\n\u2022 Increased Range. When you cast a spell that has a range of at least 10 feet and the spell requires you to make an attack roll, you can increase the spell's range by 60 feet.",
+      "modifiers": []
+    },
+    {
+      "id": "weapon_master_2024",
+      "name": "Weapon Master",
+      "prerequisite": "None",
+      "edition": "2024",
+      "source": "PHB_2024",
+      "description": "You have practiced extensively with a variety of weapons:\n\u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1.\n\u2022 Mastery Property. Your training with weapons allows you to use the mastery property of two kinds of Simple or Martial melee weapons of your choice, provided you have proficiency with them. Whenever you finish a Long Rest, you can change the kinds of weapons you chose. Any such weapon must be Simple or Martial and you must have proficiency with it.",
+      "modifiers": []
+    }
+  ]
+}

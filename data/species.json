@@ -1,0 +1,1949 @@
+{
+  "version": "1.0",
+  "description": "D&D 5e/5.5e species and races",
+  "total": 54,
+  "species": [
+    {
+      "id": "aarakocra",
+      "name": "Aarakocra",
+      "size": "M",
+      "speed": "25",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "wisdom": 1
+      },
+      "abilityBonusText": "Dex 2, Wis 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Flight",
+          "description": "You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor."
+        },
+        {
+          "name": "Talons",
+          "description": "You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit."
+        },
+        {
+          "name": "Language",
+          "description": "You can speak, read, and write Common, Aarakocra, and Auran."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "genasi_air",
+      "name": "Genasi (Air)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "constitution": 2,
+        "dexterity": 1
+      },
+      "abilityBonusText": "Con 2, Dex 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Unending Breath",
+          "description": "You can hold your breath indefinitely while you're not incapacitated."
+        },
+        {
+          "name": "Mingle with the Wind",
+          "description": "You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "elf_drow",
+      "name": "Elf (Drow)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "charisma": 1
+      },
+      "abilityBonusText": "Dex 2, Cha 1",
+      "skillProficiencies": "Perception",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Superior Darkvision",
+          "description": "Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "You have proficiency in the Perception skill."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        },
+        {
+          "name": "Trance",
+          "description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+        },
+        {
+          "name": "Sunlight Sensitivity",
+          "description": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+        },
+        {
+          "name": "Drow Magic",
+          "description": "You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+        },
+        {
+          "name": "Drow Weapon Training",
+          "description": "You have proficiency with rapiers, shortswords, and hand crossbows."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "gnome_deep",
+      "name": "Gnome (Deep)",
+      "size": "S",
+      "speed": "25",
+      "abilityBonuses": {
+        "intelligence": 2,
+        "dexterity": 1
+      },
+      "abilityBonusText": "Int 2, Dex 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Superior Darkvision",
+          "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Gnome Cunning",
+          "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+        },
+        {
+          "name": "Stone Camouflage",
+          "description": "You have advantage on Dexterity (stealth) checks to hide in rocky terrain."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Gnomish, and Undercommon. The svirfneblin dialect is more guttural than surface Gnomish, and most svirfneblin know only a little bit of Common, but those who deal with outsiders (and that includes you as an adventurer) pick up enough Common to get by in other lands."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonborn",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "strength": 2,
+        "charisma": 1
+      },
+      "abilityBonusText": "Str 2, Cha 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Draconic Ancestry",
+          "description": "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table. (Player's Handbook p. 34)"
+        },
+        {
+          "name": "Breath Weapon",
+          "description": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.\nWhen you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\nAfter you use your breath weapon, you can't use it again until you complete a short or long rest."
+        },
+        {
+          "name": "Damage Resistance",
+          "description": "You have resistance to the damage type associated with your draconic ancestry."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "genasi_earth",
+      "name": "Genasi (Earth)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "constitution": 2,
+        "strength": 1
+      },
+      "abilityBonusText": "Con 2, Str 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Earth Walk",
+          "description": "You can move across difficult terrain made of earth or stone without expending extra movement."
+        },
+        {
+          "name": "Merge with Stone",
+          "description": "You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "elf_eladrin",
+      "name": "Elf (Eladrin)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "intelligence": 1
+      },
+      "abilityBonusText": "Dex 2, Int 1",
+      "skillProficiencies": "Perception",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "You have proficiency in the Perception skill."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        },
+        {
+          "name": "Trance",
+          "description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+        },
+        {
+          "name": "Elf Weapon Training",
+          "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+        },
+        {
+          "name": "Fey Step",
+          "description": "You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "genasi_fire",
+      "name": "Genasi (Fire)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "constitution": 2,
+        "intelligence": 1
+      },
+      "abilityBonusText": "Con 2, Int 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red."
+        },
+        {
+          "name": "Fire Resistance",
+          "description": "You have resistance to fire damage."
+        },
+        {
+          "name": "Reach to the Blaze",
+          "description": "You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "gnome_forest",
+      "name": "Gnome (Forest)",
+      "size": "S",
+      "speed": "25",
+      "abilityBonuses": {
+        "intelligence": 2,
+        "dexterity": 1
+      },
+      "abilityBonusText": "Int 2, Dex 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Gnome Cunning",
+          "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
+        },
+        {
+          "name": "Natural Illusionist",
+          "description": "You know the minor illusion cantrip. Intelligence is your spellcasting ability for it."
+        },
+        {
+          "name": "Speak with Small Beasts",
+          "description": "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "goliath",
+      "name": "Goliath",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "strength": 2,
+        "constitution": 1
+      },
+      "abilityBonusText": "Str 2, Con 1",
+      "skillProficiencies": "Athletics",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Natural Athlete",
+          "description": "You have proficiency in the Athletics skill."
+        },
+        {
+          "name": "Stone's Endurance",
+          "description": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+        },
+        {
+          "name": "Powerful Build",
+          "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+        },
+        {
+          "name": "Mountain Born",
+          "description": "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Giant."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "half-elf",
+      "name": "Half-Elf",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2
+      },
+      "abilityBonusText": "Cha 2",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Ability Score Increase",
+          "description": "Two different ability scores of your choice increase by 1."
+        },
+        {
+          "name": "Darkvision",
+          "description": "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        },
+        {
+          "name": "Skill Versatility",
+          "description": "You gain proficiency in two skills of your choice."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Elvish, and one extra language of your choice."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "half-orc",
+      "name": "Half-Orc",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "strength": 2,
+        "constitution": 1
+      },
+      "abilityBonusText": "Str 2, Con 1",
+      "skillProficiencies": "Intimidation",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Menacing",
+          "description": "You gain proficiency in the Intimidation skill."
+        },
+        {
+          "name": "Relentless Endurance",
+          "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+        },
+        {
+          "name": "Savage Attacks",
+          "description": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "elf_high",
+      "name": "Elf (High)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "intelligence": 1
+      },
+      "abilityBonusText": "Dex 2, Int 1",
+      "skillProficiencies": "Perception",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "You have proficiency in the Perception skill."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        },
+        {
+          "name": "Trance",
+          "description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+        },
+        {
+          "name": "Elf Weapon Training",
+          "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+        },
+        {
+          "name": "Cantrip",
+          "description": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dwarf_hill",
+      "name": "Dwarf (Hill)",
+      "size": "M",
+      "speed": "25",
+      "abilityBonuses": {
+        "constitution": 2,
+        "wisdom": 1
+      },
+      "abilityBonusText": "Con 2, Wis 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Dwarven Resilience",
+          "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+        },
+        {
+          "name": "Dwarven Combat Training",
+          "description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+        },
+        {
+          "name": "Tool Proficiency",
+          "description": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+        },
+        {
+          "name": "Stonecunning",
+          "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+        },
+        {
+          "name": "Dwarven Toughness",
+          "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "strength": 1,
+        "dexterity": 1,
+        "constitution": 1,
+        "intelligence": 1,
+        "wisdom": 1,
+        "charisma": 1
+      },
+      "abilityBonusText": "Str 1, Dex 1, Con 1, Int 1, Wis 1, Cha 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "human_variant",
+      "name": "Human (Variant)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonusText": "",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Ability Score Increase",
+          "description": "Two different ability scores of your choice increase by 1."
+        },
+        {
+          "name": "Skills",
+          "description": "You gain proficiency in one skill of your choice."
+        },
+        {
+          "name": "Feat",
+          "description": "You gain one feat of your choice."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "halfling_lightfoot",
+      "name": "Halfling (Lightfoot)",
+      "size": "S",
+      "speed": "25",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "charisma": 1
+      },
+      "abilityBonusText": "Dex 2, Cha 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Lucky",
+          "description": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+        },
+        {
+          "name": "Brave",
+          "description": "You have advantage on saving throws against being frightened."
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "description": "You can move through the space of any creature that is of a size larger than yours."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+        },
+        {
+          "name": "Naturally Stealthy",
+          "description": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dwarf_mountain",
+      "name": "Dwarf (Mountain)",
+      "size": "M",
+      "speed": "25",
+      "abilityBonuses": {
+        "constitution": 2,
+        "strength": 2
+      },
+      "abilityBonusText": "Con 2, Str 2",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Dwarven Resilience",
+          "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+        },
+        {
+          "name": "Dwarven Combat Training",
+          "description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+        },
+        {
+          "name": "Tool Proficiency",
+          "description": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+        },
+        {
+          "name": "Stonecunning",
+          "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+        },
+        {
+          "name": "Dwarven Armor Training",
+          "description": "You have proficiency with light and medium armor."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "shifter_razorclaw",
+      "name": "Shifter (Razorclaw)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "dexterity": 2
+      },
+      "abilityBonusText": "Dex 2",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Shifting",
+          "description": "On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.\nWhile shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your shifter subrace, described below.\nYou must finish a short or long rest before you can shift again."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Sylvan."
+        },
+        {
+          "name": "Shifting Feature",
+          "description": "While shifting, you can make an unarmed strike as a bonus action. You can use your Dexterity for its attack roll and damage bonus, and this attack deals slashing damage."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "gnome_rock",
+      "name": "Gnome (Rock)",
+      "size": "S",
+      "speed": "25",
+      "abilityBonuses": {
+        "intelligence": 2,
+        "constitution": 1
+      },
+      "abilityBonusText": "Int 2, Con 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Gnome Cunning",
+          "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
+        },
+        {
+          "name": "Artificer's Lore",
+          "description": "Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+        },
+        {
+          "name": "Tinker",
+          "description": "You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.\nWhen you create a device, choose one of the following options:\nClockwork Toy. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\nFire Starter. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.\nMusic Box. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "halfling_stout",
+      "name": "Halfling (Stout)",
+      "size": "S",
+      "speed": "25",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "constitution": 1
+      },
+      "abilityBonusText": "Dex 2, Con 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Lucky",
+          "description": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+        },
+        {
+          "name": "Brave",
+          "description": "You have advantage on saving throws against being frightened."
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "description": "You can move through the space of any creature that is of a size larger than yours."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+        },
+        {
+          "name": "Stout Resilience",
+          "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "tiefling_infernal",
+      "name": "Tiefling (Infernal)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2,
+        "intelligence": 1
+      },
+      "abilityBonusText": "Cha 2, Int 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Hellish Resistance",
+          "description": "You have resistance to fire damage."
+        },
+        {
+          "name": "Infernal Legacy",
+          "description": "You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the darkness spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Infernal."
+        },
+        {
+          "name": "Feral (Variant)",
+          "description": "Your Intelligence score increases by 1, and your Dexterity score increases by 2. This replaces the Ability Score Increase trait."
+        },
+        {
+          "name": "Variant Features (Choose 1)",
+          "description": "Devil's Tongue.\nYou know the vicious mockery cantrip. When your reach 3rd level, you can cast the charm person spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the enthrall spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait.\nHellfire.\nOnce you reach 3rd level, you can cast the burning hands spell once per day as a 2nd-level spell. This trait replaces the hellish rebuke spell of the Infernal Legacy trait.\nWinged.\nYou have bat-like wings sprouting form your shoulder blades. You have a flying speed of 30 feet. This trait replaces the Infernal Legacy trait."
+        },
+        {
+          "name": "Appearance (Variant)",
+          "description": "Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose 1d4 + 1 of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone"
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "genasi_water",
+      "name": "Genasi (Water)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "constitution": 2,
+        "wisdom": 1
+      },
+      "abilityBonusText": "Con 2, Wis 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Acid Resistance",
+          "description": "You have resistance to acid damage."
+        },
+        {
+          "name": "Amphibious",
+          "description": "You can breathe air and water."
+        },
+        {
+          "name": "Swim",
+          "description": "You have a swimming speed of 30 feet."
+        },
+        {
+          "name": "Call to the Wave",
+          "description": "You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "shifter_wildhunt",
+      "name": "Shifter (Wildhunt)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "dexterity": 1,
+        "wisdom": 1
+      },
+      "abilityBonusText": "Dex 1, Wis 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Shifting",
+          "description": "On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.\nWhile shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your shifter subrace, described below.\nYou must finish a short or long rest before you can shift again."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Sylvan."
+        },
+        {
+          "name": "Shifting Feature",
+          "description": "While shifting, you gain advantage on all Wisdom-based checks and saving throws."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "elf_wood",
+      "name": "Elf (Wood)",
+      "size": "M",
+      "speed": "35",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "wisdom": 1
+      },
+      "abilityBonusText": "Dex 2, Wis 1",
+      "skillProficiencies": "Perception",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "You have proficiency in the Perception skill."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        },
+        {
+          "name": "Trance",
+          "description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+        },
+        {
+          "name": "Elf Weapon Training",
+          "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+        },
+        {
+          "name": "Fleet of Foot",
+          "description": "Your base walking speed increases to 35 feet."
+        },
+        {
+          "name": "Mask of the Wild",
+          "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "dwarf_duergar",
+      "name": "Dwarf (Duergar)",
+      "size": "M",
+      "speed": "25",
+      "abilityBonuses": {
+        "constitution": 2,
+        "strength": 1
+      },
+      "abilityBonusText": "Con 2, Str 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Superior Darkvision",
+          "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Duergar Resilience",
+          "description": "You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being charmed or paralyzed."
+        },
+        {
+          "name": "Dwarven Combat Training",
+          "description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+        },
+        {
+          "name": "Tool Proficiency",
+          "description": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+        },
+        {
+          "name": "Stonecunning",
+          "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Dwarvish, and Undercommon."
+        },
+        {
+          "name": "Duergar Magic",
+          "description": "When you reach 3rd level, you can cast the Enlarge/Reduce spell on yourself once with this trait, using only the spell's enlarge option. When reach 5th level, you can cast the Invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+        },
+        {
+          "name": "Sunlight Sensitivity",
+          "description": "You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "half-elf_wood_elf_descent",
+      "name": "Half-Elf (Wood Elf Descent)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2
+      },
+      "abilityBonusText": "Cha 2",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Ability Score Increase",
+          "description": "Two different ability scores of your choice increase by 1."
+        },
+        {
+          "name": "Darkvision",
+          "description": "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        },
+        {
+          "name": "Variant Feature (Choose 1)",
+          "description": "Keen Senses\nYou have proficiency in the Perception skill\nElf Weapon Training\nYou have proficiency with the longsword, shortsword, shortbow, and longbow.\nFleet of Foot\nYour base walking speed increases to 35 feet.\nMask of the Wild\nYou can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Elvish, and one extra language of your choice."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "half-elf_moon_elf_or_sun_elf_descent",
+      "name": "Half-Elf (Moon Elf or Sun Elf Descent)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2
+      },
+      "abilityBonusText": "Cha 2",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Ability Score Increase",
+          "description": "Two different ability scores of your choice increase by 1."
+        },
+        {
+          "name": "Darkvision",
+          "description": "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        },
+        {
+          "name": "Variant Feature (Choose 1)",
+          "description": "Keen Senses\nYou have proficiency in the Perception skill\nElf Weapon Training\nYou have proficiency with the longsword, shortsword, shortbow, and longbow.\nCantrip\nYou know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Elvish, and one extra language of your choice."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "half-elf_drow_descent",
+      "name": "Half-Elf (Drow Descent)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2
+      },
+      "abilityBonusText": "Cha 2",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Ability Score Increase",
+          "description": "Two different ability scores of your choice increase by 1."
+        },
+        {
+          "name": "Darkvision",
+          "description": "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        },
+        {
+          "name": "Variant Feature (Choose 1)",
+          "description": "Keen Senses\nYou have proficiency in the Perception skill\nDrow Magic\nYou know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Elvish, and one extra language of your choice."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "half-elf_aquatic_elf_descent",
+      "name": "Half-Elf (Aquatic Elf Descent)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2
+      },
+      "abilityBonusText": "Cha 2",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Ability Score Increase",
+          "description": "Two different ability scores of your choice increase by 1."
+        },
+        {
+          "name": "Darkvision",
+          "description": "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+        },
+        {
+          "name": "Variant Feature (Choose 1)",
+          "description": "Keen Senses\nYou have proficiency in the Perception skill\nSwim\nYou gain a swimming speed of 30."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Elvish, and one extra language of your choice."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "halfling_ghostwise",
+      "name": "Halfling (Ghostwise)",
+      "size": "S",
+      "speed": "25",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "wisdom": 1
+      },
+      "abilityBonusText": "Dex 2, Wis 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Lucky",
+          "description": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+        },
+        {
+          "name": "Brave",
+          "description": "You have advantage on saving throws against being frightened."
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "description": "You can move through the space of any creature that is of a size larger than yours."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+        },
+        {
+          "name": "Silent Speech",
+          "description": "You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "bugbear",
+      "name": "Bugbear",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "strength": 2,
+        "dexterity": 1
+      },
+      "abilityBonusText": "Str 2, Dex 1",
+      "skillProficiencies": "Stealth",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Long-Limbed",
+          "description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+        },
+        {
+          "name": "Powerful Build",
+          "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+        },
+        {
+          "name": "Sneaky",
+          "description": "You are proficient in the Stealth skill."
+        },
+        {
+          "name": "Surprise Attack",
+          "description": "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Goblin."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "aasimar_fallen",
+      "name": "Aasimar (Fallen)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2,
+        "strength": 1
+      },
+      "abilityBonusText": "Cha 2, Str 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Celestial Resistance",
+          "description": "You have resistance to necrotic damage and radiant damage."
+        },
+        {
+          "name": "Healing Hands",
+          "description": "As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest."
+        },
+        {
+          "name": "Light Bearer",
+          "description": "You know the light cantrip. Charisma is your spellcasting ability for it."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Celestial."
+        },
+        {
+          "name": "Necrotic Shroud",
+          "description": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.\nYour transformation lasts for 1 minute or until you end it as a bonus action.. During it,  once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.\nOnce you use this trait, you can't use it again until you finish a long rest."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "aasimar_protector",
+      "name": "Aasimar (Protector)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2,
+        "wisdom": 1
+      },
+      "abilityBonusText": "Cha 2, Wis 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Celestial Resistance",
+          "description": "You have resistance to necrotic damage and radiant damage."
+        },
+        {
+          "name": "Healing Hands",
+          "description": "As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest."
+        },
+        {
+          "name": "Light Bearer",
+          "description": "You know the light cantrip. Charisma is your spellcasting ability for it."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Celestial."
+        },
+        {
+          "name": "Radiant Soul",
+          "description": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.\nYour transformation lasts for 1 minute or until you end it as a bonus action.. During it, you have a flysing speed of 30 feet, and once on each of your turns, you can deal extra radiant damageto one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.\nOnce you use this trait, you can't use it again until you finish a long rest."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "aasimar_scourge",
+      "name": "Aasimar (Scourge)",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2,
+        "constitution": 1
+      },
+      "abilityBonusText": "Cha 2, Con 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Celestial Resistance",
+          "description": "You have resistance to necrotic damage and radiant damage."
+        },
+        {
+          "name": "Healing Hands",
+          "description": "As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest."
+        },
+        {
+          "name": "Light Bearer",
+          "description": "You know the light cantrip. Charisma is your spellcasting ability for it."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Celestial."
+        },
+        {
+          "name": "Radiant Consumption",
+          "description": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.\nYour transformation lasts for 1 minute or until you end it as a bonus action.. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.\nOnce you use this trait, you can't use it again until you finish a long rest."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "firbolg",
+      "name": "Firbolg",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "wisdom": 2,
+        "strength": 1
+      },
+      "abilityBonusText": "Wis 2, Str 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Firbolg Magic",
+          "description": "You can cast detect magic and disguise self with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves."
+        },
+        {
+          "name": "Hidden Step",
+          "description": "As a bonus action, you can magically turn invisible until the start of your next turn ot until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest."
+        },
+        {
+          "name": "Powerful Build",
+          "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+        },
+        {
+          "name": "Speech of Beast and Leaf",
+          "description": "You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Elvish, and Giant."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "size": "S",
+      "speed": "30",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "constitution": 1
+      },
+      "abilityBonusText": "Dex 2, Con 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Fury of the Small",
+          "description": "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest."
+        },
+        {
+          "name": "Nimble Escape",
+          "description": "You can take the Disengage or Hide action as a bonus action on each of your turns."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Goblin."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "hobgoblin",
+      "name": "Hobgoblin",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "constitution": 2,
+        "intelligence": 1
+      },
+      "abilityBonusText": "Con 2, Int 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Martial Training",
+          "description": "You are proficient with two martial weapons of your choice and with light armor."
+        },
+        {
+          "name": "Saving Face",
+          "description": "Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Goblin."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "kenku",
+      "name": "Kenku",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "wisdom": 1
+      },
+      "abilityBonusText": "Dex 2, Wis 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Expert Forgery",
+          "description": "You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects."
+        },
+        {
+          "name": "Kenku Training",
+          "description": "You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand."
+        },
+        {
+          "name": "Mimicry",
+          "description": "You can mimic sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check."
+        },
+        {
+          "name": "Languages",
+          "description": "You can read and write Common and Auran, but you can speak only using your Mimicry trait"
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "kobold",
+      "name": "Kobold",
+      "size": "S",
+      "speed": "30",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "strength": -2
+      },
+      "abilityBonusText": "Dex 2, Str -2",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Grovel, Cower, and Beg",
+          "description": "As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that you can see. Once you uses this trait, you can't use it again until you finish a short or long rest."
+        },
+        {
+          "name": "Pack Tactics",
+          "description": "You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+        },
+        {
+          "name": "Sunlight Sensitivity",
+          "description": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Draconic."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "lizardfolk",
+      "name": "Lizardfolk",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "constitution": 2,
+        "wisdom": 1
+      },
+      "abilityBonusText": "Con 2, Wis 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Swim Speed",
+          "description": "You have a swimming speed of 30 feet."
+        },
+        {
+          "name": "Bite",
+          "description": "Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage  normal for an unarmed strike."
+        },
+        {
+          "name": "Cunning Artisan",
+          "description": "As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools."
+        },
+        {
+          "name": "Hold Breath",
+          "description": "You can hold your breath for up to 15 minutes at a time."
+        },
+        {
+          "name": "Hunter's Lore",
+          "description": "You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival."
+        },
+        {
+          "name": "Natural Armor",
+          "description": "You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+        },
+        {
+          "name": "Hungry Jaws",
+          "description": "In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Draconic."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "strength": 2,
+        "constitution": 1,
+        "intelligence": -2
+      },
+      "abilityBonusText": "Str 2, Con 1, Int -2",
+      "skillProficiencies": "Intimidation",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Aggressive",
+          "description": "As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started."
+        },
+        {
+          "name": "Menacing",
+          "description": "You are trained in the Intimidation skill."
+        },
+        {
+          "name": "Powerful Build",
+          "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Orc."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "tabaxi",
+      "name": "Tabaxi",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "dexterity": 2,
+        "charisma": 1
+      },
+      "abilityBonusText": "Dex 2, Cha 1",
+      "skillProficiencies": "Perception, Stealth",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Feline Agility",
+          "description": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+        },
+        {
+          "name": "Cat's Claws",
+          "description": "Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+        },
+        {
+          "name": "Cat's Talents",
+          "description": "You have proficiency in the Perception and Stealth skills."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and one other language of your choice."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "triton",
+      "name": "Triton",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "strength": 1,
+        "charisma": 1,
+        "constitution": 1
+      },
+      "abilityBonusText": "Str 1, Cha 1, Con 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Swim Speed",
+          "description": "You have a swimming speed of 30 feet."
+        },
+        {
+          "name": "Amphibious",
+          "description": "You can breathe air and water."
+        },
+        {
+          "name": "Control Air and Water",
+          "description": "A child of the sea, you can call on the magic of elemental air and water. You can cast fog cloud with this trait. Starting at 3rd level, you can cast gust of wind with it, and starting at 5th level, you can also cast wall of water with it. Once you cast a spell with this trait, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells."
+        },
+        {
+          "name": "Emissary of the Sea",
+          "description": "Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return."
+        },
+        {
+          "name": "Guardians of the Depths",
+          "description": "Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common and Primordial."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "yuan-ti_pureblood",
+      "name": "Yuan-ti Pureblood",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {
+        "charisma": 2,
+        "intelligence": 1
+      },
+      "abilityBonusText": "Cha 2, Int 1",
+      "skillProficiencies": "",
+      "spellAbility": "",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Innate Spellcasting",
+          "description": "You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells."
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "You have advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Poison Immunity",
+          "description": "You are immune to poison damage and the poisoned condition."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Common, Abyssal, and Draconic."
+        }
+      ],
+      "source": "PHB_2014",
+      "edition": "2014"
+    },
+    {
+      "id": "human_2024",
+      "name": "Human",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonusText": "Flexible (choose)",
+      "traits": [
+        {
+          "name": "Resourceful",
+          "description": "You gain Heroic Inspiration whenever you finish a Long Rest."
+        },
+        {
+          "name": "Skillful",
+          "description": "You gain proficiency in one skill of your choice."
+        },
+        {
+          "name": "Versatile",
+          "description": "You gain the Origin feat of your choice. See the list of feats in chapter 5."
+        }
+      ],
+      "source": "PHB_2024",
+      "edition": "2024"
+    },
+    {
+      "id": "elf_2024",
+      "name": "Elf",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonusText": "Flexible (choose)",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You have Darkvision with a range of 60 feet."
+        },
+        {
+          "name": "Elven Lineage",
+          "description": "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have Advantage on saving throws you make to avoid or end the Charmed condition."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "You have proficiency in the Insight, Perception, or Survival skill."
+        },
+        {
+          "name": "Trance",
+          "description": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation."
+        }
+      ],
+      "source": "PHB_2024",
+      "edition": "2024"
+    },
+    {
+      "id": "dwarf_2024",
+      "name": "Dwarf",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonusText": "Flexible (choose)",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You have Darkvision with a range of 120 feet."
+        },
+        {
+          "name": "Dwarven Resilience",
+          "description": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition."
+        },
+        {
+          "name": "Dwarven Toughness",
+          "description": "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level."
+        },
+        {
+          "name": "Stonecunning",
+          "description": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+        }
+      ],
+      "source": "PHB_2024",
+      "edition": "2024"
+    },
+    {
+      "id": "halfling_2024",
+      "name": "Halfling",
+      "size": "S",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonusText": "Flexible (choose)",
+      "traits": [
+        {
+          "name": "Brave",
+          "description": "You have Advantage on saving throws you make to avoid or end the Frightened condition."
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "description": "You can move through the space of any creature that is a size larger than yours, but you can't stop in the same space."
+        },
+        {
+          "name": "Luck",
+          "description": "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll."
+        },
+        {
+          "name": "Naturally Stealthy",
+          "description": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you."
+        }
+      ],
+      "source": "PHB_2024",
+      "edition": "2024"
+    },
+    {
+      "id": "gnome_2024",
+      "name": "Gnome",
+      "size": "S",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonisText": "Flexible (choose)",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You have Darkvision with a range of 60 feet."
+        },
+        {
+          "name": "Gnomish Cunning",
+          "description": "You have Advantage on Intelligence, Wisdom, and Charisma saving throws."
+        },
+        {
+          "name": "Gnomish Lineage",
+          "description": "You are part of a lineage that grants you supernatural abilities. Choose one of the following options."
+        }
+      ],
+      "source": "PHB_2024",
+      "edition": "2024"
+    },
+    {
+      "id": "tiefling_2024",
+      "name": "Tiefling",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonusText": "Flexible (choose)",
+      "traits": [
+        {
+          "name": "Darkvision",
+          "description": "You have Darkvision with a range of 60 feet."
+        },
+        {
+          "name": "Fiendish Legacy",
+          "description": "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table."
+        },
+        {
+          "name": "Otherworldly Presence",
+          "description": "You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses Charisma as the spellcasting ability."
+        }
+      ],
+      "source": "PHB_2024",
+      "edition": "2024"
+    },
+    {
+      "id": "dragonborn_2024",
+      "name": "Dragonborn",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonusText": "Flexible (choose)",
+      "traits": [
+        {
+          "name": "Draconic Ancestry",
+          "description": "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestries table. Your choice affects your Breath Weapon and Damage Resistance traits."
+        },
+        {
+          "name": "Breath Weapon",
+          "description": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC 8 + your Constitution modifier + your Proficiency Bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Draconic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
+        },
+        {
+          "name": "Damage Resistance",
+          "description": "You have Resistance to the damage type associated with your Draconic Ancestry."
+        },
+        {
+          "name": "Darkvision",
+          "description": "You have Darkvision with a range of 60 feet."
+        },
+        {
+          "name": "Draconic Flight",
+          "description": "When you reach 5th level, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract them (no action required). During that time, you have a Fly Speed equal to your Speed. Your wings disappear early if you have the Incapacitated condition. Once you use this Bonus Action, you can't use it again until you finish a Long Rest."
+        }
+      ],
+      "source": "PHB_2024",
+      "edition": "2024"
+    },
+    {
+      "id": "orc_2024",
+      "name": "Orc",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonusText": "Flexible (choose)",
+      "traits": [
+        {
+          "name": "Adrenaline Rush",
+          "description": "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus."
+        },
+        {
+          "name": "Darkvision",
+          "description": "You have Darkvision with a range of 120 feet."
+        },
+        {
+          "name": "Relentless Endurance",
+          "description": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+        }
+      ],
+      "source": "PHB_2024",
+      "edition": "2024"
+    },
+    {
+      "id": "aasimar_2024",
+      "name": "Aasimar",
+      "size": "M",
+      "speed": "30",
+      "abilityBonuses": {},
+      "abilityBonusText": "Flexible (choose)",
+      "traits": [
+        {
+          "name": "Celestial Resistance",
+          "description": "You have Resistance to Necrotic damage and Radiant damage."
+        },
+        {
+          "name": "Darkvision",
+          "description": "You have Darkvision with a range of 60 feet."
+        },
+        {
+          "name": "Healing Hands",
+          "description": "As a Magic action, you can touch a creature and roll a number of d4s equal to your Proficiency Bonus. The creature regains a number of Hit Points equal to the total rolled. Once you use this trait, you can't use it again until you finish a Long Rest."
+        },
+        {
+          "name": "Light Bearer",
+          "description": "You know the Light cantrip. Charisma is your spellcasting ability for it."
+        },
+        {
+          "name": "Celestial Revelation",
+          "description": "When you reach character level 3, you can transform as a Bonus Action using one of the options below (choose the option each time). The transformation lasts for 1 minute or until you end it (no action required). Once you transform, you can't do so again until you finish a Long Rest."
+        }
+      ],
+      "source": "PHB_2024",
+      "edition": "2024"
+    }
+  ]
+}
