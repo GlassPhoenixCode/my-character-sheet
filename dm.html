@@ -17,10 +17,36 @@ const DM_DATA_MANIFEST = {
 };
 window.DM_DATA_STATUS = {};
 async function loadAllData(){
-  // All data is self-contained inline — no external JSON files needed.
-  // Mark all entries as 'inline' so applyDataFallbacks uses the inline arrays.
   const status={};
-  Object.keys(DM_DATA_MANIFEST).forEach(function(key){ status[key]='inline'; });
+  const manifest=DM_DATA_MANIFEST;
+
+  // Load all standard data files in parallel
+  await Promise.allSettled(Object.keys(manifest).map(async function(key){
+    const entry=manifest[key];
+    try{
+      const resp=await fetch(entry.file);
+      if(!resp.ok)throw new Error('HTTP '+resp.status);
+      const data=await resp.json();
+      window[entry.variable]=data;
+      status[key]='loaded';
+    }catch(e){
+      console.warn('[DM data] Could not load '+entry.file+':',e.message);
+      status[key]='inline';
+    }
+  }));
+
+  // Load monsters (single file, well under GitHub 25MB limit)
+  try{
+    const mr=await fetch('data/monsters.json');
+    if(!mr.ok)throw new Error('HTTP '+mr.status);
+    window.BESTIARY_DATA=await mr.json();
+    status['monsters']='loaded';
+    console.log('[DM data] Loaded '+window.BESTIARY_DATA.length+' monsters.');
+  }catch(e){
+    console.warn('[DM data] Could not load monsters.json:',e.message);
+    status['monsters']='inline';
+  }
+
   window.DM_DATA_STATUS=status;
   return status;
 }
@@ -11751,59 +11777,6 @@ document.addEventListener('click', function(e){
 });
 
 document.addEventListener('DOMContentLoaded',initDMApp);
-
-function showGlobalRollToast(payload){
-  payload=payload||{};
-  var tab=currentTabId?currentTabId():'party';
-  var isCombat=(tab==='combat');
-  // Parse die sides from payload.die ('d20' -> 20, '2d6' -> 6, etc.)
-  var dieStr=String(payload.die||'d20');
-  var dieSides=parseInt(dieStr.replace(/^\d*d/i,''),10)||20;
-  if(dieSides===0||isNaN(dieSides))dieSides=20;
-  // Build the overlay payload
-  var rp={
-    die:dieStr,
-    roll:payload.roll,
-    total:payload.total,
-    bonus:payload.bonus||0,
-    formula:payload.detail||'',
-    nat20:!!payload.nat20,
-    nat1:!!payload.nat1,
-    isDamage:!!payload.isDamage,
-    actor:payload.actor||'DM',
-    title:payload.title||''
-  };
-  // Build formula bar HTML (actor name + die expression + total)
-  var totalText=payload.total!==undefined?String(payload.total):'—';
-  var formulaHtml=
-    '<span style="font-size:10px;color:var(--gold2);display:block;margin-bottom:2px">'+escapeHtml(payload.actor||'DM')+
-    (payload.title?' · '+escapeHtml(payload.title):'')+
-    '</span>'+
-    '<span class="die">'+escapeHtml(dieStr)+'</span>'+
-    (payload.roll!==undefined?'('+escapeHtml(String(payload.roll))+')':'')+
-    ' <span class="eq">=</span> '+
-    '<span class="final'+(payload.nat1?' fail':'')+'">'+escapeHtml(totalText)+'</span>'+
-    (payload.nat20?'<span class="crit-tag">⚡ Critical</span>':'')+
-    (payload.detail?'<div style="margin-top:4px;color:var(--text2);font-size:11px">'+escapeHtml(payload.detail)+'</div>':'');
-  if(isCombat){
-    // Ensure renderer is attached to combat canvas before animating
-    var combatCanvas=document.getElementById('combat-roll-canvas');
-    if(combatCanvas&&window.DiceRenderer)DiceRenderer.attachTo(combatCanvas);
-    applyCombatDieState(rp);
-    var formula=document.getElementById('combat-roll-formula');
-    if(formula)formula.innerHTML=formulaHtml;
-    if(payload.nat20)triggerCombatCritParticles();
-    spawnCombatRollParticles();
-  }else{
-    // Ensure renderer is attached to party canvas before animating
-    var partyCanvas=document.getElementById('party-roll-canvas');
-    if(partyCanvas&&window.DiceRenderer)DiceRenderer.attachTo(partyCanvas);
-    applyPartyDieState(rp);
-    var pformula=document.getElementById('party-roll-formula');
-    if(pformula)pformula.innerHTML=formulaHtml;
-    spawnPartyParticles();
-  }
-}
 
 // ═══════════════════════════════════════════════════════════
 // THEME SYSTEM
