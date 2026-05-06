@@ -4645,7 +4645,7 @@ function normalizeSpellDatabase(data,fallback){
       spell.name||'',
       spell.level===null||spell.level===undefined?0:parseInt(spell.level,10)||0,
       school===undefined?0:school,
-      spell.casting_time||'',
+      spell.casting_time||spell.castTime||spell.cast_time||'',
       spell.range||'',
       spell.components||'',
       spell.duration||'',
@@ -4653,7 +4653,7 @@ function normalizeSpellDatabase(data,fallback){
       spell.ritual?1:0,
       classes,
       spell.description||'',
-      spell.higher_levels||'',
+      spell.higher_levels||spell.higherLevels||spell.higher_level||'',
       edition
     ];
   });
