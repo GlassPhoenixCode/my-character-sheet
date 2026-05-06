@@ -4626,6 +4626,10 @@ function normalizeMagicItemDatabase(data,fallback){
   return base;
 }
 function normalizeSpellDatabase(data,fallback){
+  // Unwrap if spells.json is { spells: [...] } or { data: [...] } instead of a bare array
+  if(data&&typeof data==='object'&&!Array.isArray(data)){
+    data=data.spells||data.data||data.items||Object.values(data).find(function(v){return Array.isArray(v);})||data;
+  }
   if(!Array.isArray(data))return Array.isArray(fallback)?fallback:[];
   if(!data.length || Array.isArray(data[0]))return data;
   const schoolIndex={};
